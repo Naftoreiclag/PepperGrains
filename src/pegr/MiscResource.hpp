@@ -14,8 +14,8 @@
  *  limitations under the License.
  */
 
-#ifndef PEGR_MiscRESOURCE_HPP
-#define PEGR_MiscRESOURCE_HPP
+#ifndef PEGR_MISCRESOURCE_HPP
+#define PEGR_MISCRESOURCE_HPP
 
 #include "Resource.hpp"
 

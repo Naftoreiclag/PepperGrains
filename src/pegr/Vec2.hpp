@@ -14,8 +14,8 @@
  *  limitations under the License.
  */
 
-#ifndef PEGR_Vec2f_HPP
-#define PEGR_Vec2f_HPP
+#ifndef PEGR_VEC2F_HPP
+#define PEGR_VEC2F_HPP
 
 #include <ostream>
 
@@ -84,4 +84,4 @@ public:
 // For debugging
 std::ostream& operator<<(std::ostream& os, const pegr::Vec2& v);
 
-#endif // PEGR_Vec2f_HPP
+#endif // PEGR_VEC2F_HPP

@@ -14,8 +14,8 @@
  *  limitations under the License.
  */
 
-#ifndef PEGR_TessModel_HPP
-#define PEGR_TessModel_HPP
+#ifndef PEGR_TESSMODEL_HPP
+#define PEGR_TESSMODEL_HPP
 
 #include "Model.hpp"
 #include "GeometryResource.hpp"
