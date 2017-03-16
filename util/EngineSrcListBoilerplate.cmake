@@ -16,14 +16,23 @@
 # build target. Populates a list called PGLOCAL_SOURCES_LIST
 
 # Preferred method of adding source items is through the Python script in:
-# `tool/GenerateEngineSrcList.py`
+# `util/GenerateEngineSrcList.py`
 
 # This function appends the provided string list to PGLOCAL_SOURCES_LIST
 set(PGLOCAL_SOURCES_LIST "")
 foreach(fname 
 
-### GENERATE ###
+### SOURCE LIST ###
 
 )
 list(APPEND PGLOCAL_SOURCES_LIST "${PGLOCAL_SOURCE_DIR}/${fname}")
+endforeach()
+
+# This function appends the provided string list to PGLOCAL_INCLUDE_DIRS
+foreach(dirname 
+
+### INCLUDE DIR LIST ###
+
+)
+list(APPEND PGLOCAL_INCLUDE_DIRS "${PGLOCAL_SOURCE_DIR}/${dirname}")
 endforeach()

@@ -14,15 +14,20 @@
 
 import os
 
-replacementLine = '### GENERATE ###'
+sourceListVector = '### SOURCE LIST ###'
+includeDirListVector = '### INCLUDE DIR LIST ###'
 sourcePath = '../src/pegr/'
 sourceList = []
+includeDirList = []
 outputFilename = '../cmake/EngineSrcList.cmake'
 boilerplateFilename = 'EngineSrcListBoilerplate.cmake'
 
 def addSource(filename):
     if not filename.startswith('deprecated/') and filename.endswith('.cpp'):
         sourceList.append(filename)
+        fileParentName = str(os.path.dirname(filename))
+        if fileParentName and fileParentName not in includeDirList:
+            includeDirList.append(fileParentName)
 
 def recursiveSearch(prefixStr, location):
     for node in os.listdir(location):
@@ -35,12 +40,16 @@ def recursiveSearch(prefixStr, location):
 
 recursiveSearch('', sourcePath)
 sourceList = sorted(sourceList)
+includeDirList = sorted(includeDirList)
 
 with open(outputFilename, 'w+') as outputFile:
     with open(boilerplateFilename, 'r+') as boilerplateFile:
         for line in boilerplateFile:
-            if line.startswith(replacementLine):
+            if line.startswith(sourceListVector):
                 for sourceEntry in sourceList:
                     outputFile.write('\"' + sourceEntry + '\"\n')
+            elif line.startswith(includeDirListVector):
+                for includeDirEntry in includeDirList:
+                    outputFile.write('\"' + includeDirEntry + '\"\n')
             else:
                 outputFile.write(line)
