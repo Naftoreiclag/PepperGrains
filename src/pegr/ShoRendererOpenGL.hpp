@@ -1,21 +1,21 @@
 /*
-   Copyright 2016-2017 James Fong
+ *  Copyright 2016-2017 James Fong
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-*/
-
-#ifndef PGG_ShoRendererOgOPENGL_HPP
-#define PGG_ShoRendererOgOPENGL_HPP
+#ifndef PEGR_SHORENDEREROGOPENGL_HPP
+#define PEGR_SHORENDEREROGOPENGL_HPP
 
 #ifdef PGG_OPENGL
 
@@ -27,7 +27,7 @@
 #include "Scenegraph.hpp"
 #include "Camera.hpp"
 
-namespace pgg {
+namespace pegr {
 
 // sho = Spherical Harmonic per-Object renderer
 class ShoRendererOg {
@@ -88,4 +88,4 @@ typedef ShoRendererOg ShoRenderer;
 
 #endif // PGG_OPENGL
 
-#endif // PGG_ShoRendererOgOPENGL_HPP
+#endif // PEGR_SHORENDEREROGOPENGL_HPP
