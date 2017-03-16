@@ -20,7 +20,7 @@
 
 #include <OpenGLStuff.hpp>
 
-namespace pgg {
+namespace pegr {
 
 SceneNode::SceneNode()
 : mLocalTransformDirty(false)

@@ -23,7 +23,7 @@
 
 #include <GraphicsApiLibrary.hpp>
 
-namespace pgg {
+namespace pegr {
 namespace Video {
 namespace Vulkan { 
 namespace Utils {

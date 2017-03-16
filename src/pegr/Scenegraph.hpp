@@ -21,7 +21,7 @@
 
 #include "ModelInstance.hpp"
 
-namespace pgg {
+namespace pegr {
 class Scenegraph {
 public:
     // Perform a function on all attached ModelInstances

@@ -23,7 +23,7 @@
 #include "ReferenceCounted.hpp"
 #include "ShaderProgramResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 // smac = Silly MAtCap Renderer
 class SmacRenderer : public ReferenceCounted {

@@ -29,7 +29,7 @@
 #include "SunLightModel.hpp"
 #include "SSAOModel.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class DeferredRenderer : public ReferenceCounted {
 private:

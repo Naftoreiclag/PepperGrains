@@ -22,7 +22,7 @@
 #include "Resources.hpp"
 #include "ImageResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 Image::Image() { }
 Image::~Image() { }

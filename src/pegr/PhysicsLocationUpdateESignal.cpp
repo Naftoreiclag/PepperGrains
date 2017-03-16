@@ -16,7 +16,7 @@
 
 #include "PhysicsLocationUpdateESignal.hpp"
 
-namespace pgg {
+namespace pegr {
 
 PhysicsLocationUpdateESignal::PhysicsLocationUpdateESignal(const Vec3& absLocation)
 : mAbsoluteLocation(absLocation) {

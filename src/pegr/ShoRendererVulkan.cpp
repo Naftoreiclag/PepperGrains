@@ -28,7 +28,7 @@
 #include "GeometryResource.hpp"
 #include "Engine.hpp"
 
-namespace pgg {
+namespace pegr {
 
 ShoRendererVk::ShoRendererVk() { }
 ShoRendererVk::~ShoRendererVk() { }

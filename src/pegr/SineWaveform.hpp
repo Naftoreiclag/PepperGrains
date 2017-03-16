@@ -19,7 +19,7 @@
 
 #include "SoundWaveform.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class SineWaveform : public Sound::Waveform {
 public:
@@ -40,6 +40,6 @@ public:
     void unload();
 };
 
-} // namespace pgg
+} // namespace pegr
 
 #endif // PGG_SINEWAVEFORM_HPP

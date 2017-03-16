@@ -21,7 +21,7 @@
 
 #include "SceneNode.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class SceneNodeESys : public nres::System {
 public:

@@ -23,7 +23,7 @@
 #include "OpenGLStuff.hpp"
 #include "TextureResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class TessModel : public Model {
 private:

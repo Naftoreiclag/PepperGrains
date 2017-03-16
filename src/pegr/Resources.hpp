@@ -22,7 +22,7 @@
 
 #include "Resource.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Resources {
 
     class Modlayer {

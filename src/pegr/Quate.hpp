@@ -22,7 +22,7 @@
 
 // Nothing but a way to easily convert between the many quaternion types
 
-namespace pgg {
+namespace pegr {
 
 class Quate {
 public:

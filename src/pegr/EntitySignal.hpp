@@ -17,7 +17,7 @@
 #ifndef PGG_ENTSIGNAL_HPP
 #define PGG_ENTSIGNAL_HPP
 
-namespace pgg {
+namespace pegr {
 
 // Note to self: Do not shorten to ESig
 

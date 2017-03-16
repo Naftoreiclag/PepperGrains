@@ -21,7 +21,7 @@
 #include "Texture.hpp"
 #include "Vec3.hpp"
 
-namespace pgg {
+namespace pegr {
 
 /* Represents a list of textures, constant values, and other shader hints to be used in conjunction with a particular
  * Geometry when rendering a Model.

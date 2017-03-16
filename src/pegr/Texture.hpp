@@ -24,7 +24,7 @@
 #include "ReferenceCounted.hpp"
 #include "Image.hpp"
 
-namespace pgg {
+namespace pegr {
 
 // Virtual inheritance to avoid diamond conflict with TextureResource
 class Texture : virtual public ReferenceCounted {

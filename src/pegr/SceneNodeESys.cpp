@@ -22,7 +22,7 @@
 #include "PhysicsLocationUpdateESignal.hpp"
 #include "PhysicsOrientationUpdateESignal.hpp"
 
-namespace pgg {
+namespace pegr {
 
 SceneNodeESys::SceneNodeESys(SceneNode* rootNode)
 : mRootNode(rootNode) {

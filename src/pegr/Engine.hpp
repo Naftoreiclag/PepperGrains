@@ -24,7 +24,7 @@
 #include "GamelayerMachine.hpp"
 #include "SoundEndpoint.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Engine {
     
     extern const char* mEngineName;

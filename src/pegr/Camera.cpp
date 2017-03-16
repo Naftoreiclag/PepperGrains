@@ -16,7 +16,7 @@
 
 #include "Camera.hpp"
 
-namespace pgg {
+namespace pegr {
 
 Camera::Camera(float fov, float aspect, float nearDepth, float farDepth) {
     setProjMatrix(fov, aspect, nearDepth, farDepth);

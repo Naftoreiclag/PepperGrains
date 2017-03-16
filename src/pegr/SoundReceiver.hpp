@@ -22,7 +22,7 @@
 #include "ReferenceCounted.hpp"
 #include "Vec3.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 class Context;
@@ -38,6 +38,6 @@ public:
 };
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr
 
 #endif // PGG_SOUND_RECEIVER_HPP

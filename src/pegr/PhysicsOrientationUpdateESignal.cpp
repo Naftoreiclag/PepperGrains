@@ -16,7 +16,7 @@
 
 #include "PhysicsOrientationUpdateESignal.hpp"
 
-namespace pgg {
+namespace pegr {
 
 PhysicsOrientationUpdateESignal::PhysicsOrientationUpdateESignal(const Quate& orientation)
 : mOrientation(orientation) {

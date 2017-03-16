@@ -18,7 +18,7 @@
 
 #include <cassert>
 
-namespace pgg {
+namespace pegr {
     
 namespace Input {
 

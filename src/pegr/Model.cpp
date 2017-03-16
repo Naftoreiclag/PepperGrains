@@ -18,7 +18,7 @@
 
 #include "Logger.hpp"
 
-namespace pgg {
+namespace pegr {
 
 Model* Model::getFallback() {
     static Model fallbackModel;

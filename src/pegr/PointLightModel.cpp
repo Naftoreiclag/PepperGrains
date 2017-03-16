@@ -21,7 +21,7 @@
 
 #include "ResourceManager.hpp"
 
-namespace pgg {
+namespace pegr {
 
 PointLightModel::SharedResources::SharedResources() { }
 PointLightModel::SharedResources::~SharedResources() { }

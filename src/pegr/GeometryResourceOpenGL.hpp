@@ -26,7 +26,7 @@
 #include "Geometry.hpp"
 #include "Resource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class GeometryResourceOG : public Geometry, public Resource {
 private:

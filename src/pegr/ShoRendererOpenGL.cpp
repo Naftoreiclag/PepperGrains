@@ -22,7 +22,7 @@
 #include "Logger.hpp"
 #include "Video.hpp"
 
-namespace pgg {
+namespace pegr {
 
 ShoRendererOg::ShoRendererOg()
 : mScreenWidth(Video::getWindowWidth())

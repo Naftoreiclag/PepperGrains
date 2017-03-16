@@ -28,7 +28,7 @@
 #include "MaterialResource.hpp"
 #include "GeometryResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 ModelResource::ModelResource()
 : mLoaded(false)

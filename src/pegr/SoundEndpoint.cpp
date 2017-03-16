@@ -23,7 +23,7 @@
 #include "Engine.hpp"
 #include "SoundWaveform.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 ThreadData::ThreadData(double phase, double amplitude)
@@ -290,4 +290,4 @@ void endpointSoundIoWriteCallback(SoundIoOutStream* stream, int minFrames, int m
 }
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr

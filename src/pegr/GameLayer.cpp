@@ -16,7 +16,7 @@
 
 #include "Gamelayer.hpp"
 
-namespace pgg {
+namespace pegr {
 
 Gamelayer::Gamelayer() {}
 Gamelayer::~Gamelayer() {}

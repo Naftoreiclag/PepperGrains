@@ -23,7 +23,7 @@
 #include "FontResource.hpp"
 #include "Model.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class TextModel : public Model {
 private:

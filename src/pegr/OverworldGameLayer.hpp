@@ -17,7 +17,7 @@
 #ifndef PGG_OverworldGameLayer_HPP
 #define PGG_OverworldGameLayer_HPP
 
-#include "Gamelayer.hpp" // Base class: pgg::GameLayer
+#include "Gamelayer.hpp" // Base class: pegr::GameLayer
 
 #include "btBulletDynamicsCommon.h"
 #include "SDL2/SDL.h"
@@ -35,7 +35,7 @@
 #include "TextureResource.hpp"
 #include "DebugInfiniteCheckerboardModel.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class OverworldGameLayer : public Gamelayer {
 private:

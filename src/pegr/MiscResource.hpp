@@ -19,7 +19,7 @@
 
 #include "Resource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class MiscResource : public Resource {
 public:

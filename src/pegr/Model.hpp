@@ -23,7 +23,7 @@
 #include "Geometry.hpp"
 #include "Material.hpp"
 
-namespace pgg {
+namespace pegr {
 
 // Virtual inheritance to avoid diamond conflict with ModelResource
 class Model : virtual public ReferenceCounted {

@@ -16,7 +16,7 @@
 
 #include "InputInteractESignal.hpp"
 
-namespace pgg
+namespace pegr
 {
 
 InputInteractESignal::InputInteractESignal()

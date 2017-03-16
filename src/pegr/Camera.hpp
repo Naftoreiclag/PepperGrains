@@ -19,7 +19,7 @@
 
 #include <GraphicsApiLibrary.hpp>
 
-namespace pgg {
+namespace pegr {
 class Camera {
 public:
     Camera(float fov, float aspect, float nearDepth, float farDepth);

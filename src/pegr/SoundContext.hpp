@@ -25,7 +25,7 @@
 #include "SoundSource.hpp"
 #include "SoundMedium.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 /* Contains different sources and other objects that could interact
@@ -60,6 +60,6 @@ public:
 };
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr
 
 #endif // PGG_SOUND_CONTEXT_HPP

@@ -30,7 +30,7 @@
 #include "Video.hpp"
 #include "VulkanUtils.hpp"
 
-namespace pgg {
+namespace pegr {
 
 GeometryResourceVK::GeometryResourceVK()
 : mLoaded(false)

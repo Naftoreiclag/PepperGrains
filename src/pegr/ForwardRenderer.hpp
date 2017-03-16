@@ -23,7 +23,7 @@
 #include "ShaderProgramResource.hpp"
 #include "Renderable.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class ForwardRenderer {
 public:

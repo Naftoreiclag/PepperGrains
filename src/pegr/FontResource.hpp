@@ -21,7 +21,7 @@
 #include "Texture.hpp"
 #include "ShaderProgramResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class FontResource : public Resource {
 public:

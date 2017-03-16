@@ -24,7 +24,7 @@
 #include "Resource.hpp"
 #include "Image.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class ImageResource : public Image, public Resource {
 private:

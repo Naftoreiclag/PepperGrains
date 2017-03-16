@@ -30,7 +30,7 @@
 #include "ScriptResource.hpp"
 #include "Logger.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Resources {
     
     void populateResourceMap(ResourceMap& sResources, const Json::Value& resourcesData, boost::filesystem::path dataPackDir) {

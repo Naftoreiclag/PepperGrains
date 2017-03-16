@@ -21,7 +21,7 @@
 #include "PhysicsLocationUpdateESignal.hpp"
 #include "PhysicsOrientationUpdateESignal.hpp"
 
-namespace pgg {
+namespace pegr {
 
 RigidBodyESys::RigidBodyMotionListener::RigidBodyMotionListener(const btTransform& initialLoc, RigidBodyEComp* const sendTo)
 : sendTo(sendTo),

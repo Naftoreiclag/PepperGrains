@@ -27,7 +27,7 @@
 #include "StreamStuff.hpp"
 #include "Logger.hpp"
 
-namespace pgg {
+namespace pegr {
 
 GeometryResourceOG::GeometryResourceOG()
 : mLoaded(false)

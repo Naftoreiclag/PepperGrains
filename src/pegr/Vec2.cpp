@@ -18,7 +18,7 @@
 
 #include <cmath>
 
-namespace pgg {
+namespace pegr {
 
 Vec2::Vec2()
 : x(0.f)
@@ -152,6 +152,6 @@ bool Vec2::isZero() {
 }
     
 // For debugging
-std::ostream& operator<<(std::ostream& os, const pgg::Vec2& v) {
+std::ostream& operator<<(std::ostream& os, const pegr::Vec2& v) {
     return os << "Vec2[" << v.x << ", " << v.y << "]";
 }

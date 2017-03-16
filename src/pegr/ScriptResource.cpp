@@ -22,7 +22,7 @@
 
 #include "Logger.hpp"
 
-namespace pgg {
+namespace pegr {
 
 ScriptResource::ScriptResource()
 : Resource(Resource::Type::SCRIPT) {

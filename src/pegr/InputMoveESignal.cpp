@@ -16,7 +16,7 @@
 
 #include "InputMoveESignal.hpp"
 
-namespace pgg {
+namespace pegr {
 
 InputMoveESignal::InputMoveESignal(const Vec3& displacement)
 : mDisplacement(displacement) {

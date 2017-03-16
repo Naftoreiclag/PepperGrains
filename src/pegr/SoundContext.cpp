@@ -18,7 +18,7 @@
 
 #include <algorithm>
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 Context::Context(float machSpeed)
@@ -80,5 +80,5 @@ void Context::unload() {
 }
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr
 

@@ -22,7 +22,7 @@
 // Spharm: SPherical HARMonics
 // low order L = 3 (16 coefficients)
 
-namespace pgg {
+namespace pegr {
 
 class Spharm {
 public:

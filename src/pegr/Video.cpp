@@ -23,7 +23,7 @@
 #include "Logger.hpp"
 #include "Engine.hpp"
 
-namespace pgg {
+namespace pegr {
 
 // Sometimes, we need to be able to signal the engine on graphics-related updates, such as Vulkan swapchain invalidation
 // Also needs to call the quit() function to forcefully end upon fatal error

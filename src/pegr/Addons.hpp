@@ -28,7 +28,7 @@
  * 
  */
 
-namespace pgg {
+namespace pegr {
 namespace Addons {
     
     extern const char* mAddonDirName;

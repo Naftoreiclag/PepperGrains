@@ -16,7 +16,7 @@
 
 #include "SceneNodeEComp.hpp"
 
-namespace pgg {
+namespace pegr {
 
 const nres::ComponentID SceneNodeEComp::sComponentID = "sn";
 

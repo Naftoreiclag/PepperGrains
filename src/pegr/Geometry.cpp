@@ -19,7 +19,7 @@
 #include "GeometryResource.hpp"
 #include "Logger.hpp"
 
-namespace pgg {
+namespace pegr {
 
 Geometry* Geometry::getFallback() {
     static Geometry geometry;

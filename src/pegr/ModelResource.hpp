@@ -22,7 +22,7 @@
 #include "Model.hpp"
 #include "Resource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class ModelResource : public Resource, public Model {
 private:

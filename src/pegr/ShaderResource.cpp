@@ -25,7 +25,7 @@
 #include "StreamStuff.hpp"
 #include "Video.hpp"
 
-namespace pgg {
+namespace pegr {
 
 ShaderResource::ShaderResource(ShaderResource::Type type)
 : mType(type)

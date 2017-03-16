@@ -29,7 +29,7 @@
 #include "GeometryResource.hpp"
 #include "Vec3.hpp"
 
-namespace pgg {
+namespace pegr {
 
 struct SlimeShader {
     ShaderProgramResource* mSunAwareProg;

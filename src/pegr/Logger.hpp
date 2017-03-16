@@ -21,7 +21,7 @@
 #include <iostream>
 #include <sstream>
 
-namespace pgg {
+namespace pegr {
 namespace Logger {
 
     class Channel;

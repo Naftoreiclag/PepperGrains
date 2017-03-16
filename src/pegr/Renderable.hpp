@@ -22,7 +22,7 @@
 #include "HardValueStuff.hpp"
 #include "Camera.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class Renderable {
 public:

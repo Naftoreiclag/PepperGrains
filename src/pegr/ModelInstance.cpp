@@ -16,7 +16,7 @@
 
 #include "ModelInstance.hpp"
 
-namespace pgg {
+namespace pegr {
 
 
 ModelInstance::Pose::Pose(glm::mat4 localTransform, glm::mat4 transform)

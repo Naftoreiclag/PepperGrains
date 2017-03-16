@@ -27,7 +27,7 @@
 
 #include "SoundEndpoint.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 /* Analogous to a physical speaker with a location, orientation, etc. During final
@@ -67,6 +67,6 @@ public:
 };
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr
 
 #endif // PGG_SOUND_SOURCE_HPP

@@ -20,7 +20,7 @@
 
 #include "ResourceManager.hpp"
 
-namespace pgg {
+namespace pegr {
 
 TerrainModel::TerrainModel()
 {

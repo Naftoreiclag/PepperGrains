@@ -18,7 +18,7 @@
 
 #include "ResourceManager.hpp"
 
-namespace pgg
+namespace pegr
 {
 
 AxesModel::AxesModel()

@@ -26,7 +26,7 @@
 #include "ResourcesUtil.hpp"
 #include "Logger.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Resources {
     
     ResourceMap sResources;

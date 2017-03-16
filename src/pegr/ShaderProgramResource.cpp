@@ -26,7 +26,7 @@
 #include "Logger.hpp"
 #include "Resources.hpp"
 
-namespace pgg {
+namespace pegr {
 
 ShaderProgramResource::ShaderProgramResource()
 : mLoaded(false)

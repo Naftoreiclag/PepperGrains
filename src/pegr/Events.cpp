@@ -16,7 +16,7 @@
 
 #include "Events.hpp"
 
-namespace pgg {
+namespace pegr {
 
 #ifdef PGG_SDL
 QuitEvent::QuitEvent(SDL_QuitEvent e) { }

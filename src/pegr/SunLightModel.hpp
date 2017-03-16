@@ -21,7 +21,7 @@
 #include "ShaderProgramResource.hpp"
 #include "HardValueStuff.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class SunLightModel : public Model {
 public:

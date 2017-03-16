@@ -21,7 +21,7 @@
 
 #include "ReferenceCounted.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 /* The "raw" sound; no effects applied. Used by Samples during final mixing to
@@ -54,6 +54,6 @@ public:
 };
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr
 
 #endif // PGG_SOUND_WAVEFORM_HPP

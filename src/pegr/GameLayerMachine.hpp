@@ -21,7 +21,7 @@
 
 #include "Events.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class Gamelayer;
 class GamelayerMachine {

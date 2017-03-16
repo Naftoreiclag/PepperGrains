@@ -20,7 +20,7 @@
 #include "Resource.hpp"
 #include "Scripts.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class ScriptResource : public Resource {
 private:

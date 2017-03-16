@@ -23,7 +23,7 @@
 
 #include "RigidBodyEComp.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class RigidBodyESys : public nres::System {
 public:

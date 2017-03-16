@@ -18,7 +18,7 @@
 
 #include "ResourceManager.hpp"
 
-namespace pgg {
+namespace pegr {
 
 DirectionalLightModel::SharedResources::SharedResources() { }
 DirectionalLightModel::SharedResources::~SharedResources() { }

@@ -25,7 +25,7 @@
 #include "Resource.hpp"
 #include "Vec3.hpp"
 
-namespace pgg {
+namespace pegr {
  
 /**
  * A purely mathematical description of the properties of a 3D object related to rendering, including:

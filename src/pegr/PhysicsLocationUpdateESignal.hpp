@@ -22,7 +22,7 @@
 #include "EntitySignal.hpp"
 #include "Vec3.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class PhysicsLocationUpdateESignal : public ESignal {
 public:

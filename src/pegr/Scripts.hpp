@@ -27,7 +27,7 @@
  * 
  */
 
-namespace pgg {
+namespace pegr {
 namespace Scripts {
     
     typedef int RegRef;

@@ -17,7 +17,7 @@
 #ifndef PGG_INPUTINTERACTESIGNAL_HPP
 #define PGG_INPUTINTERACTESIGNAL_HPP
 
-namespace pgg {
+namespace pegr {
 
 class InputInteractESignal {
 public:

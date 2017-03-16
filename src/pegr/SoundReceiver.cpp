@@ -18,7 +18,7 @@
 #include "SoundContext.hpp"
 #include "SoundEndpoint.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 Receiver::Receiver() {
@@ -28,4 +28,4 @@ Receiver::~Receiver() {
 }
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr

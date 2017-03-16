@@ -19,7 +19,7 @@
 #include <iostream>
 #include <cmath>
 
-namespace pgg {
+namespace pegr {
 
 SineWaveform::SineWaveform(float frequency)
 : mFrequency(frequency) {
@@ -62,5 +62,5 @@ void SineWaveform::unload() {
 
 
 
-} // namespace pgg
+} // namespace pegr
 

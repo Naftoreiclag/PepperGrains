@@ -21,7 +21,7 @@
 
 #include "Vec3.hpp"
 
-namespace pgg {
+namespace pegr {
 
 /*
  * Used in place of a normal physics component

@@ -38,7 +38,7 @@
 
 #include "StreamStuff.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Video {
     extern uint32_t mWindowWidth;
     extern uint32_t mWindowHeight;
@@ -416,7 +416,7 @@ namespace Engine {
 } // pgg
 
 int main(int argc, char* argv[]) {
-    using namespace pgg;
+    using namespace pegr;
     try {
         return Engine::run(argc, argv);
     } catch(const std::runtime_error& e) {

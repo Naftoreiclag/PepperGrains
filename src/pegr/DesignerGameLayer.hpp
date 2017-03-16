@@ -17,7 +17,7 @@
 #ifndef PGG_DesignerGameLayer_HPP
 #define PGG_DesignerGameLayer_HPP
 
-#include "Gamelayer.hpp" // Base class: pgg::Gamelayer
+#include "Gamelayer.hpp" // Base class: pegr::Gamelayer
 
 #include <vector>
 
@@ -34,7 +34,7 @@
 #include "SoundContext.hpp"
 #include "SoundReceiver.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class DesignerGameLayer : public Gamelayer {
 private:

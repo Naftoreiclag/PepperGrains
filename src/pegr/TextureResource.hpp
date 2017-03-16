@@ -23,7 +23,7 @@
 #include "Image.hpp"
 #include "Texture.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class TextureResource : public Texture, public Resource {
 private:

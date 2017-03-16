@@ -16,7 +16,7 @@
 
 #include "SimpleScenegraph.hpp"
 
-namespace pgg {
+namespace pegr {
 // Perform a function on all attached ModelInstances
 void SimpleScenegraph::processAll(std::function<void(ModelInstance*)> modelMapper) {
     if(mModelInst) {

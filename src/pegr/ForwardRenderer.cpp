@@ -18,7 +18,7 @@
 
 #include "Resources.hpp"
 
-namespace pgg {
+namespace pegr {
 
 ForwardRenderer::ForwardRenderer(uint32_t width, uint32_t height, Renderable* renderable)
 : mScreenWidth(width)

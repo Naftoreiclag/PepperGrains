@@ -27,7 +27,7 @@
 #include "Resources.hpp"
 #include "TextureResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 MaterialResource::MaterialResource()
 : mLoaded(false)

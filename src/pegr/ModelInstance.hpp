@@ -27,7 +27,7 @@
 // Perhaps all models should be instances, and instead there should just be geometryinstance
 // The only problem with this is managing opengl vertex array objects
 
-namespace pgg {
+namespace pegr {
 class ModelInstance {
 private:
     Model* mModel;

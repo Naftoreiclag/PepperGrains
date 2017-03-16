@@ -24,7 +24,7 @@
 
 #include "Resources.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Resources {
     
     typedef std::map<std::string, Resource*> ResourceMap;

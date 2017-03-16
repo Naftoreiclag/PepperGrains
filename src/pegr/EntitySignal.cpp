@@ -16,7 +16,7 @@
 
 #include "EntitySignal.hpp"
 
-namespace pgg {
+namespace pegr {
 
 ESignal::ESignal() { }
 ESignal::~ESignal() { }

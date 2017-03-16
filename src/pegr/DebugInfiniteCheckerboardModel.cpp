@@ -21,7 +21,7 @@
 
 #include "ResourceManager.hpp"
 
-namespace pgg {
+namespace pegr {
 
 InfiniteCheckerboardModel::InfiniteCheckerboardModel() {
     mSize = 64;

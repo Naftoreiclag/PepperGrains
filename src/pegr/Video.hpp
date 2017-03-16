@@ -24,7 +24,7 @@
 #include <GraphicsApiLibrary.hpp>
 #include <WindowInputSystemLibrary.hpp>
 
-namespace pgg {
+namespace pegr {
 namespace Video {
     
     #ifdef PGG_OPENGL

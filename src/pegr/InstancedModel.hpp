@@ -22,7 +22,7 @@
 #include "ShaderProgramResource.hpp"
 #include "OpenGLStuff.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class InstancedModel : public Model {
 private:

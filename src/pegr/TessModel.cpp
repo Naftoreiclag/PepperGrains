@@ -20,7 +20,7 @@
 
 #include "ResourceManager.hpp"
 
-namespace pgg {
+namespace pegr {
 
 TessModel::TessModel() {}
 TessModel::~TessModel() {}

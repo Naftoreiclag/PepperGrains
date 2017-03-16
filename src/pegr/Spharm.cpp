@@ -16,7 +16,7 @@
 
 #include "Spharm.hpp"
 
-namespace pgg
+namespace pegr
 {
 
 Spharm::Spharm()

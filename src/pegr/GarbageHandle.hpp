@@ -23,7 +23,7 @@
 // Debug only
 #include <iostream>
 
-namespace pgg {
+namespace pegr {
 namespace Memory {
 
 class GarbageCollection;

@@ -36,7 +36,7 @@
 #include "TessModel.hpp"
 #include "Vec3.hpp"
 
-namespace pgg {
+namespace pegr {
 
 OverworldGameLayer::OverworldGameLayer(uint32_t width, uint32_t height)
 : mScreenWidth(width)

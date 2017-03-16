@@ -23,7 +23,7 @@
 
 #include "ReferenceCounted.hpp"
 
-namespace pgg {
+namespace pegr {
 
 // Virtual inheritance to avoid diamond conflict with ImageResource
 class Image : virtual public ReferenceCounted {

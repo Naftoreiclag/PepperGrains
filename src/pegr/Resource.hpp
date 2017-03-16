@@ -24,7 +24,7 @@
 
 #include "ReferenceCounted.hpp"
 
-namespace pgg {
+namespace pegr {
 
 namespace Addons {
     struct Addon;

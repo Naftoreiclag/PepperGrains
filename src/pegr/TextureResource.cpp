@@ -27,7 +27,7 @@
 #include "Resources.hpp"
 #include "ImageResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 TextureResource::TextureResource()
 : mLoaded(false)

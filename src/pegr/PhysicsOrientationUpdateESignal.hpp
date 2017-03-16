@@ -22,7 +22,7 @@
 #include "EntitySignal.hpp"
 #include "Quate.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class PhysicsOrientationUpdateESignal : public ESignal {
 public:

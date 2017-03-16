@@ -24,7 +24,7 @@
 
 #include "SoundWaveform.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 /* Final stage between software mixing and the device. Holds a single buffer.
@@ -137,6 +137,6 @@ public:
 void endpointSoundIoWriteCallback(SoundIoOutStream* stream, int minFrames, int maxFrames);
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr
 
 #endif // PGG_SOUND_ENDPOINT_HPP

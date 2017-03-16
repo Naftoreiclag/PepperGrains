@@ -16,7 +16,7 @@
 
 #include "SoundSource.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 
@@ -45,4 +45,4 @@ void Source::load() { }
 void Source::unload() { delete this; }
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr

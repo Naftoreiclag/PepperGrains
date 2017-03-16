@@ -24,7 +24,7 @@
 namespace nres {
 
 typedef std::string ComponentID;
-typedef pgg::ESignal EntitySignal;
+typedef pegr::ESignal EntitySignal;
 
 }
 

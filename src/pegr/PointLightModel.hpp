@@ -21,7 +21,7 @@
 #include "GeometryResource.hpp"
 #include "ShaderProgramResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class PointLightModel : public Model {
 public:

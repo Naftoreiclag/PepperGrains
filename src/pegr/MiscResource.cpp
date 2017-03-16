@@ -18,7 +18,7 @@
 
 #include <fstream>
 
-namespace pgg {
+namespace pegr {
 
 MiscResource::MiscResource()
 : Resource(Resource::Type::OTHER) {

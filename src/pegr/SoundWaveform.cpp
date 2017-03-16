@@ -16,11 +16,11 @@
 
 #include "SoundWaveform.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 Waveform::Waveform() { }
 Waveform::~Waveform() { }
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr

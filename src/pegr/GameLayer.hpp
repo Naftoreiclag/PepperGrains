@@ -21,7 +21,7 @@
 
 #include "GamelayerMachine.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class Gamelayer {
 public:

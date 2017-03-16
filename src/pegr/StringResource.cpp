@@ -20,7 +20,7 @@
 #include <iostream>
 #include <sstream>
 
-namespace pgg {
+namespace pegr {
 
 StringResource::StringResource()
 : mLoaded(false)

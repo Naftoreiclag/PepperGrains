@@ -16,7 +16,7 @@
 
 #include "TerrainResolver.hpp"
 
-namespace pgg {
+namespace pegr {
     
 TerrainResolver::Patch::Patch(int32_t indX, int32_t indZ)
 : mIndX(indX)

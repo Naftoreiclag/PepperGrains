@@ -21,7 +21,7 @@
 
 #include "Gamelayer.hpp"
 
-namespace pgg {
+namespace pegr {
     
 InputState GamelayerMachine::sEmptyInputState;
 

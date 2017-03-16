@@ -16,7 +16,7 @@
 
 #include "SoundMedium.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 Medium::Medium()
@@ -28,5 +28,5 @@ Medium::~Medium()
 }
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr
 

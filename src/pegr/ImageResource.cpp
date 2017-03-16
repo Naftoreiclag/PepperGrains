@@ -28,7 +28,7 @@
 #include "Resources.hpp"
 #include "VulkanUtils.hpp"
 
-namespace pgg {
+namespace pegr {
 
 ImageResource::ImageResource()
 : mLoaded(false)

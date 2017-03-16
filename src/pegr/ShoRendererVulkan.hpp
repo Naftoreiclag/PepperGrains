@@ -30,7 +30,7 @@
 #include "Geometry.hpp"
 #include "Texture.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class ShoRendererVk {
 private:

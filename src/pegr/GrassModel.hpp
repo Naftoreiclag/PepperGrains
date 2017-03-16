@@ -23,7 +23,7 @@
 #include "TextureResource.hpp"
 #include "OpenGLStuff.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class GrassModel : public Model {
 private:

@@ -17,7 +17,7 @@
 #ifndef PGG_CUBEROTATIONSSOLVER_HPP
 #define PGG_CUBEROTATIONSSOLVER_HPP
 
-namespace pgg {
+namespace pegr {
 
 namespace CubeRotationsSolver {
 

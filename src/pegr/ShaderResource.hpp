@@ -21,7 +21,7 @@
 
 #include "Resource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class ShaderResource : public Resource {
 public:

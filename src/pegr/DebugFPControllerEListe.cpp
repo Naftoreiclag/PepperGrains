@@ -21,7 +21,7 @@
 
 
 
-namespace pgg {
+namespace pegr {
 
 DebugFPControllerEListe::DebugFPControllerEListe(Vec3 initialLocation)
 : mAbsoluteLocation(initialLocation) {

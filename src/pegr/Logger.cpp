@@ -19,7 +19,7 @@
 #include <iostream>
 #include <map>
 
-namespace pgg {
+namespace pegr {
 namespace Logger {
     /*
     Out::Out()

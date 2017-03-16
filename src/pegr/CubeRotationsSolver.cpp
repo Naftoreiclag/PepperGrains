@@ -24,7 +24,7 @@
 
 #include "OpenGLStuff.hpp"
 
-namespace pgg {
+namespace pegr {
 
 namespace CubeRotationsSolver {
 

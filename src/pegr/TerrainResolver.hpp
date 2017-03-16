@@ -20,7 +20,7 @@
 #include <stdint.h>
 #include <vector>
 
-namespace pgg {
+namespace pegr {
 
 // Handles terrain resolution/lod
 class TerrainResolver {

@@ -25,7 +25,7 @@
 #include "ShaderProgramResource.hpp"
 #include "TextureResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 FontResource::FontResource()
 : mLoaded(false)

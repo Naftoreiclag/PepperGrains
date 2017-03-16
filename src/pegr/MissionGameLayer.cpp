@@ -25,7 +25,7 @@
 #include "ModelResource.hpp"
 #include "Resources.hpp"
 
-namespace pgg {
+namespace pegr {
 
 MissionGameLayer::MissionGameLayer()
 : mPeriod(0.f) {

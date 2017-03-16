@@ -22,7 +22,7 @@
 #include <stdint.h>
 #include <vector>
 
-namespace pgg {
+namespace pegr {
 
 void writeU8(std::ofstream& output, uint8_t value);
 void readU8(std::ifstream& input, uint8_t& value);

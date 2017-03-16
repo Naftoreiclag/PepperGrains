@@ -16,7 +16,7 @@
 
 #include "SoundResource.hpp"
 
-namespace pgg
+namespace pegr
 {
 
 SoundResource::SoundResource()

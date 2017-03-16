@@ -22,7 +22,7 @@
 #include "SimpleScenegraph.hpp"
 #include "NRES.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class MissionGameLayer : public Gamelayer {
 public:

@@ -19,7 +19,7 @@
 #include <cmath>
 #include <math.h>
 
-namespace pgg {
+namespace pegr {
 
 Vec3::Vec3()
 : x(0.f)
@@ -183,6 +183,6 @@ bool Vec3::isNan() const {
 }
     
 // For debugging
-std::ostream& operator<<(std::ostream& os, const pgg::Vec3& v) {
+std::ostream& operator<<(std::ostream& os, const pegr::Vec3& v) {
     return os << "Vec3[" << v.x << ", " << v.y << ", " << v.z << "]";
 }

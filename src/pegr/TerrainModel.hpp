@@ -21,7 +21,7 @@
 #include "ShaderProgramResource.hpp"
 #include "OpenGLStuff.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class TerrainModel : public Model {
 private:

@@ -21,7 +21,7 @@
 #include "Video.hpp"
 #include "Logger.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Video {
 namespace Vulkan { 
 namespace Utils {

@@ -21,7 +21,7 @@
 #include "Model.hpp"
 #include "ShaderProgramResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class InfiniteCheckerboardModel : public Model {
 private:

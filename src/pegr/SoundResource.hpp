@@ -20,7 +20,7 @@
 #include "SoundWaveform.hpp"
 #include "Resource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class SoundResource : public Resource, public Sound::Waveform {
 public:
@@ -39,6 +39,6 @@ public:
     void unload();
 };
 
-} // namespace pgg
+} // namespace pegr
 
 #endif // PGG_SOUNDRESOURCE_HPP

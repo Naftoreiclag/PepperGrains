@@ -21,7 +21,7 @@
 
 #include "Vec3.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class InputMoveESignal : public ESignal {
 public:

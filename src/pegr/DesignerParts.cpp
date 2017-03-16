@@ -19,7 +19,7 @@
 
 #include <iostream>
 
-namespace pgg
+namespace pegr
 {
 
 Edge::Edge(Type type, Plate* plate)

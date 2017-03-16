@@ -46,7 +46,7 @@
 #include "SoundSource.hpp"
 #include "SineWaveform.hpp"
 
-namespace pgg {
+namespace pegr {
 
 
 DesignerGameLayer::Manipulator::Manipulator()

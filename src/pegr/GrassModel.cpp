@@ -19,7 +19,7 @@
 
 #include "ResourceManager.hpp"
 
-namespace pgg {
+namespace pegr {
 
 GrassModel::GrassModel() {}
 GrassModel::~GrassModel() {}

@@ -20,7 +20,7 @@
 
 #include "Addons.hpp"
 
-namespace pgg {
+namespace pegr {
 
 Resource::Resource(Type resourceType)
 : mResourceType(resourceType) { }

@@ -27,7 +27,7 @@
 #include <GLFW/glfw3.h>
 #endif
 
-namespace pgg {
+namespace pegr {
 
 namespace Input {
 

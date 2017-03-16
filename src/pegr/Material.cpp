@@ -19,7 +19,7 @@
 #include "Logger.hpp"
 #include "MaterialResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 Material::Input::Value::Value()
 : mTexture(nullptr){

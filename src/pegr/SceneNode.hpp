@@ -28,7 +28,7 @@
 #include "ReferenceCounted.hpp"
 #include "Renderable.hpp"
 
-namespace pgg {
+namespace pegr {
 
 // TODO: fix circular references
 

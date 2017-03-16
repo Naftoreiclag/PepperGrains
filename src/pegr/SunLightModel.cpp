@@ -19,7 +19,7 @@
 #include "MathUtil.hpp"
 #include "ResourceManager.hpp"
 
-namespace pgg {
+namespace pegr {
 
 SunLightModel::SharedResources::SharedResources() { }
 SunLightModel::SharedResources::~SharedResources() { }

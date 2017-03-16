@@ -18,7 +18,7 @@
 
 #include "Resources.hpp"
 
-namespace pgg {
+namespace pegr {
 
 SmacRenderer::SmacRenderer(uint32_t width, uint32_t height)
 : mScreenWidth(width)

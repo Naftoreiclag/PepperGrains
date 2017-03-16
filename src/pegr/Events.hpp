@@ -24,7 +24,7 @@
 
 #include "Input.hpp"
 
-namespace pgg {
+namespace pegr {
 
 struct QuitEvent {
     #ifdef PGG_SDL

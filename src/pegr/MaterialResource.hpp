@@ -27,7 +27,7 @@
 #include "Model.hpp"
 #include "Material.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class MaterialResource : public Material, public Resource {
 private:

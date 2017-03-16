@@ -22,7 +22,7 @@
 #include "btBulletDynamicsCommon.h"
 #include "GraphicsApiLibrary.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class Vec3 {
 public:
@@ -99,6 +99,6 @@ public:
 }
 
 // For debugging
-std::ostream& operator<<(std::ostream& os, const pgg::Vec3& v);
+std::ostream& operator<<(std::ostream& os, const pegr::Vec3& v);
 
 #endif // PGG_VEC3F_HPP

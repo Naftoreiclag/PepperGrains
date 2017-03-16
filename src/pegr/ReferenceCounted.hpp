@@ -19,7 +19,7 @@
 
 #include <stdint.h>
 
-namespace pgg {
+namespace pegr {
 
 class ReferenceCounted {
 private:

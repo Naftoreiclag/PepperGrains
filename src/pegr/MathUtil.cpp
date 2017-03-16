@@ -16,7 +16,7 @@
 
 #include "MathUtil.hpp"
 
-namespace pgg
+namespace pegr
 {
 
 namespace Math {

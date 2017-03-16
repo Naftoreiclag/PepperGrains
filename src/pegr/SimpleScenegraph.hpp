@@ -19,7 +19,7 @@
 
 #include "Scenegraph.hpp"
 
-namespace pgg {
+namespace pegr {
 class SimpleScenegraph : public Scenegraph {
 private:
     std::function<void(ModelInstance*)> mAddListener = nullptr;

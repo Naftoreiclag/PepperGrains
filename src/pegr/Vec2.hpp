@@ -19,7 +19,7 @@
 
 #include <ostream>
 
-namespace pgg {
+namespace pegr {
 
 class Vec2 {
 public:
@@ -82,6 +82,6 @@ public:
 }
 
 // For debugging
-std::ostream& operator<<(std::ostream& os, const pgg::Vec2& v);
+std::ostream& operator<<(std::ostream& os, const pegr::Vec2& v);
 
 #endif // PGG_Vec2f_HPP

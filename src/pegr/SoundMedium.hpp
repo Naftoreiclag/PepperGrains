@@ -17,7 +17,7 @@
 #ifndef PGG_SOUND_MEDIUM_HPP
 #define PGG_SOUND_MEDIUM_HPP
 
-namespace pgg {
+namespace pegr {
 namespace Sound {
 
 /* Objects in a Context which interact with sounds without producing any.
@@ -32,6 +32,6 @@ public:
 };
 
 } // namespace Sound
-} // namespace pgg
+} // namespace pegr
 
 #endif // PGG_SOUND_MEDIUM_HPP

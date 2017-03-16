@@ -23,7 +23,7 @@
 
 #include "Vec3.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class RigidBodyEComp : public nres::Component {
 public:

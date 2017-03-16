@@ -24,7 +24,7 @@
 
 #include "Logger.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Scripts {
 
     lua_State* mL = nullptr;

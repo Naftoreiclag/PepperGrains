@@ -16,7 +16,7 @@
 
 #include "Renderable.hpp"
 
-namespace pgg {
+namespace pegr {
 
 Renderable::Pass::Pass(Pass::Type renderPassType)
 : mType(renderPassType)

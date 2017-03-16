@@ -18,7 +18,7 @@
 
 #include "ResourceManager.hpp"
 
-namespace pgg {
+namespace pegr {
 
 TextModel::TextModel(FontResource* font, std::string text)
 : mFont(font)

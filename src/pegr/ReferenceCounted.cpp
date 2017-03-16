@@ -18,7 +18,7 @@
 
 #include <cassert>
 
-namespace pgg {
+namespace pegr {
 
 ReferenceCounted::ReferenceCounted()
 : mNumGrabs(0) { }

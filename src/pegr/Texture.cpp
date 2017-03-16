@@ -22,7 +22,7 @@
 #include "Resources.hpp"
 #include "TextureResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 Texture::Texture() { }
 Texture::~Texture() { }

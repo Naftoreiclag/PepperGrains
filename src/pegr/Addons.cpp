@@ -27,7 +27,7 @@
 #include "Logger.hpp"
 #include "ScriptResource.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Addons {
     
     const char* mAddonDirName = "user/addons";

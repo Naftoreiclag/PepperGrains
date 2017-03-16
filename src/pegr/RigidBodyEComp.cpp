@@ -16,7 +16,7 @@
 
 #include "RigidBodyEComp.hpp"
 
-namespace pgg {
+namespace pegr {
 
 const nres::ComponentID RigidBodyEComp::sComponentID = "rb";
 

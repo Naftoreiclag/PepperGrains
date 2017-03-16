@@ -20,7 +20,7 @@
 #include "Model.hpp"
 #include "ShaderProgramResource.hpp"
 
-namespace pgg {
+namespace pegr {
 
 class DirectionalLightModel : public Model {
 public:

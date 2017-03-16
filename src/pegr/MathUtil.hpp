@@ -22,7 +22,7 @@
 #include "Vec3.hpp"
 #include "Quate.hpp"
 
-namespace pgg {
+namespace pegr {
 namespace Math {
 
 // Closest right angle (in radians) to a given angle (in radians)

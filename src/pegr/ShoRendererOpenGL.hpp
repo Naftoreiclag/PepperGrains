@@ -27,7 +27,7 @@
 #include "Scenegraph.hpp"
 #include "Camera.hpp"
 
-namespace pgg {
+namespace pegr {
 
 // sho = Spherical Harmonic per-Object renderer
 class ShoRendererOg {
