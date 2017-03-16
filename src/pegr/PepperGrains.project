@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="PepperGrains" InternalType="Console" Version="10.0.0">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00060001N0005Debug0000000000000001N0010LinuxDebug0000000000000001N0012LinuxRelease0000000000000001N0007Release0000000000000001N0008WinDebug0000000000000001N0010WinRelease000000000000]]>
+    </Plugin>
+    <Plugin Name="CMakePlugin">
+      <![CDATA[[{
+  "name": "Debug",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "LinuxDebug",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "LinuxRelease",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "Release",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "WinDebug",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "WinRelease",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }]]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <VirtualDirectory Name="render">
+      <VirtualDirectory Name="renderer">
+        <File Name="ShoRendererOpenGL.hpp"/>
+        <File Name="ShoRendererOpenGL.cpp"/>
+        <File Name="ShoRenderer.hpp"/>
+        <File Name="ShoRendererVulkan.hpp"/>
+        <File Name="ShoRendererVulkan.cpp"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="scenegraph">
+        <File Name="Scenegraph.hpp"/>
+        <File Name="SimpleScenegraph.cpp"/>
+        <File Name="SimpleScenegraph.hpp"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="data">
+        <VirtualDirectory Name="macro">
+          <File Name="ModelInstance.cpp"/>
+          <File Name="ModelInstance.hpp"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="micro">
+          <File Name="Camera.cpp"/>
+          <File Name="Camera.hpp"/>
+          <File Name="Renderable.cpp"/>
+          <File Name="Renderable.hpp"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="misc">
+      <File Name="ReferenceCounted.cpp"/>
+      <File Name="ReferenceCounted.hpp"/>
+      <File Name="HardValueStuff.hpp"/>
+      <File Name="StreamStuff.cpp"/>
+      <File Name="StreamStuff.hpp"/>
+      <File Name="GraphicsApiLibrary.hpp"/>
+      <File Name="WindowInputSystemLibrary.hpp"/>
+      <File Name="VulkanUtils.hpp"/>
+      <File Name="VulkanUtils.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="entity system">
+      <VirtualDirectory Name="nres">
+        <File Name="NRES.hpp"/>
+        <File Name="nresComponent.cpp"/>
+        <File Name="nresComponent.hpp"/>
+        <File Name="nresEntity.cpp"/>
+        <File Name="nresEntity.hpp"/>
+        <File Name="nresListener.cpp"/>
+        <File Name="nresListener.hpp"/>
+        <File Name="nresSystem.cpp"/>
+        <File Name="nresSystem.hpp"/>
+        <File Name="nresTypedefs.hpp"/>
+        <File Name="nresWorld.cpp"/>
+        <File Name="nresWorld.hpp"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="signals">
+        <File Name="EntitySignal.cpp"/>
+        <File Name="EntitySignal.hpp"/>
+        <File Name="InputMoveESignal.hpp"/>
+        <File Name="InputMoveESignal.cpp"/>
+        <File Name="PhysicsLocationUpdateESignal.cpp"/>
+        <File Name="PhysicsLocationUpdateESignal.hpp"/>
+        <File Name="InputInteractESignal.hpp"/>
+        <File Name="InputInteractESignal.cpp"/>
+        <File Name="PhysicsOrientationUpdateESignal.cpp"/>
+        <File Name="PhysicsOrientationUpdateESignal.hpp"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="components">
+        <File Name="RigidBodyEComp.cpp"/>
+        <File Name="RigidBodyEComp.hpp"/>
+        <File Name="SceneNodeEComp.cpp"/>
+        <File Name="SceneNodeEComp.hpp"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="listeners">
+        <File Name="DebugFPControllerEListe.cpp"/>
+        <File Name="DebugFPControllerEListe.hpp"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="systems">
+        <File Name="RigidBodyESys.cpp"/>
+        <File Name="RigidBodyESys.hpp"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="audio">
+      <File Name="SoundEndpoint.hpp"/>
+      <File Name="SoundEndpoint.cpp"/>
+      <VirtualDirectory Name="soundgraph">
+        <File Name="SoundContext.cpp"/>
+        <File Name="SoundContext.hpp"/>
+        <File Name="SoundMedium.cpp"/>
+        <File Name="SoundMedium.hpp"/>
+        <File Name="SoundReceiver.cpp"/>
+        <File Name="SoundReceiver.hpp"/>
+        <File Name="SoundSource.cpp"/>
+        <File Name="SoundSource.hpp"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="waveforms">
+        <File Name="SineWaveform.cpp"/>
+        <File Name="SineWaveform.hpp"/>
+        <File Name="SoundResource.cpp"/>
+        <File Name="SoundResource.hpp"/>
+        <File Name="SoundWaveform.cpp"/>
+        <File Name="SoundWaveform.hpp"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="gamelayer">
+      <VirtualDirectory Name="logic">
+        <File Name="MissionGamelayer.cpp"/>
+        <File Name="MissionGamelayer.hpp"/>
+      </VirtualDirectory>
+      <File Name="GamelayerMachine.cpp"/>
+      <File Name="Gamelayer.cpp"/>
+      <File Name="Gamelayer.hpp"/>
+      <File Name="GamelayerMachine.hpp"/>
+    </VirtualDirectory>
+    <File Name="Engine.cpp"/>
+    <File Name="Engine.hpp"/>
+    <File Name="Video.cpp"/>
+    <File Name="Logger.cpp"/>
+    <File Name="Video.hpp"/>
+    <File Name="Logger.hpp"/>
+    <File Name="Resources.hpp"/>
+    <File Name="Resources.cpp"/>
+    <File Name="Addons.hpp"/>
+    <File Name="Addons.cpp"/>
+    <File Name="Scripts.hpp"/>
+    <File Name="Scripts.cpp"/>
+    <VirtualDirectory Name="math">
+      <File Name="Quate.cpp"/>
+      <File Name="Quate.hpp"/>
+      <File Name="Vec2.cpp"/>
+      <File Name="Vec2.hpp"/>
+      <File Name="Vec3.cpp"/>
+      <File Name="Vec3.hpp"/>
+      <File Name="MathUtil.cpp"/>
+      <File Name="MathUtil.hpp"/>
+      <File Name="Spharm.hpp"/>
+      <File Name="Spharm.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="resources">
+      <File Name="GeometryResource.hpp"/>
+      <File Name="ImageResource.cpp"/>
+      <File Name="ImageResource.hpp"/>
+      <File Name="MaterialResource.cpp"/>
+      <File Name="MaterialResource.hpp"/>
+      <File Name="ModelResource.cpp"/>
+      <File Name="ModelResource.hpp"/>
+      <File Name="MiscResource.cpp"/>
+      <File Name="MiscResource.hpp"/>
+      <File Name="Resource.cpp"/>
+      <File Name="Resource.hpp"/>
+      <File Name="ResourcesUtil.cpp"/>
+      <File Name="ResourcesUtil.hpp"/>
+      <File Name="ScriptResource.cpp"/>
+      <File Name="ScriptResource.hpp"/>
+      <File Name="StringResource.cpp"/>
+      <File Name="StringResource.hpp"/>
+      <File Name="ShaderProgramResource.cpp"/>
+      <File Name="ShaderProgramResource.hpp"/>
+      <File Name="TextureResource.cpp"/>
+      <File Name="TextureResource.hpp"/>
+      <File Name="FontResource.cpp"/>
+      <File Name="FontResource.hpp"/>
+      <File Name="ShaderResource.cpp"/>
+      <File Name="ShaderResource.hpp"/>
+      <File Name="GeometryResourceOpenGL.hpp"/>
+      <File Name="GeometryResourceOpenGL.cpp"/>
+      <File Name="GeometryResourceVulkan.hpp"/>
+      <File Name="GeometryResourceVulkan.cpp"/>
+    </VirtualDirectory>
+    <File Name="Input.cpp"/>
+    <File Name="Input.hpp"/>
+    <File Name="Events.cpp"/>
+    <File Name="Events.hpp"/>
+    <VirtualDirectory Name="LargeData">
+      <File Name="Geometry.cpp"/>
+      <File Name="Geometry.hpp"/>
+      <File Name="Image.cpp"/>
+      <File Name="Image.hpp"/>
+      <File Name="Material.cpp"/>
+      <File Name="Material.hpp"/>
+      <File Name="Model.cpp"/>
+      <File Name="Model.hpp"/>
+      <File Name="Texture.cpp"/>
+      <File Name="Texture.hpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="lib">
+    <File Name="../../lib/src/jsoncpp/dist/jsoncpp.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="LinuxDebug" CompilerType="" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-std=c++11;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="../../dependencies/jsoncpp/dist"/>
+        <IncludePath Value="../../dependencies/stb"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <Library Value="GL"/>
+        <Library Value="GLEW"/>
+        <Library Value="boost_system"/>
+        <Library Value="boost_filesystem"/>
+        <Library Value="SDL2main"/>
+        <Library Value="SDL2"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./../../built/PepperGrains/LinuxDebug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="yes">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="LinuxRelease" CompilerType="" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-std=c++11;-Wall" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="../../dependencies/jsoncpp/dist"/>
+        <IncludePath Value="../../dependencies/stb"/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <Library Value="GL"/>
+        <Library Value="GLEW"/>
+        <Library Value="boost_system"/>
+        <Library Value="boost_filesystem"/>
+        <Library Value="SDL2main"/>
+        <Library Value="SDL2"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./../../built/PepperGrains/LinuxRelease" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="yes">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="WinDebug" CompilerType="MinGW ( mingw64 )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-std=c++11;-Wall;-Wno-reorder" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="../../lib/src/jsoncpp/dist"/>
+        <IncludePath Value="../../lib/src/stb"/>
+        <IncludePath Value="$(BOOST_HOME)"/>
+        <IncludePath Value="$(VULKAN_HOME)/Include"/>
+        <IncludePath Value="$(GLEW_HOME)/include"/>
+        <IncludePath Value="$(GLFW_HOME)/include"/>
+        <IncludePath Value="$(GLM_HOME)/include"/>
+        <IncludePath Value="$(SDL2_HOME)/include"/>
+        <IncludePath Value="$(BULLET_HOME)/include/bullet"/>
+        <IncludePath Value="$(LSIO_HOME)/include"/>
+        <IncludePath Value="$(LUA_HOME)/include"/>
+        <Preprocessor Value="PGG_VULKAN"/>
+        <Preprocessor Value="PGG_GLFW"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="$(VULKAN_HOME)/Bin"/>
+        <LibraryPath Value="$(GLEW_HOME)/lib"/>
+        <LibraryPath Value="$(GLFW_HOME)/lib"/>
+        <LibraryPath Value="$(SDL2_HOME)/lib"/>
+        <LibraryPath Value="$(BOOST_HOME)/lib"/>
+        <LibraryPath Value="$(BULLET_HOME)/lib"/>
+        <LibraryPath Value="$(LSIO_HOME)/lib"/>
+        <LibraryPath Value="$(LUA_HOME)/lib"/>
+        <Library Value="vulkan-1"/>
+        <Library Value="mingw32"/>
+        <Library Value="SDL2main"/>
+        <Library Value="SDL2"/>
+        <Library Value="glew32"/>
+        <Library Value="glfw3"/>
+        <Library Value="opengl32"/>
+        <Library Value="boost_system-mgw51-s-1_59"/>
+        <Library Value="boost_filesystem-mgw51-s-1_59"/>
+        <Library Value="BulletDynamics.dll"/>
+        <Library Value="BulletCollision.dll"/>
+        <Library Value="LinearMath.dll"/>
+        <Library Value="soundio"/>
+        <Library Value="lua"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./../../built/PepperGrains/WinDebug" Command="&quot;../built/PepperGrains/WinDebug/$(ProjectName)&quot;" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./../../run" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[BOOST_HOME=C:/boost
+VULKAN_HOME=C:/VulkanSDK/1.0.37.0
+SDL2_HOME=../../lib/mingw-w64/SDL2
+GLEW_HOME=../../lib/mingw-w64/GLEW
+GLFW_HOME=../../lib/mingw-w64/glfw-3.2.1
+GLM_HOME=../../lib/src/glm-0.9.8.3
+MINGW64_HOME=C:/mingw-w64/x86_64-5.1.0-posix-seh-rt_v4-rev0/mingw64
+BULLET_HOME=../../lib/mingw-w64/bullet3-2.83.7
+LSIO_HOME=../../lib/mingw-w64/libsoundio-1.1.0
+LUA_HOME=../../lib/mingw-w64/lua-5.3.3]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="yes">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">cp $(SDL2_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes">cp $(GLEW_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes">cp $(GLFW_HOME)/lib/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes">cp $(MINGW64_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes">cp $(BULLET_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes">cp $(LSIO_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes">cp $(LUA_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="WinRelease" CompilerType="MinGW ( mingw64 )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-std=c++11;-Wall" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="../../dependencies/jsoncpp/dist"/>
+        <IncludePath Value="../../dependencies/stb"/>
+        <IncludePath Value="$(BOOST_HOME)"/>
+        <IncludePath Value="$(GLEW_HOME)/include"/>
+        <IncludePath Value="$(GLM_HOME)/include"/>
+        <IncludePath Value="$(SDL2_HOME)/include"/>
+        <IncludePath Value="$(BULLET_HOME)/include/bullet"/>
+        <IncludePath Value="$(LSIO_HOME)/include"/>
+        <IncludePath Value="$(LUA_HOME)/include"/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="$(GLEW_HOME)/lib"/>
+        <LibraryPath Value="$(SDL2_HOME)/lib"/>
+        <LibraryPath Value="$(BOOST_HOME)/lib"/>
+        <LibraryPath Value="$(BULLET_HOME)/lib"/>
+        <LibraryPath Value="$(LSIO_HOME)/lib"/>
+        <LibraryPath Value="$(LUA_HOME)/lib"/>
+        <Library Value="mingw32"/>
+        <Library Value="SDL2main"/>
+        <Library Value="SDL2"/>
+        <Library Value="glew32"/>
+        <Library Value="opengl32"/>
+        <Library Value="boost_system-mgw51-s-1_59"/>
+        <Library Value="boost_filesystem-mgw51-s-1_59"/>
+        <Library Value="BulletDynamics.dll"/>
+        <Library Value="BulletCollision.dll"/>
+        <Library Value="LinearMath.dll"/>
+        <Library Value="soundio"/>
+        <Library Value="lua"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./../../built/PepperGrains/WinRelease" Command="&quot;../built/PepperGrains/WinWinRelease/$(ProjectName)&quot;" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./../../run" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[BOOST_HOME=C:/boost
+SDL2_HOME=../../dependencies-win/mingw-w64/SDL2
+GLEW_HOME=../../dependencies-win/mingw-w64/GLEW
+GLM_HOME=../../dependencies-win/header-only/GLM
+MINGW64_HOME=C:/mingw-w64/x86_64-5.1.0-posix-seh-rt_v4-rev0/mingw64
+BULLET_HOME=../../dependencies-win/mingw-w64/bullet3-2.83.7
+LSIO_HOME=../../dependencies-win/mingw-w64/libsoundio-1.1.0
+LUA_HOME=../../dependencies-win/mingw-w64/lua-5.3.3]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="yes">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">cp $(SDL2_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes">cp $(GLEW_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes">cp $(MINGW64_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes">cp $(BULLET_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes">cp $(LSIO_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes">cp $(LUA_HOME)/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="no"># In case the environment variables fail:</Command>
+        <Command Enabled="no"># cp ../../dependencies-win/mingw-w64/SDL2/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="no"># cp ../../dependencies-win/mingw-w64/GLEW/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="no"># cp C:/mingw-w64/x86_64-5.1.0-posix-seh-rt_v4-rev0/mingw64/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="no"># cp ../../dependencies-win/mingw-w64/bullet3-2.83.7/bin/*.dll $(IntermediateDirectory)</Command>
+        <Command Enabled="yes"/>
+        <Command Enabled="yes"/>
+        <Command Enabled="yes"/>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
