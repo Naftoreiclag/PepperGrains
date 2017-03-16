@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef VSE_GAMELAYER_HPP
-#define VSE_GAMELAYER_HPP
+#ifndef PGG_GAMELAYER_HPP
+#define PGG_GAMELAYER_HPP
 
 #include "Events.hpp"
 
@@ -66,4 +66,4 @@ public:
 
 }
 
-#endif // VSE_GAMELAYER_HPP
+#endif // PGG_GAMELAYER_HPP

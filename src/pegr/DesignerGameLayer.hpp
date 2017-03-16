@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef DesignerGameLayer_HPP
-#define DesignerGameLayer_HPP
+#ifndef PGG_DesignerGameLayer_HPP
+#define PGG_DesignerGameLayer_HPP
 
 #include "Gamelayer.hpp" // Base class: pgg::Gamelayer
 
@@ -182,4 +182,4 @@ public:
 
 }
 
-#endif // DesignerGameLayer_HPP
+#endif // PGG_DesignerGameLayer_HPP
