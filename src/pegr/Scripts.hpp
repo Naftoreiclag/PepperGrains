@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_ENGINESCRIPTS_HPP
-#define PGG_ENGINESCRIPTS_HPP
+#ifndef PEGR_ENGINESCRIPTS_HPP
+#define PEGR_ENGINESCRIPTS_HPP
 
 #include <string>
 
@@ -71,4 +71,4 @@ namespace Scripts {
 } // Scripts
 } // pgg
 
-#endif // PGG_ENGINESCRIPTS_HPP
+#endif // PEGR_ENGINESCRIPTS_HPP

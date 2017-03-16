@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SSAOMODEL_HPP
-#define PGG_SSAOMODEL_HPP
+#ifndef PEGR_SSAOMODEL_HPP
+#define PEGR_SSAOMODEL_HPP
 
 #include "Model.hpp"
 #include "ShaderProgramResource.hpp"
@@ -79,4 +79,4 @@ public:
 
 }
 
-#endif // PGG_SSAOMODEL_HPP
+#endif // PEGR_SSAOMODEL_HPP

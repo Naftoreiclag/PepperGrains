@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_IMAGERESOURCE_HPP
-#define PGG_IMAGERESOURCE_HPP
+#ifndef PEGR_IMAGERESOURCE_HPP
+#define PEGR_IMAGERESOURCE_HPP
 
 #include <stdint.h>
 

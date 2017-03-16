@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SCENENODE_HPP
-#define PGG_SCENENODE_HPP
+#ifndef PEGR_SCENENODE_HPP
+#define PEGR_SCENENODE_HPP
 
 #include <vector>
 

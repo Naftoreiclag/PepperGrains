@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_ENGINERESOURCES_HPP
-#define PGG_ENGINERESOURCES_HPP
+#ifndef PEGR_ENGINERESOURCES_HPP
+#define PEGR_ENGINERESOURCES_HPP
 
 #include <string>
 #include <stdint.h>
@@ -45,4 +45,4 @@ namespace Resources {
 } // Resources
 } // pgg
 
-#endif // PGG_ENGINERESOURCES_HPP
+#endif // PEGR_ENGINERESOURCES_HPP

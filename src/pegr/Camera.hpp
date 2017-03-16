@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_CAMERA_HPP
-#define PGG_CAMERA_HPP
+#ifndef PEGR_CAMERA_HPP
+#define PEGR_CAMERA_HPP
 
 #include <GraphicsApiLibrary.hpp>
 
@@ -53,4 +53,4 @@ public:
 };
 }
 
-#endif // PGG_CAMERA_HPP
+#endif // PEGR_CAMERA_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SCENEGRAPH_HPP
-#define PGG_SCENEGRAPH_HPP
+#ifndef PEGR_SCENEGRAPH_HPP
+#define PEGR_SCENEGRAPH_HPP
 
 #include <functional>
 
@@ -33,4 +33,4 @@ public:
 };
 }
 
-#endif // PGG_SCENEGRAPH_HPP
+#endif // PEGR_SCENEGRAPH_HPP

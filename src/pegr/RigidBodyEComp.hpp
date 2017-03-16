@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_RIGIDBODYCOMP_HPP
-#define PGG_RIGIDBODYCOMP_HPP
+#ifndef PEGR_RIGIDBODYCOMP_HPP
+#define PEGR_RIGIDBODYCOMP_HPP
 
 #include "btBulletDynamicsCommon.h"
 
@@ -52,4 +52,4 @@ public:
 
 }
 
-#endif // PGG_RIGIDBODYCOMP_HPP
+#endif // PEGR_RIGIDBODYCOMP_HPP

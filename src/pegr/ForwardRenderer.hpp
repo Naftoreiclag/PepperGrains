@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_FORWARDRENDERER_HPP
-#define PGG_FORWARDRENDERER_HPP
+#ifndef PEGR_FORWARDRENDERER_HPP
+#define PEGR_FORWARDRENDERER_HPP
 
 #include <stdint.h>
 
@@ -76,4 +76,4 @@ public:
 
 }
 
-#endif // PGG_FORWARDRENDERER_HPP
+#endif // PEGR_FORWARDRENDERER_HPP

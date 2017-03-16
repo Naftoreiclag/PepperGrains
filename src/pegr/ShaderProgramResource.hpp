@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_ShaderProgramResource_HPP
-#define PGG_ShaderProgramResource_HPP
+#ifndef PEGR_ShaderProgramResource_HPP
+#define PEGR_ShaderProgramResource_HPP
 
 #include <string>
 #include <vector>

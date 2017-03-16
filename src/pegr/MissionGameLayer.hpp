@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_MISSIONGAMELAYER_HPP
-#define PGG_MISSIONGAMELAYER_HPP
+#ifndef PEGR_MISSIONGAMELAYER_HPP
+#define PEGR_MISSIONGAMELAYER_HPP
 
 #include "Gamelayer.hpp"
 #include "ShoRenderer.hpp"
@@ -54,4 +54,4 @@ public:
 
 }
 
-#endif // PGG_MISSIONGAMELAYER_HPP
+#endif // PEGR_MISSIONGAMELAYER_HPP

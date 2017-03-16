@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SOUND_RECEIVER_HPP
-#define PGG_SOUND_RECEIVER_HPP
+#ifndef PEGR_SOUND_RECEIVER_HPP
+#define PEGR_SOUND_RECEIVER_HPP
 
 #include <vector>
 
@@ -40,4 +40,4 @@ public:
 } // namespace Sound
 } // namespace pegr
 
-#endif // PGG_SOUND_RECEIVER_HPP
+#endif // PEGR_SOUND_RECEIVER_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_STRINGRESOURCE_HPP
-#define PGG_STRINGRESOURCE_HPP
+#ifndef PEGR_STRINGRESOURCE_HPP
+#define PEGR_STRINGRESOURCE_HPP
 
 #include "Resource.hpp"
 

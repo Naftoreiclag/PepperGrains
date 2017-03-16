@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_VEC3F_HPP
-#define PGG_VEC3F_HPP
+#ifndef PEGR_VEC3F_HPP
+#define PEGR_VEC3F_HPP
 
 #include <ostream>
 
@@ -101,4 +101,4 @@ public:
 // For debugging
 std::ostream& operator<<(std::ostream& os, const pegr::Vec3& v);
 
-#endif // PGG_VEC3F_HPP
+#endif // PEGR_VEC3F_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_MATERIAL_HPP
-#define PGG_MATERIAL_HPP
+#ifndef PEGR_MATERIAL_HPP
+#define PEGR_MATERIAL_HPP
 
 #include "ReferenceCounted.hpp"
 #include "Texture.hpp"
@@ -111,4 +111,4 @@ public:
 
 }
 
-#endif // PGG_MATERIAL_HPP
+#endif // PEGR_MATERIAL_HPP

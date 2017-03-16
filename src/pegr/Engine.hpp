@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_PEPPERGRAINSENGINE_HPP
-#define PGG_PEPPERGRAINSENGINE_HPP
+#ifndef PEGR_PEPPERGRAINSENGINE_HPP
+#define PEGR_PEPPERGRAINSENGINE_HPP
 
 #include <stdint.h>
 
@@ -46,4 +46,4 @@ namespace Engine {
 } // Engine
 } // pgg
 
-#endif // PGG_PEPPERGRAINSENGINE_HPP
+#endif // PEGR_PEPPERGRAINSENGINE_HPP

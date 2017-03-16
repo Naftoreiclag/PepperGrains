@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SOUNDRESOURCE_HPP
-#define PGG_SOUNDRESOURCE_HPP
+#ifndef PEGR_SOUNDRESOURCE_HPP
+#define PEGR_SOUNDRESOURCE_HPP
 
 #include "SoundWaveform.hpp"
 #include "Resource.hpp"
@@ -41,4 +41,4 @@ public:
 
 } // namespace pegr
 
-#endif // PGG_SOUNDRESOURCE_HPP
+#endif // PEGR_SOUNDRESOURCE_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_TEXTURE_HPP
-#define PGG_TEXTURE_HPP
+#ifndef PEGR_TEXTURE_HPP
+#define PEGR_TEXTURE_HPP
 
 #include <stdint.h>
 
@@ -69,4 +69,4 @@ public:
 
 }
 
-#endif // PGG_TEXTURE_HPP
+#endif // PEGR_TEXTURE_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SOUND_MEDIUM_HPP
-#define PGG_SOUND_MEDIUM_HPP
+#ifndef PEGR_SOUND_MEDIUM_HPP
+#define PEGR_SOUND_MEDIUM_HPP
 
 namespace pegr {
 namespace Sound {
@@ -34,4 +34,4 @@ public:
 } // namespace Sound
 } // namespace pegr
 
-#endif // PGG_SOUND_MEDIUM_HPP
+#endif // PEGR_SOUND_MEDIUM_HPP

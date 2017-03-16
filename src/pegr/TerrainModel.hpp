@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_TERRAINMODEL_HPP
-#define PGG_TERRAINMODEL_HPP
+#ifndef PEGR_TERRAINMODEL_HPP
+#define PEGR_TERRAINMODEL_HPP
 
 #include "Model.hpp"
 #include "ShaderProgramResource.hpp"
@@ -48,4 +48,4 @@ public:
 
 }
 
-#endif // PGG_TERRAINMODEL_HPP
+#endif // PEGR_TERRAINMODEL_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_EVENTS_HPP
-#define PGG_EVENTS_HPP
+#ifndef PEGR_EVENTS_HPP
+#define PEGR_EVENTS_HPP
 
 #include <stdint.h>
 #include <string>
@@ -110,4 +110,4 @@ struct WindowResizeEvent {
 
 }
 
-#endif // PGG_EVENTS_HPP
+#endif // PEGR_EVENTS_HPP

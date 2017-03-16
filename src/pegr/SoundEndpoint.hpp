@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SOUND_ENDPOINT_HPP
-#define PGG_SOUND_ENDPOINT_HPP
+#ifndef PEGR_SOUND_ENDPOINT_HPP
+#define PEGR_SOUND_ENDPOINT_HPP
 
 #include <vector>
 #include <mutex>
@@ -139,4 +139,4 @@ void endpointSoundIoWriteCallback(SoundIoOutStream* stream, int minFrames, int m
 } // namespace Sound
 } // namespace pegr
 
-#endif // PGG_SOUND_ENDPOINT_HPP
+#endif // PEGR_SOUND_ENDPOINT_HPP

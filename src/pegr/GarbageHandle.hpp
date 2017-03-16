@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_MEMORY_GARBAGEHANDLE_HPP
-#define PGG_MEMORY_GARBAGEHANDLE_HPP
+#ifndef PEGR_MEMORY_GARBAGEHANDLE_HPP
+#define PEGR_MEMORY_GARBAGEHANDLE_HPP
 
 #include <functional>
 #include <stdint.h>
@@ -218,5 +218,5 @@ public:
 }
 }
 
-#endif // PGG_MEMORY_GARBAGEHANDLE_HPP
+#endif // PEGR_MEMORY_GARBAGEHANDLE_HPP
 

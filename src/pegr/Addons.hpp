@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_ENGINEADDONS_HPP
-#define PGG_ENGINEADDONS_HPP
+#ifndef PEGR_ENGINEADDONS_HPP
+#define PEGR_ENGINEADDONS_HPP
 
 #include <map>
 #include <string>
@@ -118,4 +118,4 @@ namespace Addons {
 }
 }
 
-#endif // PGG_ENGINEADDONS_HPP
+#endif // PEGR_ENGINEADDONS_HPP

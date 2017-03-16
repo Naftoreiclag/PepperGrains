@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_ENGINERESOURCESUTIL_HPP
-#define PGG_ENGINERESOURCESUTIL_HPP
+#ifndef PEGR_ENGINERESOURCESUTIL_HPP
+#define PEGR_ENGINERESOURCESUTIL_HPP
 
 #include <map>
 
@@ -33,4 +33,4 @@ namespace Resources {
 }
 }
 
-#endif // PGG_ENGINERESOURCESUTIL_HPP
+#endif // PEGR_ENGINERESOURCESUTIL_HPP

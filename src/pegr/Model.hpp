@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_MODEL_HPP
-#define PGG_MODEL_HPP
+#ifndef PEGR_MODEL_HPP
+#define PEGR_MODEL_HPP
 
 #include "ReferenceCounted.hpp"
 #include "Resource.hpp"
@@ -51,4 +51,4 @@ public:
 
 }
 
-#endif // PGG_MODEL_HPP
+#endif // PEGR_MODEL_HPP

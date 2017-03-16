@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SPHERICALHARMONICS_HPP
-#define PGG_SPHERICALHARMONICS_HPP
+#ifndef PEGR_SPHERICALHARMONICS_HPP
+#define PEGR_SPHERICALHARMONICS_HPP
 
 #include <stdint.h>
 
@@ -38,4 +38,4 @@ public:
 
 }
 
-#endif // PGG_SPHERICALHARMONICS_HPP
+#endif // PEGR_SPHERICALHARMONICS_HPP

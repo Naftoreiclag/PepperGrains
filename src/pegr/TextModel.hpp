@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_TEXTMODEL_HPP
-#define PGG_TEXTMODEL_HPP
+#ifndef PEGR_TEXTMODEL_HPP
+#define PEGR_TEXTMODEL_HPP
 
 #include <string>
 
@@ -48,4 +48,4 @@ public:
 
 }
 
-#endif // PGG_TEXTMODEL_HPP
+#endif // PEGR_TEXTMODEL_HPP

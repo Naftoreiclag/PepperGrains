@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_REFERENCECOUNTED_HPP
-#define PGG_REFERENCECOUNTED_HPP
+#ifndef PEGR_REFERENCECOUNTED_HPP
+#define PEGR_REFERENCECOUNTED_HPP
 
 #include <stdint.h>
 
@@ -37,4 +37,4 @@ public:
 
 }
 
-#endif // PGG_REFERENCECOUNTED_HPP
+#endif // PEGR_REFERENCECOUNTED_HPP

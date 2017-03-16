@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_TERRAINRESOLVER_HPP
-#define PGG_TERRAINRESOLVER_HPP
+#ifndef PEGR_TERRAINRESOLVER_HPP
+#define PEGR_TERRAINRESOLVER_HPP
 
 #include <stdint.h>
 #include <vector>
@@ -75,4 +75,4 @@ public:
 
 }
 
-#endif // PGG_TERRAINRESOLVER_HPP
+#endif // PEGR_TERRAINRESOLVER_HPP

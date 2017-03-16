@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_RENDERABLE_HPP
-#define PGG_RENDERABLE_HPP
+#ifndef PEGR_RENDERABLE_HPP
+#define PEGR_RENDERABLE_HPP
 
 #include <GraphicsApiLibrary.hpp>
 
@@ -78,4 +78,4 @@ public:
 };
 }
 
-#endif // PGG_RENDERABLE_HPP
+#endif // PEGR_RENDERABLE_HPP

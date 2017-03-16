@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_INPUTINTERACTESIGNAL_HPP
-#define PGG_INPUTINTERACTESIGNAL_HPP
+#ifndef PEGR_INPUTINTERACTESIGNAL_HPP
+#define PEGR_INPUTINTERACTESIGNAL_HPP
 
 namespace pegr {
 
@@ -28,4 +28,4 @@ public:
 
 }
 
-#endif // PGG_INPUTINTERACTESIGNAL_HPP
+#endif // PEGR_INPUTINTERACTESIGNAL_HPP

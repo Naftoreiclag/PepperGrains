@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SIMPLESCENEGRAPH_HPP
-#define PGG_SIMPLESCENEGRAPH_HPP
+#ifndef PEGR_SIMPLESCENEGRAPH_HPP
+#define PEGR_SIMPLESCENEGRAPH_HPP
 
 #include "Scenegraph.hpp"
 
@@ -41,4 +41,4 @@ public:
 
 }
 
-#endif // PGG_SIMPLESCENEGRAPH_HPP
+#endif // PEGR_SIMPLESCENEGRAPH_HPP

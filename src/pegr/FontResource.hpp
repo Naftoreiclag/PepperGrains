@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_FONTRESOURCE_HPP
-#define PGG_FONTRESOURCE_HPP
+#ifndef PEGR_FONTRESOURCE_HPP
+#define PEGR_FONTRESOURCE_HPP
 
 #include "Resource.hpp"
 #include "Texture.hpp"
@@ -54,4 +54,4 @@ public:
 
 }
 
-#endif // PGG_FONTRESOURCE_HPP
+#endif // PEGR_FONTRESOURCE_HPP

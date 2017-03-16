@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_WINDOWINPUTSYSTEMLIBRARY_HPP
-#define PGG_WINDOWINPUTSYSTEMLIBRARY_HPP
+#ifndef PEGR_WINDOWINPUTSYSTEMLIBRARY_HPP
+#define PEGR_WINDOWINPUTSYSTEMLIBRARY_HPP
 
 /* Properly includes either:
  *      SDL
@@ -41,4 +41,4 @@
 #include <GLFW/glfw3.h>
 #endif
 
-#endif // PGG_WINDOWINPUTSYSTEMLIBRARY_HPP
+#endif // PEGR_WINDOWINPUTSYSTEMLIBRARY_HPP

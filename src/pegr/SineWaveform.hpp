@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SINEWAVEFORM_HPP
-#define PGG_SINEWAVEFORM_HPP
+#ifndef PEGR_SINEWAVEFORM_HPP
+#define PEGR_SINEWAVEFORM_HPP
 
 #include "SoundWaveform.hpp"
 
@@ -42,4 +42,4 @@ public:
 
 } // namespace pegr
 
-#endif // PGG_SINEWAVEFORM_HPP
+#endif // PEGR_SINEWAVEFORM_HPP

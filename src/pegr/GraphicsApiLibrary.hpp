@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_GRAPHICSAPILIBRARY_HPP
-#define PGG_GRAPHICSAPILIBRARY_HPP
+#ifndef PEGR_GRAPHICSAPILIBRARY_HPP
+#define PEGR_GRAPHICSAPILIBRARY_HPP
 
 /* Properly includes either:
  *      OPENGL
@@ -60,4 +60,4 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#endif // PGG_GRAPHICSAPILIBRARY_HPP
+#endif // PEGR_GRAPHICSAPILIBRARY_HPP

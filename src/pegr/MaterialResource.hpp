@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_MATERIALRESOURCE_HPP
-#define PGG_MATERIALRESOURCE_HPP
+#ifndef PEGR_MATERIALRESOURCE_HPP
+#define PEGR_MATERIALRESOURCE_HPP
 
 
 #include <json/json.h>

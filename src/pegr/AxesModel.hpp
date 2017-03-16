@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_AXESMODEL_HPP
-#define PGG_AXESMODEL_HPP
+#ifndef PEGR_AXESMODEL_HPP
+#define PEGR_AXESMODEL_HPP
 
 #include "Model.hpp"
 #include "ShaderProgramResource.hpp"
@@ -47,4 +47,4 @@ public:
 
 }
 
-#endif // PGG_AXESMODEL_HPP
+#endif // PEGR_AXESMODEL_HPP

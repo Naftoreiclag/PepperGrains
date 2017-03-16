@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SHORENDERER_HPP
-#define PGG_SHORENDERER_HPP
+#ifndef PEGR_SHORENDERER_HPP
+#define PEGR_SHORENDERER_HPP
 
 #ifdef PGG_OPENGL
 #include "ShoRendererOpenGL.hpp"
@@ -25,4 +25,4 @@
 #include "ShoRendererVulkan.hpp"
 #endif
 
-#endif // PGG_SHORENDERER_HPP
+#endif // PEGR_SHORENDERER_HPP

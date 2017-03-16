@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_GRASSMODEL_HPP
-#define PGG_GRASSMODEL_HPP
+#ifndef PEGR_GRASSMODEL_HPP
+#define PEGR_GRASSMODEL_HPP
 
 #include "Model.hpp"
 #include "GeometryResource.hpp"
@@ -52,4 +52,4 @@ public:
 }
 
 
-#endif // PGG_GRASSMODEL_HPP
+#endif // PEGR_GRASSMODEL_HPP

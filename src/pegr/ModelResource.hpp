@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_MODELRESOURCE_HPP
-#define PGG_MODELRESOURCE_HPP
+#ifndef PEGR_MODELRESOURCE_HPP
+#define PEGR_MODELRESOURCE_HPP
 
 #include "Geometry.hpp"
 #include "Material.hpp"

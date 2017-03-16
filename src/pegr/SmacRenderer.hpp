@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SMACRENDERER_HPP
-#define PGG_SMACRENDERER_HPP
+#ifndef PEGR_SMACRENDERER_HPP
+#define PEGR_SMACRENDERER_HPP
 
 #include <stdint.h>
 
@@ -82,4 +82,4 @@ public:
 
 }
 
-#endif // PGG_SMACRENDERER_HPP
+#endif // PEGR_SMACRENDERER_HPP

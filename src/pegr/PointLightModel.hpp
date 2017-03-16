@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_POINTLIGHTMODEL_HPP
-#define PGG_POINTLIGHTMODEL_HPP
+#ifndef PEGR_POINTLIGHTMODEL_HPP
+#define PEGR_POINTLIGHTMODEL_HPP
 
 #include "Model.hpp"
 #include "GeometryResource.hpp"
@@ -73,4 +73,4 @@ public:
 
 }
 
-#endif // PGG_POINTLIGHTMODEL_HPP
+#endif // PEGR_POINTLIGHTMODEL_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_INPUT_HPP
-#define PGG_INPUT_HPP
+#ifndef PEGR_INPUT_HPP
+#define PEGR_INPUT_HPP
 
 #include <stdint.h>
 
@@ -324,4 +324,4 @@ public:
 
 }
 
-#endif // PGG_INPUT_HPP
+#endif // PEGR_INPUT_HPP

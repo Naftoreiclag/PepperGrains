@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_MANUALMODEL_HPP
-#define PGG_MANUALMODEL_HPP
+#ifndef PEGR_MANUALMODEL_HPP
+#define PEGR_MANUALMODEL_HPP
 
 #include "Model.hpp"
 #include "ShaderProgramResource.hpp"
@@ -42,4 +42,4 @@ public:
 
 }
 
-#endif // PGG_MANUALMODEL_HPP
+#endif // PEGR_MANUALMODEL_HPP

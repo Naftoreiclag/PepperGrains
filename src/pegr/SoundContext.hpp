@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SOUND_CONTEXT_HPP
-#define PGG_SOUND_CONTEXT_HPP
+#ifndef PEGR_SOUND_CONTEXT_HPP
+#define PEGR_SOUND_CONTEXT_HPP
 
 #include <vector>
 
@@ -62,4 +62,4 @@ public:
 } // namespace Sound
 } // namespace pegr
 
-#endif // PGG_SOUND_CONTEXT_HPP
+#endif // PEGR_SOUND_CONTEXT_HPP

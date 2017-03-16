@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_OverworldGameLayer_HPP
-#define PGG_OverworldGameLayer_HPP
+#ifndef PEGR_OverworldGameLayer_HPP
+#define PEGR_OverworldGameLayer_HPP
 
 #include "Gamelayer.hpp" // Base class: pegr::GameLayer
 
@@ -195,4 +195,4 @@ public:
 
 }
 
-#endif // PGG_OverworldGameLayer_HPP
+#endif // PEGR_OverworldGameLayer_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SCENENODEESYS_HPP
-#define PGG_SCENENODEESYS_HPP
+#ifndef PEGR_SCENENODEESYS_HPP
+#define PEGR_SCENENODEESYS_HPP
 
 #include "NRES.hpp" // Base class: nres::System
 
@@ -44,4 +44,4 @@ public:
 
 }
 
-#endif // PGG_SCENENODEESYS_HPP
+#endif // PEGR_SCENENODEESYS_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SCRIPTRESOURCE_HPP
-#define PGG_SCRIPTRESOURCE_HPP
+#ifndef PEGR_SCRIPTRESOURCE_HPP
+#define PEGR_SCRIPTRESOURCE_HPP
 
 #include "Resource.hpp"
 #include "Scripts.hpp"

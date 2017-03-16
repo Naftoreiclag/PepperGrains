@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_MODELINSTANCE_HPP
-#define PGG_MODELINSTANCE_HPP
+#ifndef PEGR_MODELINSTANCE_HPP
+#define PEGR_MODELINSTANCE_HPP
 
 #include <stdint.h>
 
@@ -65,4 +65,4 @@ public:
 };
 }
 
-#endif // PGG_MODELINSTANCE_HPP
+#endif // PEGR_MODELINSTANCE_HPP

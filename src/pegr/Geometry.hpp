@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_GEOMETRY_HPP
-#define PGG_GEOMETRY_HPP
+#ifndef PEGR_GEOMETRY_HPP
+#define PEGR_GEOMETRY_HPP
 
 #include <vector>
 
@@ -109,4 +109,4 @@ public:
 
 }
 
-#endif // PGG_GEOMETRY_HPP
+#endif // PEGR_GEOMETRY_HPP

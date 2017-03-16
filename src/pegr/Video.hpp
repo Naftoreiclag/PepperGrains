@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_ENGINEVIDEO_HPP
-#define PGG_ENGINEVIDEO_HPP
+#ifndef PEGR_ENGINEVIDEO_HPP
+#define PEGR_ENGINEVIDEO_HPP
 
 #include <stdint.h>
 #include <string>
@@ -146,4 +146,4 @@ namespace Video {
 } // Video
 } // pgg
 
-#endif // PGG_ENGINEVIDEO_HPP
+#endif // PEGR_ENGINEVIDEO_HPP

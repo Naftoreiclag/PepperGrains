@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_TEXTURERESOURCE_HPP
-#define PGG_TEXTURERESOURCE_HPP
+#ifndef PEGR_TEXTURERESOURCE_HPP
+#define PEGR_TEXTURERESOURCE_HPP
 
 #include <GraphicsApiLibrary.hpp>
 

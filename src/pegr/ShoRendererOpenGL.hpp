@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_ShoRendererOgOPENGL_HPP
-#define PGG_ShoRendererOgOPENGL_HPP
+#ifndef PEGR_ShoRendererOgOPENGL_HPP
+#define PEGR_ShoRendererOgOPENGL_HPP
 
 #ifdef PGG_OPENGL
 
@@ -88,4 +88,4 @@ typedef ShoRendererOg ShoRenderer;
 
 #endif // PGG_OPENGL
 
-#endif // PGG_ShoRendererOgOPENGL_HPP
+#endif // PEGR_ShoRendererOgOPENGL_HPP

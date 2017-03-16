@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_CUBEROTATIONSSOLVER_HPP
-#define PGG_CUBEROTATIONSSOLVER_HPP
+#ifndef PEGR_CUBEROTATIONSSOLVER_HPP
+#define PEGR_CUBEROTATIONSSOLVER_HPP
 
 namespace pegr {
 
@@ -28,4 +28,4 @@ void resolve();
 
 }
 
-#endif // PGG_CUBEROTATIONSSOLVER_HPP
+#endif // PEGR_CUBEROTATIONSSOLVER_HPP

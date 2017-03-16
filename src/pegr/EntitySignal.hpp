@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_ENTSIGNAL_HPP
-#define PGG_ENTSIGNAL_HPP
+#ifndef PEGR_ENTSIGNAL_HPP
+#define PEGR_ENTSIGNAL_HPP
 
 namespace pegr {
 
@@ -46,4 +46,4 @@ public:
 
 }
 
-#endif // PGG_ENTSIGNAL_HPP
+#endif // PEGR_ENTSIGNAL_HPP

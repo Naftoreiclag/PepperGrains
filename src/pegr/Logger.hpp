@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_ENGINELOGGER_HPP
-#define PGG_ENGINELOGGER_HPP
+#ifndef PEGR_ENGINELOGGER_HPP
+#define PEGR_ENGINELOGGER_HPP
 
 #include <stdint.h>
 #include <iostream>
@@ -83,4 +83,4 @@ namespace Logger {
 } // Logger
 } // pgg
 
-#endif // PGG_ENGINELOGGER_HPP
+#endif // PEGR_ENGINELOGGER_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SunLightModel_HPP
-#define PGG_SunLightModel_HPP
+#ifndef PEGR_SunLightModel_HPP
+#define PEGR_SunLightModel_HPP
 
 #include "Model.hpp"
 #include "ShaderProgramResource.hpp"
@@ -85,4 +85,4 @@ public:
 
 }
 
-#endif // PGG_SunLightModel_HPP
+#endif // PEGR_SunLightModel_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_IMAGE_HPP
-#define PGG_IMAGE_HPP
+#ifndef PEGR_IMAGE_HPP
+#define PEGR_IMAGE_HPP
 
 #include <stdint.h>
 
@@ -72,4 +72,4 @@ public:
 
 }
 
-#endif // PGG_IMAGE_HPP
+#endif // PEGR_IMAGE_HPP

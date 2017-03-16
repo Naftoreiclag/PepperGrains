@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_VULKANUTILS_HPP
-#define PGG_VULKANUTILS_HPP
+#ifndef PEGR_VULKANUTILS_HPP
+#define PEGR_VULKANUTILS_HPP
 
 #ifdef PGG_VULKAN
 
@@ -199,4 +199,4 @@ bool formatHasStencilComponent(VkFormat format);
 
 #endif // PGG_VULKAN
 
-#endif // PGG_VULKANUTILS_HPP
+#endif // PEGR_VULKANUTILS_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_STREAMSTUFF_HPP
-#define PGG_STREAMSTUFF_HPP
+#ifndef PEGR_STREAMSTUFF_HPP
+#define PEGR_STREAMSTUFF_HPP
 
 #include <string>
 #include <fstream>
@@ -68,4 +68,4 @@ double deserializeFloat64(uint64_t iInput);
 
 }
 
-#endif // PGG_STREAMSTUFF_HPP
+#endif // PEGR_STREAMSTUFF_HPP

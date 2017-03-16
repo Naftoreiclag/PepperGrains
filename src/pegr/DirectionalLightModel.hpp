@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_DIRECTIONALLIGHTMODEL_HPP
-#define PGG_DIRECTIONALLIGHTMODEL_HPP
+#ifndef PEGR_DIRECTIONALLIGHTMODEL_HPP
+#define PEGR_DIRECTIONALLIGHTMODEL_HPP
 
 #include "Model.hpp"
 #include "ShaderProgramResource.hpp"
@@ -64,4 +64,4 @@ public:
 
 }
 
-#endif // PGG_DIRECTIONALLIGHTMODEL_HPP
+#endif // PEGR_DIRECTIONALLIGHTMODEL_HPP

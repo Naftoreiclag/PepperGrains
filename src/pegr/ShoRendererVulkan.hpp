@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SHORENDERERVULKAN_HPP
-#define PGG_SHORENDERERVULKAN_HPP
+#ifndef PEGR_SHORENDERERVULKAN_HPP
+#define PEGR_SHORENDERERVULKAN_HPP
 
 #ifdef PGG_VULKAN
 
@@ -131,4 +131,4 @@ typedef ShoRendererVk ShoRenderer;
 
 #endif // PGG_VULKAN
 
-#endif // PGG_SHORENDERERVULKAN_HPP
+#endif // PEGR_SHORENDERERVULKAN_HPP

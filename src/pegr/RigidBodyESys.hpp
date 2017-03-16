@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_RIGIDBODYESYS_HPP
-#define PGG_RIGIDBODYESYS_HPP
+#ifndef PEGR_RIGIDBODYESYS_HPP
+#define PEGR_RIGIDBODYESYS_HPP
 
 #include "btBulletDynamicsCommon.h"
 
@@ -57,4 +57,4 @@ public:
 
 }
 
-#endif // PGG_RIGIDBODYESYS_HPP
+#endif // PEGR_RIGIDBODYESYS_HPP

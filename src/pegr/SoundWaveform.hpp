@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SOUND_WAVEFORM_HPP
-#define PGG_SOUND_WAVEFORM_HPP
+#ifndef PEGR_SOUND_WAVEFORM_HPP
+#define PEGR_SOUND_WAVEFORM_HPP
 
 #include "soundio/soundio.h"
 
@@ -56,4 +56,4 @@ public:
 } // namespace Sound
 } // namespace pegr
 
-#endif // PGG_SOUND_WAVEFORM_HPP
+#endif // PEGR_SOUND_WAVEFORM_HPP

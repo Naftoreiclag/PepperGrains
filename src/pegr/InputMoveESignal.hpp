@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_MOVEINPUTESIGNAL_HPP
-#define PGG_MOVEINPUTESIGNAL_HPP
+#ifndef PEGR_MOVEINPUTESIGNAL_HPP
+#define PEGR_MOVEINPUTESIGNAL_HPP
 
 #include "EntitySignal.hpp"
 
@@ -35,4 +35,4 @@ public:
 
 }
 
-#endif // PGG_MOVEINPUTESIGNAL_HPP
+#endif // PEGR_MOVEINPUTESIGNAL_HPP

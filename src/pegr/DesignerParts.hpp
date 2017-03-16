@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_DESIGNERPARTS_HPP
-#define PGG_DESIGNERPARTS_HPP
+#ifndef PEGR_DESIGNERPARTS_HPP
+#define PEGR_DESIGNERPARTS_HPP
 
 #include <stdint.h>
 #include <vector>
@@ -226,4 +226,4 @@ public:
 };
 }
 
-#endif // PGG_DESIGNERPARTS_HPP
+#endif // PEGR_DESIGNERPARTS_HPP

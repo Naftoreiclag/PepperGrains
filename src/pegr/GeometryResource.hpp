@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_GEOMETRYRESOURCE_HPP
-#define PGG_GEOMETRYRESOURCE_HPP
+#ifndef PEGR_GEOMETRYRESOURCE_HPP
+#define PEGR_GEOMETRYRESOURCE_HPP
 
 #ifdef PGG_OPENGL
 #include "GeometryResourceOpenGL.hpp"
@@ -25,4 +25,4 @@
 #include "GeometryResourceVulkan.hpp"
 #endif
 
-#endif // PGG_GEOMETRYRESOURCE_HPP
+#endif // PEGR_GEOMETRYRESOURCE_HPP

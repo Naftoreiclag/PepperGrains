@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_MATHUTIL_HPP
-#define PGG_MATHUTIL_HPP
+#ifndef PEGR_MATHUTIL_HPP
+#define PEGR_MATHUTIL_HPP
 
 #include <GraphicsApiLibrary.hpp>
 
@@ -59,4 +59,4 @@ float randFloat(float min, float max);
 
 
 
-#endif // PGG_MATHUTIL_HPP
+#endif // PEGR_MATHUTIL_HPP

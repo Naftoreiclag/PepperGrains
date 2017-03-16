@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_SCENENODECOMPONENT_HPP
-#define PGG_SCENENODECOMPONENT_HPP
+#ifndef PEGR_SCENENODECOMPONENT_HPP
+#define PEGR_SCENENODECOMPONENT_HPP
 
 #include "NRES.hpp" // Base class: nres::Component
 
@@ -39,4 +39,4 @@ public:
 
 }
 
-#endif // PGG_SCENENODECOMPONENT_HPP
+#endif // PEGR_SCENENODECOMPONENT_HPP

@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_RESOURCE_HPP
-#define PGG_RESOURCE_HPP
+#ifndef PEGR_RESOURCE_HPP
+#define PEGR_RESOURCE_HPP
 
 #include <stdint.h>
 

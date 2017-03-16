@@ -14,8 +14,8 @@
    limitations under the License.
 */
 
-#ifndef PGG_QUATE_HPP
-#define PGG_QUATE_HPP
+#ifndef PEGR_QUATE_HPP
+#define PEGR_QUATE_HPP
 
 #include "btBulletDynamicsCommon.h"
 #include "GraphicsApiLibrary.hpp"
@@ -47,4 +47,4 @@ public:
 
 }
 
-#endif // PGG_QUATE_HPP
+#endif // PEGR_QUATE_HPP
