@@ -19,11 +19,14 @@ includeDirListVector = '### INCLUDE DIR LIST ###'
 sourcePath = '../src/pegr/'
 sourceList = []
 includeDirList = []
+allowedFileExts = ['.cpp']
+blacklistedDirs = ['deprecated/']
 outputFilename = '../cmake/EngineSrcList.cmake'
 boilerplateFilename = 'EngineSrcListBoilerplate.cmake'
 
 def addSource(filename):
-    if not filename.startswith('deprecated/') and filename.endswith('.cpp'):
+    if not any(filename.startswith(dir) for dir in blacklistedDirs) \
+            and any(filename.endswith(ext) for ext in allowedFileExts):
         sourceList.append(filename)
         fileParentName = str(os.path.dirname(filename))
         if fileParentName and fileParentName not in includeDirList:
