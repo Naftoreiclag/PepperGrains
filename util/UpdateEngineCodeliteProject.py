@@ -60,8 +60,43 @@ if not pegrVirtualDir:
 pegrVirtualDir.clear()
 pegrVirtualDir.set('Name', 'pegr')
 
-for source in sourceList:
-    sourceElem = ET.SubElement(pegrVirtualDir, 'File')
-    sourceElem.set('Name', source)
+for sourcePath in sourceList:
+    
+    def decomposePath(path):
+        '''
+        Converts a path into a list of directory names leading up to the tail
+        (filename) and the filename.
+        '''
+        path, filename = os.path.split(path)
+        decomposed = []
+        while True:
+            head, tail = os.path.split(path)
+            if tail:
+                decomposed.append(tail)
+                path = head
+            else:
+                break
+        decomposed.reverse()
+        return decomposed
+    
+    path = decomposePath(sourcePath)
+    
+    parentElem = pegrVirtualDir
+    for dirName in path:
+        parentChildren = parentElem.findall('VirtualDirectory')
+        
+        foundChild = None
+        for childElem in parentChildren:
+            if childElem.get('Name') == dirName:
+                foundChild = childElem
+                break
+        if foundChild:
+            parentElem = foundChild
+        else:
+            parentElem = ET.SubElement(parentElem, 'VirtualDirectory')
+            parentElem.set('Name', dirName)
+
+    sourceElem = ET.SubElement(parentElem, 'File')
+    sourceElem.set('Name', sourcePath)
 
 projectEtree.write(projectFilename)
