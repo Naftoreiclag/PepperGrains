@@ -66,10 +66,10 @@ see individual library homepages for more accurate licensing information.*
 
 By default, Peppergrains expects its runtime environment to be set up such that:
 - `<home>/user/` contains all player-specific data
-- `<home>/user/addons` contains all addons that can be loaded
+- `<home>/user/addons/` contains all addons that can be loaded
 - `<home>/resources/` contains all essential engine resources
 
-`<home>` is by default `..`.
+`<home>` is by default `../`.
 
 ## Miscellaneous
 
@@ -77,8 +77,8 @@ By default, Peppergrains expects its runtime environment to be set up such that:
 
 In the `util/` directory are Python scripts located that you may find useful:
 - `GenerateEngineSrcList.py` populates the cmake file 
-  `cmake/EngineSrcList.cmake` from the contents of the `src/` directory.
+  `cmake/EngineSrcList.cmake` from the contents of the `src/pegr/` directory.
 - `UpdateEngineCodeliteProject.py` populates a [Codelite](https://codelite.org/)
   project file (by default, `src/pegr/Codelite.project`) with the source files 
-  located in the `src/` directory, similar to `GenerateEngineSrcList.py`.
+  located in the `src/pegr/` directory, similar to `GenerateEngineSrcList.py`.
 
