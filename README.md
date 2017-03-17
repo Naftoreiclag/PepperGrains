@@ -71,3 +71,12 @@ By default, Peppergrains expects its runtime environment to be set up such that:
 
 `<home>` is by default `..`.
 
+## Miscellaneous
+
+### Utilities
+
+In the `util/` directory are Python scripts located that you may find useful:
+- `GenerateEngineSrcList.py` automatically populates the cmake file 
+  `cmake/EngineSrcList.cmake` from the contents of the `src/` directory.
+
+
