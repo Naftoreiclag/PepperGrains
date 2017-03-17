@@ -75,7 +75,7 @@ By default, Peppergrains expects its runtime environment to be set up such that:
 
 ### Utilities
 
-In the `util/` directory are Python scripts located that you may find useful:
+In the `util/` directory are Python scripts that you may find useful:
 - `GenerateEngineSrcList.py` populates the cmake file 
   `cmake/EngineSrcList.cmake` from the contents of the `src/pegr/` directory.
 - `UpdateEngineCodeliteProject.py` populates a [Codelite](https://codelite.org/)
