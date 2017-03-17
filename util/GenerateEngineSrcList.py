@@ -14,36 +14,21 @@
 
 import os
 
+from Common import indexFiles
+
 sourceListVector = '### SOURCE LIST ###'
 includeDirListVector = '### INCLUDE DIR LIST ###'
 sourcePath = '../src/pegr/'
-sourceList = []
-includeDirList = []
 allowedFileExts = ['.cpp']
 blacklistedDirs = ['deprecated/']
 outputFilename = '../cmake/EngineSrcList.cmake'
 boilerplateFilename = 'EngineSrcListBoilerplate.cmake'
 
-def addSource(filename):
-    if not any(filename.startswith(dir) for dir in blacklistedDirs) \
-            and any(filename.endswith(ext) for ext in allowedFileExts):
-        sourceList.append(filename)
-        fileParentName = str(os.path.dirname(filename))
-        if fileParentName and fileParentName not in includeDirList:
-            includeDirList.append(fileParentName)
+sourceList, includeDirList, _ = \
+    indexFiles('../src/pegr/', allowedFileExts, blacklistedDirs)
 
-def recursiveSearch(prefixStr, location):
-    for node in os.listdir(location):
-        nodeLocation = os.path.join(location, node)
-    
-        if os.path.isfile(nodeLocation):
-            addSource(prefixStr + str(node))
-        else:
-            recursiveSearch(prefixStr + str(node) + '/', nodeLocation)
-
-recursiveSearch('', sourcePath)
-sourceList = sorted(sourceList)
-includeDirList = sorted(includeDirList)
+print('Sources: ' + str(len(sourceList)))
+print('Directories: ' + str(len(includeDirList)))
 
 with open(outputFilename, 'w+') as outputFile:
     with open(boilerplateFilename, 'r+') as boilerplateFile:
