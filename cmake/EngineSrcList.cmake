@@ -76,20 +76,5 @@ foreach(fname
 "video/VulkanUtils.cpp"
 
 )
-list(APPEND PGLOCAL_SOURCES_LIST "${PGLOCAL_SOURCE_DIR}/${fname}")
-endforeach()
-
-# This function appends the provided string list to PGLOCAL_INCLUDE_DIRS
-foreach(dirname 
-
-"addons"
-"math"
-"misc"
-"resources"
-"scripts"
-"sound"
-"video"
-
-)
-list(APPEND PGLOCAL_INCLUDE_DIRS "${PGLOCAL_SOURCE_DIR}/${dirname}")
+list(APPEND PGLOCAL_SOURCES_LIST "${PGLOCAL_SOURCE_DIR}/pegr/${fname}")
 endforeach()

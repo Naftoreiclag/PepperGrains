@@ -32,8 +32,5 @@ with open(outputFilename, 'w') as outputFile:
             if line.startswith(sourceListVector):
                 for sourceEntry in sourceList:
                     outputFile.write('\"' + sourceEntry + '\"\n')
-            elif line.startswith(includeDirListVector):
-                for includeDirEntry in includeDirList:
-                    outputFile.write('\"' + includeDirEntry + '\"\n')
             else:
                 outputFile.write(line)

@@ -19,7 +19,7 @@ includePrefix = 'pegr/'
 
 from Common import indexFiles
 headerFnames, _, filenameToPath = \
-    indexFiles(searchPath, ['.hpp', '.cpp'], ['deprecated/'])
+    indexFiles(searchPath, ['.hpp', '.cpp'], [])
 
 import re
 
