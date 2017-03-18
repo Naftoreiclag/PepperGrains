@@ -17,15 +17,15 @@
 #ifndef PEGR_DESIGNERGAMELAYER_HPP
 #define PEGR_DESIGNERGAMELAYER_HPP
 
-#include "Gamelayer.hpp" // Base class: pegr::Gamelayer
+#include <Gamelayer.hpp>
 
 #include <vector>
 
-#include "btBulletDynamicsCommon.h"
-#include "SDL2/SDL.h"
+#include <btBulletDynamicsCommon.h>
+#include <SDL2/SDL.h>
 
 #include "pegr/deprecated/DesignerParts.hpp"
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 #include "pegr/deprecated/DeferredRenderer.hpp"
 #include "pegr/math/Vec2.hpp"
 #include "pegr/deprecated/DebugInfiniteCheckerboardModel.hpp"

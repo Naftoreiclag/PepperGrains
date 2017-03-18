@@ -20,10 +20,10 @@
 #include <stdint.h>
 #include <vector>
 
-#include "btBulletDynamicsCommon.h"
+#include <btBulletDynamicsCommon.h>
 
 #include "pegr/deprecated/SceneNode.hpp"
-#include "OpenGLStuff.hpp"
+#include <OpenGLStuff.hpp>
 #include "pegr/deprecated/DeferredRenderer.hpp"
 #include "pegr/video/ShaderProgramResource.hpp"
 #include "pegr/video/GeometryResource.hpp"

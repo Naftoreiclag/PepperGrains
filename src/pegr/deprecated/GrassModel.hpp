@@ -21,7 +21,7 @@
 #include "pegr/video/GeometryResource.hpp"
 #include "pegr/video/ShaderProgramResource.hpp"
 #include "pegr/video/TextureResource.hpp"
-#include "OpenGLStuff.hpp"
+#include <OpenGLStuff.hpp>
 
 namespace pegr {
 

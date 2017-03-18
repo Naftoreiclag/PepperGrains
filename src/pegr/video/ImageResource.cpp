@@ -21,7 +21,7 @@
 
 #include "pegr/video/GraphicsApiLibrary.hpp"
 #define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
+#include <stb_image.h>
 
 #include "pegr/video/Video.hpp"
 #include "pegr/misc/Logger.hpp"

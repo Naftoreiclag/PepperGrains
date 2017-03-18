@@ -17,7 +17,7 @@
 #ifndef PEGR_QUATE_HPP
 #define PEGR_QUATE_HPP
 
-#include "btBulletDynamicsCommon.h"
+#include <btBulletDynamicsCommon.h>
 #include "pegr/video/GraphicsApiLibrary.hpp"
 
 // Nothing but a way to easily convert between the many quaternion types

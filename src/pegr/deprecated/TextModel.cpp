@@ -16,7 +16,7 @@
 
 #include "pegr/deprecated/TextModel.hpp"
 
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
 

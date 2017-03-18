@@ -22,7 +22,7 @@
 #include <cstdint>
 #include <vector>
 
-#include "OpenGLStuff.hpp"
+#include <OpenGLStuff.hpp>
 
 namespace pegr {
 

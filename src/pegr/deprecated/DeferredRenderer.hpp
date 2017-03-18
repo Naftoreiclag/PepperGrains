@@ -19,7 +19,7 @@
 
 #include <stdint.h>
 
-#include "OpenGLStuff.hpp"
+#include <OpenGLStuff.hpp>
 #include "pegr/misc/HardValueStuff.hpp"
 #include "pegr/misc/ReferenceCounted.hpp"
 #include "pegr/video/GeometryResource.hpp"

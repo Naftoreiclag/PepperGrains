@@ -19,7 +19,7 @@
 
 #include "pegr/video/Model.hpp"
 #include "pegr/video/ShaderProgramResource.hpp"
-#include "OpenGLStuff.hpp"
+#include <OpenGLStuff.hpp>
 
 namespace pegr {
 

@@ -19,7 +19,7 @@
 
 #include <stdint.h>
 
-#include "OpenGLStuff.hpp"
+#include <OpenGLStuff.hpp>
 #include "pegr/video/ShaderProgramResource.hpp"
 #include "pegr/video/Renderable.hpp"
 

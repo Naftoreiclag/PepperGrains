@@ -21,8 +21,8 @@
 #include <iostream>
 #include <sstream>
 
-#include "glm/gtx/string_cast.hpp"
-#include "SDL2/SDL.h"
+#include <glm/gtx/string_cast.hpp>
+#include <SDL2/SDL.h>
 
 #include "pegr/deprecated/InputMoveESignal.hpp"
 #include "pegr/deprecated/DebugFPControllerEListe.hpp"

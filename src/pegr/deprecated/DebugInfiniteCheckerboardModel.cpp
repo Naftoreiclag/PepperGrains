@@ -19,7 +19,7 @@
 #include <iostream>
 #include <math.h>
 
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
 

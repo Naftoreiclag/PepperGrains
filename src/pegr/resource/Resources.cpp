@@ -19,7 +19,7 @@
 #include <algorithm>
 #include <map>
 
-#include "boost/filesystem.hpp"
+#include <boost/filesystem.hpp>
 #include <json/json.h>
 
 #include "pegr/addon/Addons.hpp"

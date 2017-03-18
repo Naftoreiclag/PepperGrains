@@ -17,7 +17,7 @@
 #ifndef PEGR_RIGIDBODYESYS_HPP
 #define PEGR_RIGIDBODYESYS_HPP
 
-#include "btBulletDynamicsCommon.h"
+#include <btBulletDynamicsCommon.h>
 
 #include "pegr/deprecated/NRES.hpp"
 

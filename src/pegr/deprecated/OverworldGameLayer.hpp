@@ -17,15 +17,15 @@
 #ifndef PEGR_OVERWORLDGAMELAYER_HPP
 #define PEGR_OVERWORLDGAMELAYER_HPP
 
-#include "Gamelayer.hpp" // Base class: pegr::GameLayer
+#include <Gamelayer.hpp>
 
-#include "btBulletDynamicsCommon.h"
-#include "SDL2/SDL.h"
+#include <btBulletDynamicsCommon.h>
+#include <SDL2/SDL.h>
 
 #include "pegr/deprecated/NRES.hpp"
 
 #include "pegr/deprecated/AxesModel.hpp"
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 #include "pegr/deprecated/RigidBodyESys.hpp"
 #include "pegr/deprecated/SceneNode.hpp"
 #include "pegr/deprecated/SceneNodeESys.hpp"

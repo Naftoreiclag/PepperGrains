@@ -16,7 +16,7 @@
 
 #ifdef PGG_OPENGL
 
-#include "ShoRendererOgOpenGL.hpp"
+#include <ShoRendererOgOpenGL.hpp>
 
 #include "pegr/resource/Resources.hpp"
 #include "pegr/misc/Logger.hpp"

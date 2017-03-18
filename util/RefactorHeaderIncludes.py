@@ -41,13 +41,15 @@ for headerFname in headerFnames:
             if includeFname in filenameToPath:
                 replaceInclude = includePrefix + filenameToPath[includeFname]
                 replaceLine = '#include "' + replaceInclude + '"\n'
+            else:
+                replaceLine = '#include <' + originalInclude + '>\n'
         
         if replaceLine != headerLine:
             if not changesMade:
                 print(headerFname)
                 changesMade = True
             headerLines[lineIdx] = replaceLine
-            print('\t' + originalInclude + ' --> ' + replaceInclude)
+            print('\t' + headerLine[:-1] + ' --> ' + replaceLine[:-1])
     if changesMade:
         with open(searchPath + headerFname, 'w') as headerFile:
             headerFile.writelines(headerLines)

@@ -20,7 +20,7 @@
 #include <vector>
 #include <mutex>
 
-#include "soundio/soundio.h"
+#include <soundio/soundio.h>
 
 #include "pegr/sound/SoundWaveform.hpp"
 

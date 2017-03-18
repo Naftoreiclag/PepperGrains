@@ -14,12 +14,12 @@
  *  limitations under the License.
  */
 
-#include "GamelayerMachine.hpp"
+#include <GamelayerMachine.hpp>
 
 #include <algorithm>
 #include <cassert>
 
-#include "Gamelayer.hpp"
+#include <Gamelayer.hpp>
 
 namespace pegr {
     

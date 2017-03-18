@@ -17,7 +17,7 @@
 #include "pegr/deprecated/SSAOModel.hpp"
 
 #include "pegr/math/MathUtil.hpp"
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
 

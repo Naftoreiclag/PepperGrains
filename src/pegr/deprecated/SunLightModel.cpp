@@ -17,7 +17,7 @@
 #include "pegr/deprecated/SunLightModel.hpp"
 
 #include "pegr/math/MathUtil.hpp"
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
 
