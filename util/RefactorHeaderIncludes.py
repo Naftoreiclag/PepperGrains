@@ -1,0 +1,48 @@
+#   Copyright 2017 James Fong
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+
+import os
+
+searchPath = '../src/pegr/'
+includePrefix = 'pegr/'
+
+from Common import indexFiles
+headerFnames, _, filenameToPath = \
+    indexFiles(searchPath, ['.hpp', '.cpp'], ['deprecated/'])
+
+import re
+
+includePattern = re.compile('#include\s+["<](\S*)[">]')
+
+for headerFname in headerFnames:
+    with open(searchPath + headerFname, 'r') as headerFile:
+        headerLines = headerFile.readlines()
+    
+    print(headerFname)
+    changesMade = False
+    for lineIdx in range(len(headerLines)):
+        headerLine = headerLines[lineIdx]
+        replaceLine = headerLine
+        match = includePattern.match(headerLine)
+        if match:
+            originalInclude = match.group(1)
+            
+            if originalInclude in filenameToPath:
+                replaceInclude = includePrefix + filenameToPath[originalInclude]
+                changesMade = True
+                headerLines[lineIdx] = '#include "' + replaceInclude + '"\n'
+                print('\t' + originalInclude + ' --> ' + replaceInclude)
+    if changesMade:
+        with open(searchPath + headerFname, 'w') as headerFile:
+            headerFile.writelines(headerLines)
