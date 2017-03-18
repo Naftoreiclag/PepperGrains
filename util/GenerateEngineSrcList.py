@@ -26,8 +26,8 @@ boilerplateFilename = 'EngineSrcListBoilerplate.cmake'
 print('Sources: ' + str(len(sourceList)))
 print('Directories: ' + str(len(includeDirList)))
 
-with open(outputFilename, 'w+') as outputFile:
-    with open(boilerplateFilename, 'r+') as boilerplateFile:
+with open(outputFilename, 'w') as outputFile:
+    with open(boilerplateFilename, 'r') as boilerplateFile:
         for line in boilerplateFile:
             if line.startswith(sourceListVector):
                 for sourceEntry in sourceList:
