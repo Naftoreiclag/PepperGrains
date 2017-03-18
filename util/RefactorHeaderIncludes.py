@@ -29,7 +29,6 @@ for headerFname in headerFnames:
     with open(searchPath + headerFname, 'r') as headerFile:
         headerLines = headerFile.readlines()
     
-    print(headerFname)
     changesMade = False
     for lineIdx in range(len(headerLines)):
         headerLine = headerLines[lineIdx]
@@ -37,12 +36,18 @@ for headerFname in headerFnames:
         match = includePattern.match(headerLine)
         if match:
             originalInclude = match.group(1)
+            _, includeFname = os.path.split(originalInclude)
             
-            if originalInclude in filenameToPath:
-                replaceInclude = includePrefix + filenameToPath[originalInclude]
+            if includeFname in filenameToPath:
+                replaceInclude = includePrefix + filenameToPath[includeFname]
+                replaceLine = '#include "' + replaceInclude + '"\n'
+        
+        if replaceLine != headerLine:
+            if not changesMade:
+                print(headerFname)
                 changesMade = True
-                headerLines[lineIdx] = '#include "' + replaceInclude + '"\n'
-                print('\t' + originalInclude + ' --> ' + replaceInclude)
+            headerLines[lineIdx] = replaceLine
+            print('\t' + originalInclude + ' --> ' + replaceInclude)
     if changesMade:
         with open(searchPath + headerFname, 'w') as headerFile:
             headerFile.writelines(headerLines)
