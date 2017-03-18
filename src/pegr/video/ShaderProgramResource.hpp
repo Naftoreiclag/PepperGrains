@@ -23,7 +23,7 @@
 #include "pegr/video/GraphicsApiLibrary.hpp"
 
 #include "pegr/video/Renderable.hpp"
-#include "pegr/resources/Resource.hpp"
+#include "pegr/resource/Resource.hpp"
 #include "pegr/video/ShaderResource.hpp"
 
 namespace pegr {

@@ -19,7 +19,7 @@
 
 #include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "pegr/resources/Resource.hpp"
+#include "pegr/resource/Resource.hpp"
 
 namespace pegr {
 

@@ -22,7 +22,7 @@
 set(PGLOCAL_SOURCES_LIST "")
 foreach(fname 
 
-"addons/Addons.cpp"
+"addon/Addons.cpp"
 "math/MathUtil.cpp"
 "math/Quate.cpp"
 "math/Spharm.cpp"
@@ -39,11 +39,11 @@ foreach(fname
 "misc/ReferenceCounted.cpp"
 "misc/StreamStuff.cpp"
 "misc/StringResource.cpp"
-"resources/Resource.cpp"
-"resources/Resources.cpp"
-"resources/ResourcesUtil.cpp"
-"scripts/ScriptResource.cpp"
-"scripts/Scripts.cpp"
+"resource/Resource.cpp"
+"resource/Resources.cpp"
+"resource/ResourcesUtil.cpp"
+"script/ScriptResource.cpp"
+"script/Scripts.cpp"
 "sound/SineWaveform.cpp"
 "sound/SoundContext.cpp"
 "sound/SoundEndpoint.cpp"

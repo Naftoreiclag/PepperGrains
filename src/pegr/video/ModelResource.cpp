@@ -23,7 +23,7 @@
 #include <json/json.h>
 
 #include "pegr/misc/Logger.hpp"
-#include "pegr/resources/Resources.hpp"
+#include "pegr/resource/Resources.hpp"
 
 #include "pegr/video/MaterialResource.hpp"
 #include "pegr/video/GeometryResource.hpp"

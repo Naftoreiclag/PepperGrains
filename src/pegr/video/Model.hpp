@@ -18,7 +18,7 @@
 #define PEGR_MODEL_HPP
 
 #include "pegr/misc/ReferenceCounted.hpp"
-#include "pegr/resources/Resource.hpp"
+#include "pegr/resource/Resource.hpp"
 #include "pegr/video/Renderable.hpp"
 #include "pegr/video/Geometry.hpp"
 #include "pegr/video/Material.hpp"

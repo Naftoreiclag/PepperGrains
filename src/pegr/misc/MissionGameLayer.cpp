@@ -23,7 +23,7 @@
 #include "pegr/video/Video.hpp"
 #include "pegr/video/ModelInstance.hpp"
 #include "pegr/video/ModelResource.hpp"
-#include "pegr/resources/Resources.hpp"
+#include "pegr/resource/Resources.hpp"
 
 namespace pegr {
 

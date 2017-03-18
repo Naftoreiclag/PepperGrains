@@ -21,7 +21,7 @@
 #include "pegr/video/Image.hpp"
 #include "pegr/video/ImageResource.hpp"
 #include "pegr/video/TextureResource.hpp"
-#include "pegr/resources/Resources.hpp"
+#include "pegr/resource/Resources.hpp"
 #include "pegr/video/Video.hpp"
 #include "pegr/misc/Logger.hpp"
 #include "pegr/video/VulkanUtils.hpp"

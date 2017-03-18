@@ -16,7 +16,7 @@
 
 #include "pegr/deprecated/ForwardRenderer.hpp"
 
-#include "pegr/resources/Resources.hpp"
+#include "pegr/resource/Resources.hpp"
 
 namespace pegr {
 

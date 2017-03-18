@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "pegr/addons/Addons.hpp"
+#include "pegr/addon/Addons.hpp"
 
 #include <cassert>
 #include <vector>
@@ -23,9 +23,9 @@
 #include <json/json.h>
 #include "boost/filesystem.hpp"
 
-#include "pegr/resources/ResourcesUtil.hpp"
+#include "pegr/resource/ResourcesUtil.hpp"
 #include "pegr/misc/Logger.hpp"
-#include "pegr/scripts/ScriptResource.hpp"
+#include "pegr/script/ScriptResource.hpp"
 
 namespace pegr {
 namespace Addons {

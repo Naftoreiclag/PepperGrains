@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "pegr/scripts/ScriptResource.hpp"
+#include "pegr/script/ScriptResource.hpp"
 
 #include <fstream>
 #include <iostream>

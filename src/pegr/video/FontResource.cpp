@@ -21,7 +21,7 @@
 #include <vector>
 
 #include "pegr/misc/StreamStuff.hpp"
-#include "pegr/resources/Resources.hpp"
+#include "pegr/resource/Resources.hpp"
 #include "pegr/video/ShaderProgramResource.hpp"
 #include "pegr/video/TextureResource.hpp"
 

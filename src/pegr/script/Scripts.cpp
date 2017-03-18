@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "pegr/scripts/Scripts.hpp"
+#include "pegr/script/Scripts.hpp"
 
 #include <algorithm>
 #include <cassert>

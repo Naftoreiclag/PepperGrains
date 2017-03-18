@@ -21,7 +21,7 @@
 #include <json/json.h>
 #include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "pegr/resources/Resource.hpp"
+#include "pegr/resource/Resource.hpp"
 #include "pegr/video/ShaderProgramResource.hpp"
 #include "pegr/video/Texture.hpp"
 #include "pegr/video/Model.hpp"

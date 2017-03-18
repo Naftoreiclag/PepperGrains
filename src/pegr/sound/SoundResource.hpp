@@ -18,7 +18,7 @@
 #define PEGR_SOUNDRESOURCE_HPP
 
 #include "pegr/sound/SoundWaveform.hpp"
-#include "pegr/resources/Resource.hpp"
+#include "pegr/resource/Resource.hpp"
 
 namespace pegr {
 

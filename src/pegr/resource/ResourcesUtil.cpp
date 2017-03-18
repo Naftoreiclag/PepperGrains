@@ -14,20 +14,20 @@
  *  limitations under the License.
  */
 
-#include "pegr/resources/ResourcesUtil.hpp"
+#include "pegr/resource/ResourcesUtil.hpp"
 
 #include "pegr/video/ImageResource.hpp"
 #include "pegr/video/MaterialResource.hpp"
 #include "pegr/misc/MiscResource.hpp"
 #include "pegr/video/ModelResource.hpp"
-#include "pegr/resources/Resource.hpp"
+#include "pegr/resource/Resource.hpp"
 #include "pegr/misc/StringResource.hpp"
 #include "pegr/video/TextureResource.hpp"
 #include "pegr/video/GeometryResource.hpp"
 #include "pegr/video/ShaderResource.hpp"
 #include "pegr/video/ShaderProgramResource.hpp"
 #include "pegr/video/FontResource.hpp"
-#include "pegr/scripts/ScriptResource.hpp"
+#include "pegr/script/ScriptResource.hpp"
 #include "pegr/misc/Logger.hpp"
 
 namespace pegr {

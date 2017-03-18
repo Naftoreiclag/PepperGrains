@@ -20,7 +20,7 @@
 #include "pegr/video/Geometry.hpp"
 #include "pegr/video/Material.hpp"
 #include "pegr/video/Model.hpp"
-#include "pegr/resources/Resource.hpp"
+#include "pegr/resource/Resource.hpp"
 
 namespace pegr {
 

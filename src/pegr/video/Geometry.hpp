@@ -22,7 +22,7 @@
 #include "pegr/video/GraphicsApiLibrary.hpp"
 
 #include "pegr/misc/ReferenceCounted.hpp"
-#include "pegr/resources/Resource.hpp"
+#include "pegr/resource/Resource.hpp"
 #include "pegr/math/Vec3.hpp"
 
 namespace pegr {

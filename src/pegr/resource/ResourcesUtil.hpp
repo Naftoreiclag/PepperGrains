@@ -22,7 +22,7 @@
 #include "boost/filesystem.hpp"
 #include <json/json.h>
 
-#include "pegr/resources/Resources.hpp"
+#include "pegr/resource/Resources.hpp"
 
 namespace pegr {
 namespace Resources {

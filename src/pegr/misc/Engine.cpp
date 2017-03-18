@@ -31,9 +31,9 @@
 #include "MissionGamelayer.hpp"
 #include "pegr/video/Video.hpp"
 #include "pegr/misc/Logger.hpp"
-#include "pegr/resources/Resources.hpp"
-#include "pegr/addons/Addons.hpp"
-#include "pegr/scripts/Scripts.hpp"
+#include "pegr/resource/Resources.hpp"
+#include "pegr/addon/Addons.hpp"
+#include "pegr/script/Scripts.hpp"
 #include "pegr/misc/Input.hpp"
 
 #include "pegr/misc/StreamStuff.hpp"

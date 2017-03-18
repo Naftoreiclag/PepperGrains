@@ -19,7 +19,7 @@
 
 #include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "pegr/resources/Resource.hpp"
+#include "pegr/resource/Resource.hpp"
 #include "pegr/video/Image.hpp"
 #include "pegr/video/Texture.hpp"
 

@@ -17,7 +17,7 @@
 #ifndef PEGR_MISCRESOURCE_HPP
 #define PEGR_MISCRESOURCE_HPP
 
-#include "pegr/resources/Resource.hpp"
+#include "pegr/resource/Resource.hpp"
 
 namespace pegr {
 

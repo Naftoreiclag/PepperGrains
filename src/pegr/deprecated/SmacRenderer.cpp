@@ -16,7 +16,7 @@
 
 #include "pegr/deprecated/SmacRenderer.hpp"
 
-#include "pegr/resources/Resources.hpp"
+#include "pegr/resource/Resources.hpp"
 
 namespace pegr {
 

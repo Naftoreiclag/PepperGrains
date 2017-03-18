@@ -25,7 +25,7 @@
 
 #include "pegr/video/Video.hpp"
 #include "pegr/misc/Logger.hpp"
-#include "pegr/resources/Resources.hpp"
+#include "pegr/resource/Resources.hpp"
 #include "pegr/video/VulkanUtils.hpp"
 
 namespace pegr {
