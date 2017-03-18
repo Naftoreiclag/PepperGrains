@@ -20,9 +20,9 @@
 #include <stdint.h>
 #include <string>
 
-#include <WindowInputSystemLibrary.hpp>
+#include "pegr/misc/WindowInputSystemLibrary.hpp"
 
-#include "Input.hpp"
+#include "pegr/misc/Input.hpp"
 
 namespace pegr {
 

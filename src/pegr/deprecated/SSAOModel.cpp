@@ -14,9 +14,9 @@
  *  limitations under the License.
  */
 
-#include "SSAOModel.hpp"
+#include "pegr/deprecated/SSAOModel.hpp"
 
-#include "MathUtil.hpp"
+#include "pegr/math/MathUtil.hpp"
 #include "ResourceManager.hpp"
 
 namespace pegr {

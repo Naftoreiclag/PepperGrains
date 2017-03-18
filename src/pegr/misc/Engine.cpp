@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "Engine.hpp"
+#include "pegr/misc/Engine.hpp"
 
 #include <algorithm>
 #include <cstring>
@@ -23,20 +23,20 @@
 #include <vector>
 #include <chrono>
 
-#include <GraphicsApiLibrary.hpp>
-#include <WindowInputSystemLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
+#include "pegr/misc/WindowInputSystemLibrary.hpp"
 #include <lua.hpp>
 
-#include "Events.hpp"
+#include "pegr/misc/Events.hpp"
 #include "MissionGamelayer.hpp"
-#include "Video.hpp"
-#include "Logger.hpp"
-#include "Resources.hpp"
-#include "Addons.hpp"
-#include "Scripts.hpp"
-#include "Input.hpp"
+#include "pegr/video/Video.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/resources/Resources.hpp"
+#include "pegr/addons/Addons.hpp"
+#include "pegr/scripts/Scripts.hpp"
+#include "pegr/misc/Input.hpp"
 
-#include "StreamStuff.hpp"
+#include "pegr/misc/StreamStuff.hpp"
 
 namespace pegr {
 namespace Video {

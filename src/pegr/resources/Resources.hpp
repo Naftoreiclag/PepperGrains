@@ -20,7 +20,7 @@
 #include <string>
 #include <stdint.h>
 
-#include "Resource.hpp"
+#include "pegr/resources/Resource.hpp"
 
 namespace pegr {
 namespace Resources {

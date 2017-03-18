@@ -19,10 +19,10 @@
 
 #include <stdint.h>
 
-#include <WindowInputSystemLibrary.hpp>
+#include "pegr/misc/WindowInputSystemLibrary.hpp"
 
 #include "GamelayerMachine.hpp"
-#include "SoundEndpoint.hpp"
+#include "pegr/sound/SoundEndpoint.hpp"
 
 namespace pegr {
 namespace Engine {

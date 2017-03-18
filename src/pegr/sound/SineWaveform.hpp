@@ -17,7 +17,7 @@
 #ifndef PEGR_SINEWAVEFORM_HPP
 #define PEGR_SINEWAVEFORM_HPP
 
-#include "SoundWaveform.hpp"
+#include "pegr/sound/SoundWaveform.hpp"
 
 namespace pegr {
 

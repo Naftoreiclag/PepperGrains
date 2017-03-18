@@ -30,7 +30,7 @@
 
 // Ensure glew.h is loaded before gl.h if we are using OpenGL
 #ifdef PGG_OPENGL
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 #endif
 
 // GLFW needs to know to use vulkan instead of OpenGL

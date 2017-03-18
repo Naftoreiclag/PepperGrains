@@ -17,10 +17,10 @@
 #ifndef PEGR_GRASSMODEL_HPP
 #define PEGR_GRASSMODEL_HPP
 
-#include "Model.hpp"
-#include "GeometryResource.hpp"
-#include "ShaderProgramResource.hpp"
-#include "TextureResource.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/video/GeometryResource.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
+#include "pegr/video/TextureResource.hpp"
 #include "OpenGLStuff.hpp"
 
 namespace pegr {

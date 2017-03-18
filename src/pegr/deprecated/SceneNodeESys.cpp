@@ -14,13 +14,13 @@
  *  limitations under the License.
  */
 
-#include "SceneNodeESys.hpp"
+#include "pegr/deprecated/SceneNodeESys.hpp"
 
 #include <iostream>
 
-#include "SceneNodeEComp.hpp"
-#include "PhysicsLocationUpdateESignal.hpp"
-#include "PhysicsOrientationUpdateESignal.hpp"
+#include "pegr/deprecated/SceneNodeEComp.hpp"
+#include "pegr/deprecated/PhysicsLocationUpdateESignal.hpp"
+#include "pegr/deprecated/PhysicsOrientationUpdateESignal.hpp"
 
 namespace pegr {
 

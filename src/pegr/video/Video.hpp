@@ -21,8 +21,8 @@
 #include <string>
 #include <vector>
 
-#include <GraphicsApiLibrary.hpp>
-#include <WindowInputSystemLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
+#include "pegr/misc/WindowInputSystemLibrary.hpp"
 
 namespace pegr {
 namespace Video {

@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "InputInteractESignal.hpp"
+#include "pegr/deprecated/InputInteractESignal.hpp"
 
 namespace pegr
 {

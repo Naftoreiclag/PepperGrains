@@ -17,9 +17,9 @@
 #ifndef PEGR_SCENENODECOMPONENT_HPP
 #define PEGR_SCENENODECOMPONENT_HPP
 
-#include "NRES.hpp" // Base class: nres::Component
+#include "pegr/deprecated/NRES.hpp"
 
-#include "SceneNode.hpp"
+#include "pegr/deprecated/SceneNode.hpp"
 
 namespace pegr {
 

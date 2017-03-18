@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "StringResource.hpp"
+#include "pegr/misc/StringResource.hpp"
 
 #include <fstream>
 #include <iostream>

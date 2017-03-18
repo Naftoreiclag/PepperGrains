@@ -21,11 +21,11 @@
 #include <vector>
 #include <map>
 
-#include "Vec3.hpp"
-#include "ReferenceCounted.hpp"
-#include "SoundWaveform.hpp"
+#include "pegr/math/Vec3.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
+#include "pegr/sound/SoundWaveform.hpp"
 
-#include "SoundEndpoint.hpp"
+#include "pegr/sound/SoundEndpoint.hpp"
 
 namespace pegr {
 namespace Sound {

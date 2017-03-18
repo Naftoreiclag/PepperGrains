@@ -19,7 +19,7 @@
 
 #include "soundio/soundio.h"
 
-#include "ReferenceCounted.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
 
 namespace pegr {
 namespace Sound {

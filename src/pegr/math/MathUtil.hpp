@@ -17,10 +17,10 @@
 #ifndef PEGR_MATHUTIL_HPP
 #define PEGR_MATHUTIL_HPP
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "Vec3.hpp"
-#include "Quate.hpp"
+#include "pegr/math/Vec3.hpp"
+#include "pegr/math/Quate.hpp"
 
 namespace pegr {
 namespace Math {

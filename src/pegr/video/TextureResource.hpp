@@ -17,11 +17,11 @@
 #ifndef PEGR_TEXTURERESOURCE_HPP
 #define PEGR_TEXTURERESOURCE_HPP
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "Resource.hpp"
-#include "Image.hpp"
-#include "Texture.hpp"
+#include "pegr/resources/Resource.hpp"
+#include "pegr/video/Image.hpp"
+#include "pegr/video/Texture.hpp"
 
 namespace pegr {
 

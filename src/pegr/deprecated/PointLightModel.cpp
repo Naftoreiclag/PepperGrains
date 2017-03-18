@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "PointLightModel.hpp"
+#include "pegr/deprecated/PointLightModel.hpp"
 
 #include <cmath>
 #include <iostream>

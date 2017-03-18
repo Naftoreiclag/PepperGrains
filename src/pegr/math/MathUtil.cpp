@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "MathUtil.hpp"
+#include "pegr/math/MathUtil.hpp"
 
 namespace pegr
 {

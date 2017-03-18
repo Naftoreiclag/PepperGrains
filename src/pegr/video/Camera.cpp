@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "Camera.hpp"
+#include "pegr/video/Camera.hpp"
 
 namespace pegr {
 

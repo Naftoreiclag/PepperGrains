@@ -17,8 +17,8 @@
 #ifndef PEGR_SSAOMODEL_HPP
 #define PEGR_SSAOMODEL_HPP
 
-#include "Model.hpp"
-#include "ShaderProgramResource.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
 
 namespace pegr {
 

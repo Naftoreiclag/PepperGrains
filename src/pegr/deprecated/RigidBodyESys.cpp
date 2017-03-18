@@ -14,12 +14,12 @@
  *  limitations under the License.
  */
 
-#include "RigidBodyESys.hpp"
+#include "pegr/deprecated/RigidBodyESys.hpp"
 
 #include <algorithm>
 
-#include "PhysicsLocationUpdateESignal.hpp"
-#include "PhysicsOrientationUpdateESignal.hpp"
+#include "pegr/deprecated/PhysicsLocationUpdateESignal.hpp"
+#include "pegr/deprecated/PhysicsOrientationUpdateESignal.hpp"
 
 namespace pegr {
 

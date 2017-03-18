@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "CubeRotationsSolver.hpp"
+#include "pegr/deprecated/CubeRotationsSolver.hpp"
 
 #include <iostream>
 #include <stdlib.h>

@@ -14,14 +14,14 @@
  *  limitations under the License.
  */
 
-#include "Video.hpp"
+#include "pegr/video/Video.hpp"
 
 #include <cstring>
 #include <vector>
 #include <set>
 
-#include "Logger.hpp"
-#include "Engine.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/misc/Engine.hpp"
 
 namespace pegr {
 

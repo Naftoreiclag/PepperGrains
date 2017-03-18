@@ -19,10 +19,10 @@
 
 #include <stdint.h>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "Model.hpp"
-#include "Spharm.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/math/Spharm.hpp"
 
 // Perhaps all models should be instances, and instead there should just be geometryinstance
 // The only problem with this is managing opengl vertex array objects

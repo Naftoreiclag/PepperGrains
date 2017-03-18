@@ -14,9 +14,9 @@
  *  limitations under the License.
  */
 
-#include "Model.hpp"
+#include "pegr/video/Model.hpp"
 
-#include "Logger.hpp"
+#include "pegr/misc/Logger.hpp"
 
 namespace pegr {
 

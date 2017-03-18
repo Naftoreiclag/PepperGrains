@@ -19,8 +19,8 @@
 
 #include <vector>
 
-#include "nresListener.hpp"
-#include "nresTypedefs.hpp"
+#include "pegr/deprecated/nresListener.hpp"
+#include "pegr/deprecated/nresTypedefs.hpp"
 
 namespace nres {
 

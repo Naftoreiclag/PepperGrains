@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "MiscResource.hpp"
+#include "pegr/misc/MiscResource.hpp"
 
 #include <fstream>
 

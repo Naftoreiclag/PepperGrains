@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "SceneNode.hpp"
+#include "pegr/deprecated/SceneNode.hpp"
 
 #include <algorithm>
 

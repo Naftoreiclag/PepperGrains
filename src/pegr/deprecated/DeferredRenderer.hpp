@@ -20,14 +20,14 @@
 #include <stdint.h>
 
 #include "OpenGLStuff.hpp"
-#include "HardValueStuff.hpp"
-#include "ReferenceCounted.hpp"
-#include "GeometryResource.hpp"
-#include "SceneNode.hpp"
-#include "ShaderProgramResource.hpp"
-#include "DirectionalLightModel.hpp"
-#include "SunLightModel.hpp"
-#include "SSAOModel.hpp"
+#include "pegr/misc/HardValueStuff.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
+#include "pegr/video/GeometryResource.hpp"
+#include "pegr/deprecated/SceneNode.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
+#include "pegr/deprecated/DirectionalLightModel.hpp"
+#include "pegr/deprecated/SunLightModel.hpp"
+#include "pegr/deprecated/SSAOModel.hpp"
 
 namespace pegr {
 

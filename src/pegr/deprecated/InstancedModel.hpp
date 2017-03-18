@@ -17,9 +17,9 @@
 #ifndef PEGR_INSTANCEDMODEL_HPP
 #define PEGR_INSTANCEDMODEL_HPP
 
-#include "Model.hpp"
-#include "GeometryResource.hpp"
-#include "ShaderProgramResource.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/video/GeometryResource.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
 #include "OpenGLStuff.hpp"
 
 namespace pegr {

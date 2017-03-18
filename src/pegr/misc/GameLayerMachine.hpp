@@ -19,7 +19,7 @@
 
 #include <vector>
 
-#include "Events.hpp"
+#include "pegr/misc/Events.hpp"
 
 namespace pegr {
 

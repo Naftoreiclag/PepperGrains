@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "AxesModel.hpp"
+#include "pegr/deprecated/AxesModel.hpp"
 
 #include "ResourceManager.hpp"
 

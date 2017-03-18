@@ -17,9 +17,9 @@
 #ifndef PEGR_POINTLIGHTMODEL_HPP
 #define PEGR_POINTLIGHTMODEL_HPP
 
-#include "Model.hpp"
-#include "GeometryResource.hpp"
-#include "ShaderProgramResource.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/video/GeometryResource.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
 
 namespace pegr {
 

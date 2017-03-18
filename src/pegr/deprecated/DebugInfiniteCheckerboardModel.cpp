@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "DebugInfiniteCheckerboardModel.hpp"
+#include "pegr/deprecated/DebugInfiniteCheckerboardModel.hpp"
 
 #include <iostream>
 #include <math.h>

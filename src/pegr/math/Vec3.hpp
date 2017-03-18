@@ -20,7 +20,7 @@
 #include <ostream>
 
 #include "btBulletDynamicsCommon.h"
-#include "GraphicsApiLibrary.hpp"
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
 namespace pegr {
 

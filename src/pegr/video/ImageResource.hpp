@@ -19,10 +19,10 @@
 
 #include <stdint.h>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "Resource.hpp"
-#include "Image.hpp"
+#include "pegr/resources/Resource.hpp"
+#include "pegr/video/Image.hpp"
 
 namespace pegr {
 

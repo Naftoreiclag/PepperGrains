@@ -19,7 +19,7 @@
 
 #include <functional>
 
-#include "ModelInstance.hpp"
+#include "pegr/video/ModelInstance.hpp"
 
 namespace pegr {
 class Scenegraph {

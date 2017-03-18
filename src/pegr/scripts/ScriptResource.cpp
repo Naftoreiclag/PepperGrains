@@ -14,13 +14,13 @@
  *  limitations under the License.
  */
 
-#include "ScriptResource.hpp"
+#include "pegr/scripts/ScriptResource.hpp"
 
 #include <fstream>
 #include <iostream>
 #include <sstream>
 
-#include "Logger.hpp"
+#include "pegr/misc/Logger.hpp"
 
 namespace pegr {
 

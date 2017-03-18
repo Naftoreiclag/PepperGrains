@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "SimpleScenegraph.hpp"
+#include "pegr/video/SimpleScenegraph.hpp"
 
 namespace pegr {
 // Perform a function on all attached ModelInstances

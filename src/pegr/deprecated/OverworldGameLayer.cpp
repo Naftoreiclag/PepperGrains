@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "OverworldGameLayer.hpp"
+#include "pegr/deprecated/OverworldGameLayer.hpp"
 
 #include <cassert>
 #include <cmath>
@@ -24,17 +24,17 @@
 #include "glm/gtx/string_cast.hpp"
 #include "SDL2/SDL.h"
 
-#include "InputMoveESignal.hpp"
-#include "DebugFPControllerEListe.hpp"
-#include "SceneNodeEComp.hpp"
-#include "SceneNodeESys.hpp"
-#include "SunLightModel.hpp"
-#include "DirectionalLightModel.hpp"
-#include "PointLightModel.hpp"
-#include "RigidBodyEComp.hpp"
-#include "GrassModel.hpp"
-#include "TessModel.hpp"
-#include "Vec3.hpp"
+#include "pegr/deprecated/InputMoveESignal.hpp"
+#include "pegr/deprecated/DebugFPControllerEListe.hpp"
+#include "pegr/deprecated/SceneNodeEComp.hpp"
+#include "pegr/deprecated/SceneNodeESys.hpp"
+#include "pegr/deprecated/SunLightModel.hpp"
+#include "pegr/deprecated/DirectionalLightModel.hpp"
+#include "pegr/deprecated/PointLightModel.hpp"
+#include "pegr/deprecated/RigidBodyEComp.hpp"
+#include "pegr/deprecated/GrassModel.hpp"
+#include "pegr/deprecated/TessModel.hpp"
+#include "pegr/math/Vec3.hpp"
 
 namespace pegr {
 

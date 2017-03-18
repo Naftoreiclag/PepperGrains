@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "Vec2.hpp"
+#include "pegr/math/Vec2.hpp"
 
 #include <cmath>
 

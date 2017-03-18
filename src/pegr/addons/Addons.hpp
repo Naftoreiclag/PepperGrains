@@ -20,8 +20,8 @@
 #include <map>
 #include <string>
 
-#include "Resource.hpp"
-#include "Scripts.hpp"
+#include "pegr/resources/Resource.hpp"
+#include "pegr/scripts/Scripts.hpp"
 
 /* Handles the loading and unloading of addons.
  * 

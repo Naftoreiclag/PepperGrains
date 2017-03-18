@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "DesignerGameLayer.hpp"
+#include "pegr/deprecated/DesignerGameLayer.hpp"
 
 #include <limits>
 #include <algorithm>
@@ -27,24 +27,24 @@
 #include "glm/gtx/string_cast.hpp"
 #include "SDL2/SDL.h"
 
-#include "AxesModel.hpp"
-#include "InputMoveESignal.hpp"
-#include "DebugFPControllerEListe.hpp"
-#include "SceneNodeEComp.hpp"
-#include "SceneNodeESys.hpp"
-#include "SunLightModel.hpp"
-#include "DirectionalLightModel.hpp"
-#include "PointLightModel.hpp"
-#include "RigidBodyEComp.hpp"
-#include "GrassModel.hpp"
-#include "TessModel.hpp"
-#include "Vec3.hpp"
-#include "Quate.hpp"
-#include "MathUtil.hpp"
-#include "InstancedModel.hpp"
-#include "Engine.hpp"
-#include "SoundSource.hpp"
-#include "SineWaveform.hpp"
+#include "pegr/deprecated/AxesModel.hpp"
+#include "pegr/deprecated/InputMoveESignal.hpp"
+#include "pegr/deprecated/DebugFPControllerEListe.hpp"
+#include "pegr/deprecated/SceneNodeEComp.hpp"
+#include "pegr/deprecated/SceneNodeESys.hpp"
+#include "pegr/deprecated/SunLightModel.hpp"
+#include "pegr/deprecated/DirectionalLightModel.hpp"
+#include "pegr/deprecated/PointLightModel.hpp"
+#include "pegr/deprecated/RigidBodyEComp.hpp"
+#include "pegr/deprecated/GrassModel.hpp"
+#include "pegr/deprecated/TessModel.hpp"
+#include "pegr/math/Vec3.hpp"
+#include "pegr/math/Quate.hpp"
+#include "pegr/math/MathUtil.hpp"
+#include "pegr/deprecated/InstancedModel.hpp"
+#include "pegr/misc/Engine.hpp"
+#include "pegr/sound/SoundSource.hpp"
+#include "pegr/sound/SineWaveform.hpp"
 
 namespace pegr {
 

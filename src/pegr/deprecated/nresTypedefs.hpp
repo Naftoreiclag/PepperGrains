@@ -19,7 +19,7 @@
 
 #include <string>
 
-#include "EntitySignal.hpp"
+#include "pegr/deprecated/EntitySignal.hpp"
 
 namespace nres {
 

@@ -17,7 +17,7 @@
 #ifndef NRES_LISTENER_HPP
 #define NRES_LISTENER_HPP
 
-#include "nresTypedefs.hpp"
+#include "pegr/deprecated/nresTypedefs.hpp"
 
 namespace nres {
     

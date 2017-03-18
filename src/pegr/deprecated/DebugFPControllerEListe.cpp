@@ -14,10 +14,10 @@
  *  limitations under the License.
  */
 
-#include "DebugFPControllerEListe.hpp"
+#include "pegr/deprecated/DebugFPControllerEListe.hpp"
 
-#include "InputMoveESignal.hpp"
-#include "PhysicsLocationUpdateESignal.hpp"
+#include "pegr/deprecated/InputMoveESignal.hpp"
+#include "pegr/deprecated/PhysicsLocationUpdateESignal.hpp"
 
 
 

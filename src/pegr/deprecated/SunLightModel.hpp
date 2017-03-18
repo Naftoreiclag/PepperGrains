@@ -17,9 +17,9 @@
 #ifndef PEGR_SUNLIGHTMODEL_HPP
 #define PEGR_SUNLIGHTMODEL_HPP
 
-#include "Model.hpp"
-#include "ShaderProgramResource.hpp"
-#include "HardValueStuff.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
+#include "pegr/misc/HardValueStuff.hpp"
 
 namespace pegr {
 

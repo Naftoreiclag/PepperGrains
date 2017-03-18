@@ -17,7 +17,7 @@
 #ifndef PEGR_STRINGRESOURCE_HPP
 #define PEGR_STRINGRESOURCE_HPP
 
-#include "Resource.hpp"
+#include "pegr/resources/Resource.hpp"
 
 namespace pegr {
 

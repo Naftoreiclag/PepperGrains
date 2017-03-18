@@ -22,7 +22,7 @@
 
 #include "soundio/soundio.h"
 
-#include "SoundWaveform.hpp"
+#include "pegr/sound/SoundWaveform.hpp"
 
 namespace pegr {
 namespace Sound {

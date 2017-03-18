@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "ReferenceCounted.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
 
 #include <cassert>
 

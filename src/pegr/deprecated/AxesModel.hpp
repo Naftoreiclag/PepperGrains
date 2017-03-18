@@ -17,8 +17,8 @@
 #ifndef PEGR_AXESMODEL_HPP
 #define PEGR_AXESMODEL_HPP
 
-#include "Model.hpp"
-#include "ShaderProgramResource.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
 #include "OpenGLStuff.hpp"
 
 namespace pegr {

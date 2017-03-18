@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "ModelInstance.hpp"
+#include "pegr/video/ModelInstance.hpp"
 
 namespace pegr {
 

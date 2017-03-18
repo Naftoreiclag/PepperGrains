@@ -19,13 +19,13 @@
 
 
 #include <json/json.h>
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "Resource.hpp" // Base class: Resource
-#include "ShaderProgramResource.hpp"
-#include "Texture.hpp"
-#include "Model.hpp"
-#include "Material.hpp"
+#include "pegr/resources/Resource.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
+#include "pegr/video/Texture.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/video/Material.hpp"
 
 namespace pegr {
 

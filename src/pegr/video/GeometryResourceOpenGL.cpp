@@ -16,16 +16,16 @@
 
 #ifdef PGG_OPENGL
 
-#include "GeometryResourceOpenGL.hpp"
+#include "pegr/video/GeometryResourceOpenGL.hpp"
 
 #include <cassert>
 #include <fstream>
 #include <iostream>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "StreamStuff.hpp"
-#include "Logger.hpp"
+#include "pegr/misc/StreamStuff.hpp"
+#include "pegr/misc/Logger.hpp"
 
 namespace pegr {
 

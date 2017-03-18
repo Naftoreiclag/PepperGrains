@@ -14,13 +14,13 @@
  *  limitations under the License.
  */
 
-#include "Image.hpp"
+#include "pegr/video/Image.hpp"
 
 #include <cassert>
 
-#include "Logger.hpp"
-#include "Resources.hpp"
-#include "ImageResource.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/resources/Resources.hpp"
+#include "pegr/video/ImageResource.hpp"
 
 namespace pegr {
 

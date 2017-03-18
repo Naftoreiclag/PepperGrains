@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "DirectionalLightModel.hpp"
+#include "pegr/deprecated/DirectionalLightModel.hpp"
 
 #include "ResourceManager.hpp"
 

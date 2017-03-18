@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "TerrainResolver.hpp"
+#include "pegr/deprecated/TerrainResolver.hpp"
 
 namespace pegr {
     

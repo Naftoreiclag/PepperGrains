@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "SoundContext.hpp"
+#include "pegr/sound/SoundContext.hpp"
 
 #include <algorithm>
 

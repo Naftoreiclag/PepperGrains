@@ -19,11 +19,11 @@
 
 #include <vector>
 
-#include "ReferenceCounted.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
 
-#include "SoundReceiver.hpp"
-#include "SoundSource.hpp"
-#include "SoundMedium.hpp"
+#include "pegr/sound/SoundReceiver.hpp"
+#include "pegr/sound/SoundSource.hpp"
+#include "pegr/sound/SoundMedium.hpp"
 
 namespace pegr {
 namespace Sound {

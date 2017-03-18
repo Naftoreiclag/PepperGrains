@@ -24,15 +24,15 @@
 #include "btBulletDynamicsCommon.h"
 #include "SDL2/SDL.h"
 
-#include "DesignerParts.hpp"
+#include "pegr/deprecated/DesignerParts.hpp"
 #include "ResourceManager.hpp"
-#include "DeferredRenderer.hpp"
-#include "Vec2.hpp"
-#include "DebugInfiniteCheckerboardModel.hpp"
-#include "Vec3.hpp"
-#include "SoundEndpoint.hpp"
-#include "SoundContext.hpp"
-#include "SoundReceiver.hpp"
+#include "pegr/deprecated/DeferredRenderer.hpp"
+#include "pegr/math/Vec2.hpp"
+#include "pegr/deprecated/DebugInfiniteCheckerboardModel.hpp"
+#include "pegr/math/Vec3.hpp"
+#include "pegr/sound/SoundEndpoint.hpp"
+#include "pegr/sound/SoundContext.hpp"
+#include "pegr/sound/SoundReceiver.hpp"
 
 namespace pegr {
 

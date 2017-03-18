@@ -14,13 +14,13 @@
  *  limitations under the License.
  */
 
-#include "Texture.hpp"
+#include "pegr/video/Texture.hpp"
 
 #include <cassert>
 
-#include "Logger.hpp"
-#include "Resources.hpp"
-#include "TextureResource.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/resources/Resources.hpp"
+#include "pegr/video/TextureResource.hpp"
 
 namespace pegr {
 

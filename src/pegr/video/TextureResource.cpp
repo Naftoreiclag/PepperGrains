@@ -14,18 +14,18 @@
  *  limitations under the License.
  */
 
-#include "TextureResource.hpp"
+#include "pegr/video/TextureResource.hpp"
 
 #include <cassert>
 #include <fstream>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 #include <json/json.h>
 
-#include "Logger.hpp"
-#include "Video.hpp"
-#include "Resources.hpp"
-#include "ImageResource.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/video/Video.hpp"
+#include "pegr/resources/Resources.hpp"
+#include "pegr/video/ImageResource.hpp"
 
 namespace pegr {
 

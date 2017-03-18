@@ -17,7 +17,7 @@
 #ifndef NRES_COMPONENT_HPP
 #define NRES_COMPONENT_HPP
 
-#include "nresTypedefs.hpp"
+#include "pegr/deprecated/nresTypedefs.hpp"
 
 namespace nres {
 

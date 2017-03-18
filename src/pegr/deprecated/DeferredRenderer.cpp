@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "DeferredRenderer.hpp"
+#include "pegr/deprecated/DeferredRenderer.hpp"
 
 #include <iostream>
 

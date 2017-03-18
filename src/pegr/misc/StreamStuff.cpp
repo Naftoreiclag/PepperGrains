@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "StreamStuff.hpp"
+#include "pegr/misc/StreamStuff.hpp"
 
 namespace pegr {
 // TODO: allow endianness to be specified to allow for reinterpret_cast<char*>

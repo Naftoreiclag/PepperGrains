@@ -14,11 +14,11 @@
  *  limitations under the License.
  */
 
-#include "Resource.hpp"
+#include "pegr/resources/Resource.hpp"
 
 #include <cassert>
 
-#include "Addons.hpp"
+#include "pegr/addons/Addons.hpp"
 
 namespace pegr {
 

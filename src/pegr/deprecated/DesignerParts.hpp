@@ -22,12 +22,12 @@
 
 #include "btBulletDynamicsCommon.h"
 
-#include "SceneNode.hpp"
+#include "pegr/deprecated/SceneNode.hpp"
 #include "OpenGLStuff.hpp"
-#include "DeferredRenderer.hpp"
-#include "ShaderProgramResource.hpp"
-#include "GeometryResource.hpp"
-#include "Vec3.hpp"
+#include "pegr/deprecated/DeferredRenderer.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
+#include "pegr/video/GeometryResource.hpp"
+#include "pegr/math/Vec3.hpp"
 
 namespace pegr {
 

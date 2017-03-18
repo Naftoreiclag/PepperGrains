@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "ManualModel.hpp"
+#include "pegr/deprecated/ManualModel.hpp"
 
 #include <iostream>
 

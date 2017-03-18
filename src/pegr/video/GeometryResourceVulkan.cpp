@@ -16,19 +16,19 @@
 
 #ifdef PGG_VULKAN
 
-#include "GeometryResourceVulkan.hpp"
+#include "pegr/video/GeometryResourceVulkan.hpp"
 
 #include <cstring>
 #include <cassert>
 #include <fstream>
 #include <iostream>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "StreamStuff.hpp"
-#include "Logger.hpp"
-#include "Video.hpp"
-#include "VulkanUtils.hpp"
+#include "pegr/misc/StreamStuff.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/video/Video.hpp"
+#include "pegr/video/VulkanUtils.hpp"
 
 namespace pegr {
 

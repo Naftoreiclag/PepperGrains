@@ -14,10 +14,10 @@
  *  limitations under the License.
  */
 
-#include "Geometry.hpp"
+#include "pegr/video/Geometry.hpp"
 
-#include "GeometryResource.hpp"
-#include "Logger.hpp"
+#include "pegr/video/GeometryResource.hpp"
+#include "pegr/misc/Logger.hpp"
 
 namespace pegr {
 

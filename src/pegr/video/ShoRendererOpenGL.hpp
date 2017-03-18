@@ -21,11 +21,11 @@
 
 #include <stdint.h>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "ShaderProgramResource.hpp"
-#include "Scenegraph.hpp"
-#include "Camera.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
+#include "pegr/video/Scenegraph.hpp"
+#include "pegr/video/Camera.hpp"
 
 namespace pegr {
 

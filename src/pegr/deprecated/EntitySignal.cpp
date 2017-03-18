@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "EntitySignal.hpp"
+#include "pegr/deprecated/EntitySignal.hpp"
 
 namespace pegr {
 

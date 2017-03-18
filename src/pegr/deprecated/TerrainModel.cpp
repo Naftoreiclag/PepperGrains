@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "TerrainModel.hpp"
+#include "pegr/deprecated/TerrainModel.hpp"
 
 #include <iostream>
 

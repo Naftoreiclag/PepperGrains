@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "SineWaveform.hpp"
+#include "pegr/sound/SineWaveform.hpp"
 
 #include <iostream>
 #include <cmath>

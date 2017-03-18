@@ -14,8 +14,8 @@
  *  limitations under the License.
  */
 
-#include "DesignerParts.hpp"
-#include "MathUtil.hpp"
+#include "pegr/deprecated/DesignerParts.hpp"
+#include "pegr/math/MathUtil.hpp"
 
 #include <iostream>
 

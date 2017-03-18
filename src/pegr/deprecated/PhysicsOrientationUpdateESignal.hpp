@@ -17,10 +17,10 @@
 #ifndef PEGR_PHYSICSORIENTATIONUPDATEESYS_HPP
 #define PEGR_PHYSICSORIENTATIONUPDATEESYS_HPP
 
-#include "NRES.hpp"
+#include "pegr/deprecated/NRES.hpp"
 
-#include "EntitySignal.hpp"
-#include "Quate.hpp"
+#include "pegr/deprecated/EntitySignal.hpp"
+#include "pegr/math/Quate.hpp"
 
 namespace pegr {
 

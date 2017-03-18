@@ -17,7 +17,7 @@
 #ifndef PEGR_GAMELAYER_HPP
 #define PEGR_GAMELAYER_HPP
 
-#include "Events.hpp"
+#include "pegr/misc/Events.hpp"
 
 #include "GamelayerMachine.hpp"
 

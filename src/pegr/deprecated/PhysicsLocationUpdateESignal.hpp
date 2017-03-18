@@ -17,10 +17,10 @@
 #ifndef PEGR_PHYSICSLOCATIONUPDATEESYS_HPP
 #define PEGR_PHYSICSLOCATIONUPDATEESYS_HPP
 
-#include "NRES.hpp"
+#include "pegr/deprecated/NRES.hpp"
 
-#include "EntitySignal.hpp"
-#include "Vec3.hpp"
+#include "pegr/deprecated/EntitySignal.hpp"
+#include "pegr/math/Vec3.hpp"
 
 namespace pegr {
 

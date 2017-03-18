@@ -16,17 +16,17 @@
 
 #ifdef PGG_VULKAN
 
-#include "ShoRendererVulkan.hpp"
+#include "pegr/video/ShoRendererVulkan.hpp"
 
-#include "Image.hpp"
-#include "ImageResource.hpp"
-#include "TextureResource.hpp"
-#include "Resources.hpp"
-#include "Video.hpp"
-#include "Logger.hpp"
-#include "VulkanUtils.hpp"
-#include "GeometryResource.hpp"
-#include "Engine.hpp"
+#include "pegr/video/Image.hpp"
+#include "pegr/video/ImageResource.hpp"
+#include "pegr/video/TextureResource.hpp"
+#include "pegr/resources/Resources.hpp"
+#include "pegr/video/Video.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/video/VulkanUtils.hpp"
+#include "pegr/video/GeometryResource.hpp"
+#include "pegr/misc/Engine.hpp"
 
 namespace pegr {
 

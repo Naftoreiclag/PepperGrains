@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "Renderable.hpp"
+#include "pegr/video/Renderable.hpp"
 
 namespace pegr {
 

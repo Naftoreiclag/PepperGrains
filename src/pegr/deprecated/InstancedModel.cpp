@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "InstancedModel.hpp"
+#include "pegr/deprecated/InstancedModel.hpp"
 
 #include <iostream>
 

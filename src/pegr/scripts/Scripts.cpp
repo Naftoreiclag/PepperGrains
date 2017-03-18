@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "Scripts.hpp"
+#include "pegr/scripts/Scripts.hpp"
 
 #include <algorithm>
 #include <cassert>
@@ -22,7 +22,7 @@
 #include <vector>
 #include <sstream>
 
-#include "Logger.hpp"
+#include "pegr/misc/Logger.hpp"
 
 namespace pegr {
 namespace Scripts {

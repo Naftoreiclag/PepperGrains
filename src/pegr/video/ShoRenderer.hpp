@@ -18,11 +18,11 @@
 #define PEGR_SHORENDERER_HPP
 
 #ifdef PGG_OPENGL
-#include "ShoRendererOpenGL.hpp"
+#include "pegr/video/ShoRendererOpenGL.hpp"
 #endif
 
 #ifdef PGG_VULKAN
-#include "ShoRendererVulkan.hpp"
+#include "pegr/video/ShoRendererVulkan.hpp"
 #endif
 
 #endif // PEGR_SHORENDERER_HPP

@@ -18,9 +18,9 @@
 
 #include "ShoRendererOgOpenGL.hpp"
 
-#include "Resources.hpp"
-#include "Logger.hpp"
-#include "Video.hpp"
+#include "pegr/resources/Resources.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/video/Video.hpp"
 
 namespace pegr {
 
