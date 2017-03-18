@@ -15,17 +15,13 @@
 import os
 
 from Common import indexFiles
+sourceList, includeDirList, _ = \
+    indexFiles('../src/pegr/', ['.cpp'], ['deprecated/'])
 
 sourceListVector = '### SOURCE LIST ###'
 includeDirListVector = '### INCLUDE DIR LIST ###'
-sourcePath = '../src/pegr/'
-allowedFileExts = ['.cpp']
-blacklistedDirs = ['deprecated/']
 outputFilename = '../cmake/EngineSrcList.cmake'
 boilerplateFilename = 'EngineSrcListBoilerplate.cmake'
-
-sourceList, includeDirList, _ = \
-    indexFiles('../src/pegr/', allowedFileExts, blacklistedDirs)
 
 print('Sources: ' + str(len(sourceList)))
 print('Directories: ' + str(len(includeDirList)))
