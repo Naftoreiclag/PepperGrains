@@ -19,7 +19,7 @@
 
 #include "pegr/misc/Events.hpp"
 
-#include <GamelayerMachine.hpp>
+#include "pegr/misc/GameLayerMachine.hpp"
 
 namespace pegr {
 

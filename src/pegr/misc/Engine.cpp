@@ -28,7 +28,7 @@
 #include <lua.hpp>
 
 #include "pegr/misc/Events.hpp"
-#include <MissionGamelayer.hpp>
+#include "pegr/misc/MissionGameLayer.hpp"
 #include "pegr/video/Video.hpp"
 #include "pegr/misc/Logger.hpp"
 #include "pegr/resource/Resources.hpp"

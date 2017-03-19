@@ -17,7 +17,7 @@
 #ifndef PEGR_OVERWORLDGAMELAYER_HPP
 #define PEGR_OVERWORLDGAMELAYER_HPP
 
-#include <Gamelayer.hpp>
+#include "pegr/misc/GameLayer.hpp"
 
 #include <btBulletDynamicsCommon.h>
 #include <SDL2/SDL.h>

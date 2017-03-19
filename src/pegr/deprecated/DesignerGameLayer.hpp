@@ -17,7 +17,7 @@
 #ifndef PEGR_DESIGNERGAMELAYER_HPP
 #define PEGR_DESIGNERGAMELAYER_HPP
 
-#include <Gamelayer.hpp>
+#include "pegr/misc/GameLayer.hpp"
 
 #include <vector>
 

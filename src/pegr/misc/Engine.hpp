@@ -21,7 +21,7 @@
 
 #include "pegr/misc/WindowInputSystemLibrary.hpp"
 
-#include <GamelayerMachine.hpp>
+#include "pegr/misc/GameLayerMachine.hpp"
 #include "pegr/sound/SoundEndpoint.hpp"
 
 namespace pegr {

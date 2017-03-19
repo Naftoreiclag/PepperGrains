@@ -21,6 +21,11 @@ from Common import indexFiles
 headerFnames, _, filenameToPath = \
     indexFiles(searchPath, ['.hpp', '.cpp'], [])
 
+lowercaseFnameToPath = {}
+for filename, path in filenameToPath.items():
+    lowercaseFnameToPath[filename.lower()] = path
+filenameToPath = lowercaseFnameToPath
+    
 import re
 
 includePattern = re.compile('#include\s+["<](\S*)[">]')
@@ -37,6 +42,7 @@ for headerFname in headerFnames:
         if match:
             originalInclude = match.group(1)
             _, includeFname = os.path.split(originalInclude)
+            includeFname = includeFname.lower()
             
             if includeFname in filenameToPath:
                 replaceInclude = includePrefix + filenameToPath[includeFname]

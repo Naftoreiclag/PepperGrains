@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include <Gamelayer.hpp>
+#include "pegr/misc/GameLayer.hpp"
 
 namespace pegr {
 
