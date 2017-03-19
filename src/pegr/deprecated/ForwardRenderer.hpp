@@ -19,9 +19,9 @@
 
 #include <stdint.h>
 
-#include "OpenGLStuff.hpp"
-#include "ShaderProgramResource.hpp"
-#include "Renderable.hpp"
+#include <OpenGLStuff.hpp>
+#include "pegr/video/ShaderProgramResource.hpp"
+#include "pegr/video/Renderable.hpp"
 
 namespace pegr {
 

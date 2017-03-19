@@ -21,10 +21,10 @@
 
 #include <stdint.h>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "Geometry.hpp"
-#include "Resource.hpp"
+#include "pegr/video/Geometry.hpp"
+#include "pegr/resource/Resource.hpp"
 
 namespace pegr {
 

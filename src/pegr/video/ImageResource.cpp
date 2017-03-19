@@ -14,19 +14,19 @@
  *  limitations under the License.
  */
 
-#include "ImageResource.hpp"
+#include "pegr/video/ImageResource.hpp"
 
 #include <cassert>
 #include <iostream>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 #define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
+#include <stb_image.h>
 
-#include "Video.hpp"
-#include "Logger.hpp"
-#include "Resources.hpp"
-#include "VulkanUtils.hpp"
+#include "pegr/video/Video.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/resource/Resources.hpp"
+#include "pegr/video/VulkanUtils.hpp"
 
 namespace pegr {
 

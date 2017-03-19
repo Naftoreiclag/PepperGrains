@@ -17,9 +17,9 @@
 #ifndef PEGR_SHADERRESOURCE_HPP
 #define PEGR_SHADERRESOURCE_HPP
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "Resource.hpp"
+#include "pegr/resource/Resource.hpp"
 
 namespace pegr {
 

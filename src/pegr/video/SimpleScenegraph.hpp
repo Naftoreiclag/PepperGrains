@@ -17,7 +17,7 @@
 #ifndef PEGR_SIMPLESCENEGRAPH_HPP
 #define PEGR_SIMPLESCENEGRAPH_HPP
 
-#include "Scenegraph.hpp"
+#include "pegr/video/Scenegraph.hpp"
 
 namespace pegr {
 class SimpleScenegraph : public Scenegraph {

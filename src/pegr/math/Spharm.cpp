@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "Spharm.hpp"
+#include "pegr/math/Spharm.hpp"
 
 namespace pegr
 {

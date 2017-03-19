@@ -17,9 +17,9 @@
 #ifndef PEGR_FONTRESOURCE_HPP
 #define PEGR_FONTRESOURCE_HPP
 
-#include "Resource.hpp"
-#include "Texture.hpp"
-#include "ShaderProgramResource.hpp"
+#include "pegr/resource/Resource.hpp"
+#include "pegr/video/Texture.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
 
 namespace pegr {
 

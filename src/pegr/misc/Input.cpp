@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "Input.hpp"
+#include "pegr/misc/Input.hpp"
 
 #include <cassert>
 

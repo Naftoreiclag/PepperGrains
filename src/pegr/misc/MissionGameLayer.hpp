@@ -17,9 +17,9 @@
 #ifndef PEGR_MISSIONGAMELAYER_HPP
 #define PEGR_MISSIONGAMELAYER_HPP
 
-#include "Gamelayer.hpp"
-#include "ShoRenderer.hpp"
-#include "SimpleScenegraph.hpp"
+#include <Gamelayer.hpp>
+#include "pegr/video/ShoRenderer.hpp"
+#include "pegr/video/SimpleScenegraph.hpp"
 
 namespace pegr {
 

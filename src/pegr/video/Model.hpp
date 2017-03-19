@@ -17,11 +17,11 @@
 #ifndef PEGR_MODEL_HPP
 #define PEGR_MODEL_HPP
 
-#include "ReferenceCounted.hpp"
-#include "Resource.hpp"
-#include "Renderable.hpp"
-#include "Geometry.hpp"
-#include "Material.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
+#include "pegr/resource/Resource.hpp"
+#include "pegr/video/Renderable.hpp"
+#include "pegr/video/Geometry.hpp"
+#include "pegr/video/Material.hpp"
 
 namespace pegr {
 

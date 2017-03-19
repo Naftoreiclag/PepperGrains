@@ -17,7 +17,7 @@
 #ifndef PEGR_CAMERA_HPP
 #define PEGR_CAMERA_HPP
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
 namespace pegr {
 class Camera {

@@ -16,11 +16,11 @@
 
 #ifdef PGG_OPENGL
 
-#include "ShoRendererOgOpenGL.hpp"
+#include <ShoRendererOgOpenGL.hpp>
 
-#include "Resources.hpp"
-#include "Logger.hpp"
-#include "Video.hpp"
+#include "pegr/resource/Resources.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/video/Video.hpp"
 
 namespace pegr {
 

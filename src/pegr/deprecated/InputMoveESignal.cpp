@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "InputMoveESignal.hpp"
+#include "pegr/deprecated/InputMoveESignal.hpp"
 
 namespace pegr {
 

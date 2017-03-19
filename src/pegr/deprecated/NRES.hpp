@@ -17,11 +17,11 @@
 #ifndef NRES_NRES_HPP
 #define NRES_NRES_HPP
 
-#include "nresComponent.hpp"
-#include "nresWorld.hpp"
-#include "nresSystem.hpp"
-#include "nresTypedefs.hpp"
-#include "nresListener.hpp"
-#include "nresEntity.hpp"
+#include "pegr/deprecated/nresComponent.hpp"
+#include "pegr/deprecated/nresWorld.hpp"
+#include "pegr/deprecated/nresSystem.hpp"
+#include "pegr/deprecated/nresTypedefs.hpp"
+#include "pegr/deprecated/nresListener.hpp"
+#include "pegr/deprecated/nresEntity.hpp"
 
 #endif // NRES_NRES_HPP

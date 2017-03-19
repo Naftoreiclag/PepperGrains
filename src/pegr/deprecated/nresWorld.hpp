@@ -19,8 +19,8 @@
 
 #include <vector>
 
-#include "nresSystem.hpp"
-#include "nresEntity.hpp"
+#include "pegr/deprecated/nresSystem.hpp"
+#include "pegr/deprecated/nresEntity.hpp"
 
 namespace nres
 {

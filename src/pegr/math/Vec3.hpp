@@ -19,8 +19,8 @@
 
 #include <ostream>
 
-#include "btBulletDynamicsCommon.h"
-#include "GraphicsApiLibrary.hpp"
+#include <btBulletDynamicsCommon.h>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
 namespace pegr {
 

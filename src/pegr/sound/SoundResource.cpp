@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "SoundResource.hpp"
+#include "pegr/sound/SoundResource.hpp"
 
 namespace pegr
 {

@@ -14,12 +14,12 @@
  *  limitations under the License.
  */
 
-#include "DebugInfiniteCheckerboardModel.hpp"
+#include "pegr/deprecated/DebugInfiniteCheckerboardModel.hpp"
 
 #include <iostream>
 #include <math.h>
 
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
 

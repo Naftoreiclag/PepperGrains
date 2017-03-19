@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "MaterialResource.hpp"
+#include "pegr/video/MaterialResource.hpp"
 
 #include <cassert>
 #include <iostream>
@@ -22,10 +22,10 @@
 
 #include <json/json.h>
 
-#include "ShaderProgramResource.hpp"
-#include "Logger.hpp"
-#include "Resources.hpp"
-#include "TextureResource.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/resource/Resources.hpp"
+#include "pegr/video/TextureResource.hpp"
 
 namespace pegr {
 

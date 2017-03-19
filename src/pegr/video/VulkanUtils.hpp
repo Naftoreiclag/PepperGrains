@@ -21,7 +21,7 @@
 
 #include <stdint.h>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
 namespace pegr {
 namespace Video {

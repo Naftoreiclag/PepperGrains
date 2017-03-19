@@ -14,14 +14,14 @@
  *  limitations under the License.
  */
 
-#include "SoundEndpoint.hpp"
+#include "pegr/sound/SoundEndpoint.hpp"
 
 #include <cmath>
 #include <iostream>
 #include <algorithm>
 
-#include "Engine.hpp"
-#include "SoundWaveform.hpp"
+#include "pegr/misc/Engine.hpp"
+#include "pegr/sound/SoundWaveform.hpp"
 
 namespace pegr {
 namespace Sound {

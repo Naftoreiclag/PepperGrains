@@ -17,9 +17,9 @@
 #ifndef PEGR_MATERIAL_HPP
 #define PEGR_MATERIAL_HPP
 
-#include "ReferenceCounted.hpp"
-#include "Texture.hpp"
-#include "Vec3.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
+#include "pegr/video/Texture.hpp"
+#include "pegr/math/Vec3.hpp"
 
 namespace pegr {
 

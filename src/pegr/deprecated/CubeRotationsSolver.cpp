@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "CubeRotationsSolver.hpp"
+#include "pegr/deprecated/CubeRotationsSolver.hpp"
 
 #include <iostream>
 #include <stdlib.h>
@@ -22,7 +22,7 @@
 #include <cstdint>
 #include <vector>
 
-#include "OpenGLStuff.hpp"
+#include <OpenGLStuff.hpp>
 
 namespace pegr {
 

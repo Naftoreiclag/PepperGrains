@@ -17,9 +17,9 @@
 #ifndef PEGR_TERRAINMODEL_HPP
 #define PEGR_TERRAINMODEL_HPP
 
-#include "Model.hpp"
-#include "ShaderProgramResource.hpp"
-#include "OpenGLStuff.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
+#include <OpenGLStuff.hpp>
 
 namespace pegr {
 

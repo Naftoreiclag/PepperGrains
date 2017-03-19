@@ -19,9 +19,9 @@
 
 #include <stdint.h>
 
-#include "OpenGLStuff.hpp"
-#include "ReferenceCounted.hpp"
-#include "ShaderProgramResource.hpp"
+#include <OpenGLStuff.hpp>
+#include "pegr/misc/ReferenceCounted.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
 
 namespace pegr {
 

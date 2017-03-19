@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "Logger.hpp"
+#include "pegr/misc/Logger.hpp"
 
 #include <iostream>
 #include <map>

@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "RigidBodyEComp.hpp"
+#include "pegr/deprecated/RigidBodyEComp.hpp"
 
 namespace pegr {
 

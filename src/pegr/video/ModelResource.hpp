@@ -17,10 +17,10 @@
 #ifndef PEGR_MODELRESOURCE_HPP
 #define PEGR_MODELRESOURCE_HPP
 
-#include "Geometry.hpp"
-#include "Material.hpp"
-#include "Model.hpp"
-#include "Resource.hpp"
+#include "pegr/video/Geometry.hpp"
+#include "pegr/video/Material.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/resource/Resource.hpp"
 
 namespace pegr {
 

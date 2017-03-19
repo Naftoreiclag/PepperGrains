@@ -17,23 +17,23 @@
 #ifndef PEGR_OVERWORLDGAMELAYER_HPP
 #define PEGR_OVERWORLDGAMELAYER_HPP
 
-#include "Gamelayer.hpp" // Base class: pegr::GameLayer
+#include <Gamelayer.hpp>
 
-#include "btBulletDynamicsCommon.h"
-#include "SDL2/SDL.h"
+#include <btBulletDynamicsCommon.h>
+#include <SDL2/SDL.h>
 
-#include "NRES.hpp"
+#include "pegr/deprecated/NRES.hpp"
 
-#include "AxesModel.hpp"
-#include "ResourceManager.hpp"
-#include "RigidBodyESys.hpp"
-#include "SceneNode.hpp"
-#include "SceneNodeESys.hpp"
-#include "SunLightModel.hpp"
-#include "TerrainModel.hpp"
-#include "TextModel.hpp"
-#include "TextureResource.hpp"
-#include "DebugInfiniteCheckerboardModel.hpp"
+#include "pegr/deprecated/AxesModel.hpp"
+#include <ResourceManager.hpp>
+#include "pegr/deprecated/RigidBodyESys.hpp"
+#include "pegr/deprecated/SceneNode.hpp"
+#include "pegr/deprecated/SceneNodeESys.hpp"
+#include "pegr/deprecated/SunLightModel.hpp"
+#include "pegr/deprecated/TerrainModel.hpp"
+#include "pegr/deprecated/TextModel.hpp"
+#include "pegr/video/TextureResource.hpp"
+#include "pegr/deprecated/DebugInfiniteCheckerboardModel.hpp"
 
 namespace pegr {
 

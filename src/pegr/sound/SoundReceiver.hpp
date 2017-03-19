@@ -19,8 +19,8 @@
 
 #include <vector>
 
-#include "ReferenceCounted.hpp"
-#include "Vec3.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
+#include "pegr/math/Vec3.hpp"
 
 namespace pegr {
 namespace Sound {

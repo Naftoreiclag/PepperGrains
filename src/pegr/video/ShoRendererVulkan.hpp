@@ -22,13 +22,13 @@
 #include <stdint.h>
 #include <vector>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "ShaderResource.hpp"
-#include "Scenegraph.hpp"
-#include "Camera.hpp"
-#include "Geometry.hpp"
-#include "Texture.hpp"
+#include "pegr/video/ShaderResource.hpp"
+#include "pegr/video/Scenegraph.hpp"
+#include "pegr/video/Camera.hpp"
+#include "pegr/video/Geometry.hpp"
+#include "pegr/video/Texture.hpp"
 
 namespace pegr {
 

@@ -20,11 +20,11 @@
 #include <string>
 #include <vector>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "Renderable.hpp"
-#include "Resource.hpp"
-#include "ShaderResource.hpp"
+#include "pegr/video/Renderable.hpp"
+#include "pegr/resource/Resource.hpp"
+#include "pegr/video/ShaderResource.hpp"
 
 namespace pegr {
 

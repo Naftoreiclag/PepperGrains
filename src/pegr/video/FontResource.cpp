@@ -14,16 +14,16 @@
  *  limitations under the License.
  */
 
-#include "FontResource.hpp"
+#include "pegr/video/FontResource.hpp"
 
 #include <cassert>
 #include <fstream>
 #include <vector>
 
-#include "StreamStuff.hpp"
-#include "Resources.hpp"
-#include "ShaderProgramResource.hpp"
-#include "TextureResource.hpp"
+#include "pegr/misc/StreamStuff.hpp"
+#include "pegr/resource/Resources.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
+#include "pegr/video/TextureResource.hpp"
 
 namespace pegr {
 

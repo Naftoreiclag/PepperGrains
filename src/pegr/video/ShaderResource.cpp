@@ -14,16 +14,16 @@
  *  limitations under the License.
  */
 
-#include "ShaderResource.hpp"
+#include "pegr/video/ShaderResource.hpp"
 
 #include <cassert>
 #include <fstream>
 #include <sstream>
 #include <string>
 
-#include "Logger.hpp"
-#include "StreamStuff.hpp"
-#include "Video.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/misc/StreamStuff.hpp"
+#include "pegr/video/Video.hpp"
 
 namespace pegr {
 

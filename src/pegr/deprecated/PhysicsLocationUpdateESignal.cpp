@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "PhysicsLocationUpdateESignal.hpp"
+#include "pegr/deprecated/PhysicsLocationUpdateESignal.hpp"
 
 namespace pegr {
 

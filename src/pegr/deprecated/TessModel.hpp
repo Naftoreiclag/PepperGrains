@@ -17,11 +17,11 @@
 #ifndef PEGR_TESSMODEL_HPP
 #define PEGR_TESSMODEL_HPP
 
-#include "Model.hpp"
-#include "GeometryResource.hpp"
-#include "ShaderProgramResource.hpp"
-#include "OpenGLStuff.hpp"
-#include "TextureResource.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/video/GeometryResource.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
+#include <OpenGLStuff.hpp>
+#include "pegr/video/TextureResource.hpp"
 
 namespace pegr {
 

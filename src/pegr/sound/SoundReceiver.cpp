@@ -14,9 +14,9 @@
  *  limitations under the License.
  */
 
-#include "SoundReceiver.hpp"
-#include "SoundContext.hpp"
-#include "SoundEndpoint.hpp"
+#include "pegr/sound/SoundReceiver.hpp"
+#include "pegr/sound/SoundContext.hpp"
+#include "pegr/sound/SoundEndpoint.hpp"
 
 namespace pegr {
 namespace Sound {

@@ -25,14 +25,5 @@ foreach(fname
 ### SOURCE LIST ###
 
 )
-list(APPEND PGLOCAL_SOURCES_LIST "${PGLOCAL_SOURCE_DIR}/${fname}")
-endforeach()
-
-# This function appends the provided string list to PGLOCAL_INCLUDE_DIRS
-foreach(dirname 
-
-### INCLUDE DIR LIST ###
-
-)
-list(APPEND PGLOCAL_INCLUDE_DIRS "${PGLOCAL_SOURCE_DIR}/${dirname}")
+list(APPEND PGLOCAL_SOURCES_LIST "${PGLOCAL_SOURCE_DIR}/pegr/${fname}")
 endforeach()

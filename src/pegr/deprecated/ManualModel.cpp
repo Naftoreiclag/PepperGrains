@@ -14,11 +14,11 @@
  *  limitations under the License.
  */
 
-#include "ManualModel.hpp"
+#include "pegr/deprecated/ManualModel.hpp"
 
 #include <iostream>
 
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
 

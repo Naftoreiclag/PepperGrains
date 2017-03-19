@@ -14,11 +14,11 @@
  *  limitations under the License.
  */
 
-#include "TessModel.hpp"
+#include "pegr/deprecated/TessModel.hpp"
 
 #include <iostream>
 
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
 

@@ -17,9 +17,9 @@
 #ifndef PEGR_MOVEINPUTESIGNAL_HPP
 #define PEGR_MOVEINPUTESIGNAL_HPP
 
-#include "EntitySignal.hpp"
+#include "pegr/deprecated/EntitySignal.hpp"
 
-#include "Vec3.hpp"
+#include "pegr/math/Vec3.hpp"
 
 namespace pegr {
 

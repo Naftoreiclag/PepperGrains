@@ -22,7 +22,7 @@
 // TODO: remove this include, use strings instead
 #include <boost/filesystem.hpp>
 
-#include "ReferenceCounted.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
 
 namespace pegr {
 

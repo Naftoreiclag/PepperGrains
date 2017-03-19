@@ -17,9 +17,9 @@
 #ifndef PEGR_DEBUGINFINITECHECKERBOARDMODEL_HPP
 #define PEGR_DEBUGINFINITECHECKERBOARDMODEL_HPP
 
-#include "Vec3.hpp"
-#include "Model.hpp"
-#include "ShaderProgramResource.hpp"
+#include "pegr/math/Vec3.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
 
 namespace pegr {
 

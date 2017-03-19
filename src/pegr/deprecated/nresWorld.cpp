@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "nresWorld.hpp"
+#include "pegr/deprecated/nresWorld.hpp"
 
 #include <algorithm>
 

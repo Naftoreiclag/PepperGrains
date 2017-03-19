@@ -30,12 +30,10 @@ list(APPEND CMAKE_MODULE_PATH "${PEPPERGRAINS_SOURCE_DIR}/cmake")
 ### Variables starting with "PGLOCAL_" are not CMake built-ins
 
 # Where the .cpp files reside
-set(PGLOCAL_SOURCE_DIR "${PEPPERGRAINS_SOURCE_DIR}/src/pegr")
+set(PGLOCAL_SOURCE_DIR "${PEPPERGRAINS_SOURCE_DIR}/src")
 
 # Where the header files reside
-set(PGLOCAL_INCLUDE_DIRS
-    ${PGLOCAL_SOURCE_DIR}
-)
+set(PGLOCAL_INCLUDE_DIRS ${PGLOCAL_SOURCE_DIR})
 
 # Name of target executable
 set(PGLOCAL_ENGINE_TARGET "Pegr")

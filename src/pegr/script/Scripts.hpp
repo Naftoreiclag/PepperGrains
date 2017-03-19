@@ -19,7 +19,7 @@
 
 #include <string>
 
-#include "lua.hpp"
+#include <lua.hpp>
 
 /* Functions not beginning with "push" or "pop" are always balanced
  * 

@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "PhysicsOrientationUpdateESignal.hpp"
+#include "pegr/deprecated/PhysicsOrientationUpdateESignal.hpp"
 
 namespace pegr {
 

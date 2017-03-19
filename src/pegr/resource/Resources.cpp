@@ -14,17 +14,17 @@
  *  limitations under the License.
  */
 
-#include "Resources.hpp"
+#include "pegr/resource/Resources.hpp"
 
 #include <algorithm>
 #include <map>
 
-#include "boost/filesystem.hpp"
+#include <boost/filesystem.hpp>
 #include <json/json.h>
 
-#include "Addons.hpp"
-#include "ResourcesUtil.hpp"
-#include "Logger.hpp"
+#include "pegr/addon/Addons.hpp"
+#include "pegr/resource/ResourcesUtil.hpp"
+#include "pegr/misc/Logger.hpp"
 
 namespace pegr {
 namespace Resources {

@@ -19,9 +19,9 @@
 
 #include <stdint.h>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "ReferenceCounted.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
 
 namespace pegr {
 

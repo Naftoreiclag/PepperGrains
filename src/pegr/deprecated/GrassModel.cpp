@@ -14,10 +14,10 @@
  *  limitations under the License.
  */
 
-#include "GrassModel.hpp"
+#include "pegr/deprecated/GrassModel.hpp"
 #include <iostream>
 
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
 

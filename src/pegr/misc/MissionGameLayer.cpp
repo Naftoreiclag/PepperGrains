@@ -14,16 +14,16 @@
  *  limitations under the License.
  */
 
-#include "MissionGamelayer.hpp"
+#include <MissionGamelayer.hpp>
 
 #include <chrono>
 #include <thread>
 #include <math.h>
 
-#include "Video.hpp"
-#include "ModelInstance.hpp"
-#include "ModelResource.hpp"
-#include "Resources.hpp"
+#include "pegr/video/Video.hpp"
+#include "pegr/video/ModelInstance.hpp"
+#include "pegr/video/ModelResource.hpp"
+#include "pegr/resource/Resources.hpp"
 
 namespace pegr {
 

@@ -14,35 +14,23 @@
  *  limitations under the License.
  */
 
-#ifndef PEGR_ENGINERESOURCES_HPP
-#define PEGR_ENGINERESOURCES_HPP
+#ifndef PEGR_ENGINERESOURCESUTIL_HPP
+#define PEGR_ENGINERESOURCESUTIL_HPP
 
-#include <string>
-#include <stdint.h>
+#include <map>
 
-#include "Resource.hpp"
+#include <boost/filesystem.hpp>
+#include <json/json.h>
+
+#include "pegr/resource/Resources.hpp"
 
 namespace pegr {
 namespace Resources {
-
-    class Modlayer {
-        
-    };
-
-    void loadCore(std::string path);
     
-    uint32_t getNumCoreResources();
-
-    // Top modlayer can be edited dynamically
-    void setTopModlayer(Modlayer* modlayer);
-    void removeTopModlayer();
-    void publishTopModlayer(); // Also removes
-
-    void removeAllModlayers();
-
-    Resource* find(std::string query, std::string callOrigin = "");
+    typedef std::map<std::string, Resource*> ResourceMap;
     
-} // Resources
-} // pgg
+    void populateResourceMap(ResourceMap& sResources, const Json::Value&  resourcesData, boost::filesystem::path dataPackDir);
+}
+}
 
-#endif // PEGR_ENGINERESOURCES_HPP
+#endif // PEGR_ENGINERESOURCESUTIL_HPP

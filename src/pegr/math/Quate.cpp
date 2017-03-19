@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "Quate.hpp"
+#include "pegr/math/Quate.hpp"
 
 namespace pegr {
 

@@ -14,11 +14,11 @@
  *  limitations under the License.
  */
 
-#include "InstancedModel.hpp"
+#include "pegr/deprecated/InstancedModel.hpp"
 
 #include <iostream>
 
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
 

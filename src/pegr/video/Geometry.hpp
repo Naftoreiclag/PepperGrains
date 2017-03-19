@@ -19,11 +19,11 @@
 
 #include <vector>
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "ReferenceCounted.hpp"
-#include "Resource.hpp"
-#include "Vec3.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
+#include "pegr/resource/Resource.hpp"
+#include "pegr/math/Vec3.hpp"
 
 namespace pegr {
  

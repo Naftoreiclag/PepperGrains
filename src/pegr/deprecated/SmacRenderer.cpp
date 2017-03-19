@@ -14,9 +14,9 @@
  *  limitations under the License.
  */
 
-#include "SmacRenderer.hpp"
+#include "pegr/deprecated/SmacRenderer.hpp"
 
-#include "Resources.hpp"
+#include "pegr/resource/Resources.hpp"
 
 namespace pegr {
 

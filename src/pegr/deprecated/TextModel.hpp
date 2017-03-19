@@ -19,9 +19,9 @@
 
 #include <string>
 
-#include "ShaderProgramResource.hpp"
-#include "FontResource.hpp"
-#include "Model.hpp"
+#include "pegr/video/ShaderProgramResource.hpp"
+#include "pegr/video/FontResource.hpp"
+#include "pegr/video/Model.hpp"
 
 namespace pegr {
 

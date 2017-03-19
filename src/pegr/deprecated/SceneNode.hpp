@@ -24,9 +24,9 @@
 #include <glm/gtc/quaternion.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include "Model.hpp"
-#include "ReferenceCounted.hpp"
-#include "Renderable.hpp"
+#include "pegr/video/Model.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
+#include "pegr/video/Renderable.hpp"
 
 namespace pegr {
 

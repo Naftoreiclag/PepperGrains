@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "nresSystem.hpp"
+#include "pegr/deprecated/nresSystem.hpp"
 
 namespace nres {
 

@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "SceneNodeEComp.hpp"
+#include "pegr/deprecated/SceneNodeEComp.hpp"
 
 namespace pegr {
 

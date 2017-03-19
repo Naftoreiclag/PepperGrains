@@ -17,11 +17,11 @@
 #ifndef PEGR_RIGIDBODYESYS_HPP
 #define PEGR_RIGIDBODYESYS_HPP
 
-#include "btBulletDynamicsCommon.h"
+#include <btBulletDynamicsCommon.h>
 
-#include "NRES.hpp"
+#include "pegr/deprecated/NRES.hpp"
 
-#include "RigidBodyEComp.hpp"
+#include "pegr/deprecated/RigidBodyEComp.hpp"
 
 namespace pegr {
 

@@ -18,11 +18,11 @@
 #define PEGR_GEOMETRYRESOURCE_HPP
 
 #ifdef PGG_OPENGL
-#include "GeometryResourceOpenGL.hpp"
+#include "pegr/video/GeometryResourceOpenGL.hpp"
 #endif
 
 #ifdef PGG_VULKAN
-#include "GeometryResourceVulkan.hpp"
+#include "pegr/video/GeometryResourceVulkan.hpp"
 #endif
 
 #endif // PEGR_GEOMETRYRESOURCE_HPP

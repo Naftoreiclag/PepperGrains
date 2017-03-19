@@ -15,38 +15,14 @@
 import xml.etree.ElementTree as ET
 import os
 
-sourcePath = '../src/pegr/'
-sourceList = []
-includeDirList = []
-allowedFileExts = ['.cpp', '.hpp']
-blacklistedDirs = ['deprecated/']
+from Common import indexFiles
+sourceList, includeDirList, _ = \
+    indexFiles('../src/pegr/', ['.cpp', '.hpp'], ['deprecated/'])
+
 projectFilename = '../src/pegr/Codelite.project'
 
-def addSource(filename):
-    if not any(filename.startswith(dir) for dir in blacklistedDirs) \
-            and any(filename.endswith(ext) for ext in allowedFileExts):
-        sourceList.append(filename)
-        fileParentName = str(os.path.dirname(filename))
-        if fileParentName and fileParentName not in includeDirList:
-            includeDirList.append(fileParentName)
-
-def recursiveSearch(prefixStr, location):
-    for node in os.listdir(location):
-        nodeLocation = os.path.join(location, node)
-    
-        if os.path.isfile(nodeLocation):
-            addSource(prefixStr + str(node))
-        else:
-            recursiveSearch(prefixStr + str(node) + '/', nodeLocation)
-
-recursiveSearch('', sourcePath)
-sourceList = sorted(sourceList)
-includeDirList = sorted(includeDirList)
-
 projectEtree = ET.parse(projectFilename)
-
 projectRoot = projectEtree.getroot()
-
 virtualDirs = projectRoot.findall('VirtualDirectory')
 
 pegrVirtualDir = None

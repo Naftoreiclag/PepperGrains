@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-#include "Vec3.hpp"
+#include "pegr/math/Vec3.hpp"
 
 #include <cmath>
 #include <math.h>

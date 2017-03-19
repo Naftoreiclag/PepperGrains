@@ -16,10 +16,10 @@
 
 #ifdef PGG_VULKAN
 
-#include "VulkanUtils.hpp"
+#include "pegr/video/VulkanUtils.hpp"
 
-#include "Video.hpp"
-#include "Logger.hpp"
+#include "pegr/video/Video.hpp"
+#include "pegr/misc/Logger.hpp"
 
 namespace pegr {
 namespace Video {

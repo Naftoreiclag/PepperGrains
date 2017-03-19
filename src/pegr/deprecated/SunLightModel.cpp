@@ -14,10 +14,10 @@
  *  limitations under the License.
  */
 
-#include "SunLightModel.hpp"
+#include "pegr/deprecated/SunLightModel.hpp"
 
-#include "MathUtil.hpp"
-#include "ResourceManager.hpp"
+#include "pegr/math/MathUtil.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
 

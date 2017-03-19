@@ -22,7 +22,7 @@
 set(PGLOCAL_SOURCES_LIST "")
 foreach(fname 
 
-"addons/Addons.cpp"
+"addon/Addons.cpp"
 "math/MathUtil.cpp"
 "math/Quate.cpp"
 "math/Spharm.cpp"
@@ -39,11 +39,11 @@ foreach(fname
 "misc/ReferenceCounted.cpp"
 "misc/StreamStuff.cpp"
 "misc/StringResource.cpp"
-"resources/Resource.cpp"
-"resources/Resources.cpp"
-"resources/ResourcesUtil.cpp"
-"scripts/ScriptResource.cpp"
-"scripts/Scripts.cpp"
+"resource/Resource.cpp"
+"resource/Resources.cpp"
+"resource/ResourcesUtil.cpp"
+"script/ScriptResource.cpp"
+"script/Scripts.cpp"
 "sound/SineWaveform.cpp"
 "sound/SoundContext.cpp"
 "sound/SoundEndpoint.cpp"
@@ -76,20 +76,5 @@ foreach(fname
 "video/VulkanUtils.cpp"
 
 )
-list(APPEND PGLOCAL_SOURCES_LIST "${PGLOCAL_SOURCE_DIR}/${fname}")
-endforeach()
-
-# This function appends the provided string list to PGLOCAL_INCLUDE_DIRS
-foreach(dirname 
-
-"addons"
-"math"
-"misc"
-"resources"
-"scripts"
-"sound"
-"video"
-
-)
-list(APPEND PGLOCAL_INCLUDE_DIRS "${PGLOCAL_SOURCE_DIR}/${dirname}")
+list(APPEND PGLOCAL_SOURCES_LIST "${PGLOCAL_SOURCE_DIR}/pegr/${fname}")
 endforeach()

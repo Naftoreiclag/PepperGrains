@@ -14,11 +14,11 @@
  *  limitations under the License.
  */
 
-#include "DeferredRenderer.hpp"
+#include "pegr/deprecated/DeferredRenderer.hpp"
 
 #include <iostream>
 
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
     

@@ -14,13 +14,13 @@
  *  limitations under the License.
  */
 
-#include "nresEntity.hpp"
+#include "pegr/deprecated/nresEntity.hpp"
 
 #include <iostream>
 #include <cassert>
 
-#include "nresWorld.hpp"
-#include "nresComponent.hpp"
+#include "pegr/deprecated/nresWorld.hpp"
+#include "pegr/deprecated/nresComponent.hpp"
 
 namespace nres {
 

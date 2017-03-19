@@ -14,10 +14,10 @@
  *  limitations under the License.
  */
 
-#include "Material.hpp"
+#include "pegr/video/Material.hpp"
 
-#include "Logger.hpp"
-#include "MaterialResource.hpp"
+#include "pegr/misc/Logger.hpp"
+#include "pegr/video/MaterialResource.hpp"
 
 namespace pegr {
 

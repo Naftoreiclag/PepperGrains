@@ -17,9 +17,9 @@
 #ifndef PEGR_SOUND_WAVEFORM_HPP
 #define PEGR_SOUND_WAVEFORM_HPP
 
-#include "soundio/soundio.h"
+#include <soundio/soundio.h>
 
-#include "ReferenceCounted.hpp"
+#include "pegr/misc/ReferenceCounted.hpp"
 
 namespace pegr {
 namespace Sound {

@@ -14,9 +14,9 @@
  *  limitations under the License.
  */
 
-#include "ForwardRenderer.hpp"
+#include "pegr/deprecated/ForwardRenderer.hpp"
 
-#include "Resources.hpp"
+#include "pegr/resource/Resources.hpp"
 
 namespace pegr {
 

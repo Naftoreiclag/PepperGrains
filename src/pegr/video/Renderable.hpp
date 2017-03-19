@@ -17,10 +17,10 @@
 #ifndef PEGR_RENDERABLE_HPP
 #define PEGR_RENDERABLE_HPP
 
-#include <GraphicsApiLibrary.hpp>
+#include "pegr/video/GraphicsApiLibrary.hpp"
 
-#include "HardValueStuff.hpp"
-#include "Camera.hpp"
+#include "pegr/misc/HardValueStuff.hpp"
+#include "pegr/video/Camera.hpp"
 
 namespace pegr {
 

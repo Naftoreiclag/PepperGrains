@@ -14,12 +14,12 @@
  *  limitations under the License.
  */
 
-#include "PointLightModel.hpp"
+#include "pegr/deprecated/PointLightModel.hpp"
 
 #include <cmath>
 #include <iostream>
 
-#include "ResourceManager.hpp"
+#include <ResourceManager.hpp>
 
 namespace pegr {
 
