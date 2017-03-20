@@ -19,7 +19,8 @@ from Common import indexFiles
 sourceList, includeDirList, _ = \
     indexFiles('../src/pegr/', ['.cpp', '.hpp'], ['deprecated/'])
 
-projectFilename = '../src/pegr/Codelite.project'
+projectFilename = '../ide/Codelite/Codelite.project'
+sourceRootRelativeToProjectFile = '../../src/pegr/'
 
 projectEtree = ET.parse(projectFilename)
 projectRoot = projectEtree.getroot()
@@ -73,6 +74,7 @@ for sourcePath in sourceList:
             parentElem.set('Name', dirName)
 
     sourceElem = ET.SubElement(parentElem, 'File')
-    sourceElem.set('Name', sourcePath)
+    sourceElem.set('Name', \
+        os.path.join(sourceRootRelativeToProjectFile, sourcePath))
 
 projectEtree.write(projectFilename)
