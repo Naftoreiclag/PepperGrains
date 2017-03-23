@@ -51,41 +51,40 @@ filtRoot = filtEtree.getroot()
 def qualify(tag):
     return '{' + schemaPrefix + '}' + tag
 
-projItemGroupElems = projRoot.findall(qualify('ItemGroup'))
-filtItemGroupElems = filtRoot.findall(qualify('ItemGroup'))
-
-def findItemGroupWithNamedChildren(itemGroupElems, childName):
-    for itemGroupElem in itemGroupElems:
+def findItemGroupWithNamedChildren(root, childName):
+    for itemGroupElem in root.findall(qualify('ItemGroup')):
         childElems = itemGroupElem.findall(childName)
         if childElems:
             return itemGroupElem, childElems
-    raise RuntimeError('Could not find any children named ' + repr(childName) \
-        + ' of elements in list ' + str(itemGroupElems))
+    return ET.SubElement(root, qualify('ItemGroup')), []
 
 projCompileItemGroupElem, projCompileElems = \
-    findItemGroupWithNamedChildren(projItemGroupElems, qualify('ClCompile'))
+    findItemGroupWithNamedChildren(projRoot, qualify('ClCompile'))
 projIncludeItemGroupElem, projIncludeElems = \
-    findItemGroupWithNamedChildren(projItemGroupElems, qualify('ClInclude'))
+    findItemGroupWithNamedChildren(projRoot, qualify('ClInclude'))
 filtFilterItemGroupElem, filtFilterElems = \
-    findItemGroupWithNamedChildren(filtItemGroupElems, qualify('Filter'))
+    findItemGroupWithNamedChildren(filtRoot, qualify('Filter'))
 filtCompileItemGroupElem, filtCompileElems = \
-    findItemGroupWithNamedChildren(filtItemGroupElems, qualify('ClCompile'))
+    findItemGroupWithNamedChildren(filtRoot, qualify('ClCompile'))
 filtIncludeItemGroupElem, filtIncludeElems = \
-    findItemGroupWithNamedChildren(filtItemGroupElems, qualify('ClInclude'))
+    findItemGroupWithNamedChildren(filtRoot, qualify('ClInclude'))
 
-vsCompileList = [x.get('Include') for x in projCompileElems]
-vsIncludeList = [x.get('Include') for x in projIncludeElems]
+vsProjCompileList = [x.get('Include') for x in projCompileElems]
+vsProjIncludeList = [x.get('Include') for x in projIncludeElems]
+vsFiltCompileList = [x.get('Include') for x in filtCompileElems]
+vsFiltIncludeList = [x.get('Include') for x in filtIncludeElems]
 vsFilterList = set(x.get('Include') for x in filtFilterElems)
 
 missingFilters = set()
 for sourcePath, sourceName in sourceList:
     filterName = 'pegr\\' + os.path.split(sourceName)[0].replace('/', '\\')
     
-    if sourcePath not in vsCompileList:
+    if sourcePath not in vsProjCompileList:
         # Add a new entry into the project file
         newElem = ET.SubElement(projCompileItemGroupElem, qualify('ClCompile'))
         newElem.set('Include', sourcePath)
         
+    if sourcePath not in vsFiltCompileList:
         # Add a new entry into the filters file
         newElem = ET.SubElement(filtCompileItemGroupElem, qualify('ClCompile'))
         newElem.set('Include', sourcePath)
@@ -98,15 +97,15 @@ for sourcePath, sourceName in sourceList:
     
     filterElem.text = filterName
         
-    if filterName not in vsFilterList:
-        missingFilters.add(filterName)
+    missingFilters.add(filterName)
 for includePath, includeName in includeList:
     filterName = 'pegr\\' + os.path.split(includeName)[0].replace('/', '\\')
-    if includePath not in vsIncludeList:
+    if includePath not in vsProjIncludeList:
         # Add a new entry into the project file
         newElem = ET.SubElement(projIncludeItemGroupElem, qualify('ClInclude'))
         newElem.set('Include', includePath)
         
+    if includePath not in vsFiltCompileList:
         # Add a new entry into the filters file
         newElem = ET.SubElement(filtIncludeItemGroupElem, qualify('ClInclude'))
         newElem.set('Include', includePath)
@@ -119,12 +118,24 @@ for includePath, includeName in includeList:
     
     filterElem.text = filterName
         
-    if filterName not in vsFilterList:
-        missingFilters.add(filterName)
+    missingFilters.add(filterName)
 
 import uuid
 
+missingImplicitFilters = set()
 for filterName in missingFilters:
+    while True:
+        head, tail = os.path.split(filterName)
+        if head:
+            missingImplicitFilters.add(head)
+            filterName = head
+        else:
+            break
+missingFilters |= missingImplicitFilters
+
+for filterName in missingFilters:
+    if not filterName or filterName in vsFilterList:
+        continue
     filterElem = ET.SubElement(filtFilterItemGroupElem, qualify('Filter'))
     filterElem.set('Include', filterName)
     
