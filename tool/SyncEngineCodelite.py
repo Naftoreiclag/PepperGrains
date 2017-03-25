@@ -16,10 +16,11 @@ import xml.etree.ElementTree as ET
 import os
 
 from Common import indexFiles
-sourceList, includeDirList, _ = \
+sourceList, _, __ = \
     indexFiles('../src/pegr/', ['.cpp', '.hpp'], ['deprecated/'])
 
-projectFilename = '../src/pegr/Codelite.project'
+projectFilename = '../ide/Codelite/Codelite.project'
+sourceRootRelativePath = '../../src/pegr/'
 
 projectEtree = ET.parse(projectFilename)
 projectRoot = projectEtree.getroot()
@@ -73,6 +74,7 @@ for sourcePath in sourceList:
             parentElem.set('Name', dirName)
 
     sourceElem = ET.SubElement(parentElem, 'File')
-    sourceElem.set('Name', sourcePath)
+    sourceElem.set('Name', \
+        os.path.join(sourceRootRelativePath, sourcePath))
 
 projectEtree.write(projectFilename)
