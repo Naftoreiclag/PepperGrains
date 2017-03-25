@@ -69,22 +69,22 @@ filtCompileItemGroupElem, filtCompileElems = \
 filtIncludeItemGroupElem, filtIncludeElems = \
     findItemGroupWithNamedChildren(filtRoot, qualify('ClInclude'))
 
-vsProjCompileList = [x.get('Include') for x in projCompileElems]
-vsProjIncludeList = [x.get('Include') for x in projIncludeElems]
-vsFiltCompileList = [x.get('Include') for x in filtCompileElems]
-vsFiltIncludeList = [x.get('Include') for x in filtIncludeElems]
-vsFilterList = set(x.get('Include') for x in filtFilterElems)
+projCompileList = [x.get('Include') for x in projCompileElems]
+projIncludeList = [x.get('Include') for x in projIncludeElems]
+filtCompileList = [x.get('Include') for x in filtCompileElems]
+filtIncludeList = [x.get('Include') for x in filtIncludeElems]
+filtFilterList = set(x.get('Include') for x in filtFilterElems)
 
 missingFilters = set()
 for sourcePath, sourceName in sourceList:
     filterName = 'pegr\\' + os.path.split(sourceName)[0].replace('/', '\\')
     
-    if sourcePath not in vsProjCompileList:
+    if sourcePath not in projCompileList:
         # Add a new entry into the project file
         newElem = ET.SubElement(projCompileItemGroupElem, qualify('ClCompile'))
         newElem.set('Include', sourcePath)
         
-    if sourcePath not in vsFiltCompileList:
+    if sourcePath not in filtCompileList:
         # Add a new entry into the filters file
         newElem = ET.SubElement(filtCompileItemGroupElem, qualify('ClCompile'))
         newElem.set('Include', sourcePath)
@@ -100,12 +100,12 @@ for sourcePath, sourceName in sourceList:
     missingFilters.add(filterName)
 for includePath, includeName in includeList:
     filterName = 'pegr\\' + os.path.split(includeName)[0].replace('/', '\\')
-    if includePath not in vsProjIncludeList:
+    if includePath not in projIncludeList:
         # Add a new entry into the project file
         newElem = ET.SubElement(projIncludeItemGroupElem, qualify('ClInclude'))
         newElem.set('Include', includePath)
         
-    if includePath not in vsFiltCompileList:
+    if includePath not in filtCompileList:
         # Add a new entry into the filters file
         newElem = ET.SubElement(filtIncludeItemGroupElem, qualify('ClInclude'))
         newElem.set('Include', includePath)
@@ -134,7 +134,7 @@ for filterName in missingFilters:
 missingFilters |= missingImplicitFilters
 
 for filterName in missingFilters:
-    if not filterName or filterName in vsFilterList:
+    if not filterName or filterName in filtFilterList:
         continue
     filterElem = ET.SubElement(filtFilterItemGroupElem, qualify('Filter'))
     filterElem.set('Include', filterName)
